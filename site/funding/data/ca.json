@@ -276,5 +276,615 @@
     ],
     "url": "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/",
     "checked": "2026-10-22"
+  },
+  {
+    "id": "ca-bc-venturelabs-perago",
+    "name": "Perago (SFU VentureLabs)",
+    "provider": "SFU VentureLabs",
+    "region": "CA-BC",
+    "kind": "accelerator",
+    "summary": "Deeptech accelerator for BC's science-driven innovators tackling global challenges; applications shown as open. VentureLabs also lists Marketing PowerUp and AccelerateIP (open) and ScaleUp Accelerator (closed). Cost, equity and eligibility not stated on the page.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "science",
+      "cleantech",
+      "deeptech"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications shown as open; see the program page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Perago page",
+      "Confirm BC eligibility and equity terms",
+      "Apply"
+    ],
+    "url": "https://venturelabs.ca/programs-services/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "ca-bc-innovation-ubc-venture-founder",
+    "name": "Venture Founder (Innovation UBC)",
+    "provider": "Innovation UBC",
+    "region": "CA-BC",
+    "kind": "accelerator",
+    "summary": "16 week program for people with a discovery to commercialize or a startup idea. Spring 2027 applications were open until 11 October, so that intake has closed. Other pathways listed: HATCH Venture Builder, Lab2Market, AccelerateIP. Cost, equity and UBC affiliation rules not stated on the page.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Spring 2027 intake closed 11 October; check for the next cohort"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the Venture Founder page for UBC affiliation rules",
+      "Watch for the next intake",
+      "Ask Innovation UBC about alternatives"
+    ],
+    "url": "https://innovation.ubc.ca/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "ca-bc-launch-academy",
+    "name": "Launch Academy programs",
+    "provider": "Launch Academy",
+    "region": "CA-BC",
+    "kind": "accelerator",
+    "summary": "Vancouver tech hub since 2012: Launch Your Startup (24 mentorship sessions), The Revenue Factory (9 week growth program, also an online course), Apollo for international startups exploring North America, and LaunchPad incubation for Western Canada's earliest stage founders. Fees and equity not stated.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "No dates listed; contact info@launchacademy.ca"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Pick Apollo if based outside Canada",
+      "Email info@launchacademy.ca for fees and intake",
+      "Compare with the online Revenue Factory"
+    ],
+    "url": "https://launchacademy.ca/programs",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "ca-csbfp",
+    "name": "Canada Small Business Financing Program (CSBFP)",
+    "provider": "Innovation, Science and Economic Development Canada, via participating lenders",
+    "region": "CA",
+    "kind": "loan",
+    "summary": "Government-backed loans and lines of credit from banks and credit unions for Canadian small businesses with up to C$10 million in annual revenue, in all industries except farming.",
+    "amount": "Up to C$1.15 million in total: term loans up to C$1 million and lines of credit up to C$150,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply through a participating lender"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Ask your bank or credit union whether it offers a CSBFP loan",
+      "Use the Find a lender map on Canada.ca/csbfp",
+      "Prepare business financials and revenue under C$10 million"
+    ],
+    "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en/overview-and-highlights-2024-25",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-bdc-small-business-loan",
+    "name": "BDC Small Business Loan and growth financing",
+    "provider": "Business Development Bank of Canada",
+    "region": "CA",
+    "kind": "loan",
+    "summary": "Loans and working capital for Canadian businesses that have generated revenue for at least 12 months, generally with at least C$100,000 in annual revenue.",
+    "amount": "Small Business Loan up to C$350,000; other products (Pivot to Grow loan up to C$2 million) listed on the page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply through BDC"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the business is registered in Canada, has a business bank account and 12+ months of revenue",
+      "Compare the loan products on the BDC financing page",
+      "Book an advisor call with BDC"
+    ],
+    "url": "https://www.bdc.ca/en/financing",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-canexport-smes",
+    "name": "CanExport SMEs",
+    "provider": "Trade Commissioner Service, Global Affairs Canada",
+    "region": "CA",
+    "kind": "grant",
+    "summary": "Cost-shared funding for Canadian SMEs to develop new export markets and international business.",
+    "amount": "Up to C$50,000 per project, assessed on a rolling competitive basis",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Intake ended 31 Aug 2026 at 12:00 ET; future intake dates will be posted on the page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Applicant's guide 2026-27 and the Find out if you qualify checklist",
+      "Prepare an export plan with target markets and costs",
+      "Watch the page for the next intake"
+    ],
+    "url": "https://www.tradecommissioner.gc.ca/en/our-solutions/funding-financing-international-business/canexport-smes.html",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-pacifican-rtri",
+    "name": "Regional Tariff Response Initiative (BC)",
+    "provider": "PacifiCan",
+    "region": "CA-BC",
+    "kind": "loan",
+    "summary": "Federal support for incorporated British Columbia businesses hurt by trade disruption: liquidity, competitiveness, market diversification and resilience. Repayable and non-repayable options.",
+    "amount": "Repayable contributions of C$200,000 to C$10 million per project, interest free, up to 75% of eligible costs for commercial projects; non-repayable liquidity support also available",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "PacifiCan page dated 16 Oct 2026 says it is accepting applications; no closing date listed"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check eligibility: incorporated for-profit in BC, at least C$1 million annual revenue in one of the last two fiscal years, viable before tariffs",
+      "Read the applicant guide for SMEs on the PacifiCan site",
+      "Contact PacifiCan to confirm which stream fits"
+    ],
+    "url": "https://www.canada.ca/en/pacific-economic-development/services/funding/regional-tariff-response-initiative.html",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-community-futures-bc",
+    "name": "Community Futures business loans (rural BC)",
+    "provider": "Community Futures, funded by PacifiCan and the Province of British Columbia",
+    "region": "CA-BC",
+    "kind": "loan",
+    "summary": "Business loans for rural BC entrepreneurs who find bank credit hard to get, using lending criteria different from a bank's.",
+    "amount": "Business loans up to C$150,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply through your local Community Futures office"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Find your office with the Community Futures office finder (34 rural BC offices)",
+      "Confirm your business is in a rural BC area served by an office",
+      "Ask the office about current rates and eligibility"
+    ],
+    "url": "https://www2.gov.bc.ca/gov/content/employment-business/economic-development/funding-and-grants/community-futures",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-mitacs-accelerate",
+    "name": "Mitacs Accelerate",
+    "provider": "Mitacs",
+    "region": "CA",
+    "kind": "grant",
+    "summary": "Research internships that pair a Canadian for-profit business with a university supervisor and an intern, with Mitacs matching the partner's contribution.",
+    "amount": "C$15,000 per 4 or 6 month internship (partner C$7,500 plus Mitacs C$7,500); postdoc model C$20,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No fixed deadline listed; contact a Mitacs Advisor for current intake dates"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Find an academic supervisor and intern for a research project",
+      "Contact a Mitacs Advisor to submit the proposal",
+      "Do not start work before the Award Letter is issued"
+    ],
+    "url": "https://www.mitacs.ca/our-programs/accelerate/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-edc-working-capital-guarantees",
+    "name": "EDC Working Capital Guarantees",
+    "provider": "Export Development Canada",
+    "region": "CA",
+    "kind": "loan",
+    "summary": "Guarantees to your Canadian bank that free up working capital for exporters, including the Trade Expansion Lending Program and the Export Guarantee Program.",
+    "amount": "Export Guarantee Program guarantees up to C$25 million to your lender; other guarantees: See the official page for the current round",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply through a participating Canadian lender"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check you are a registered Canadian exporter with a bank that offers EDC guarantees",
+      "Ask your bank about the Trade Expansion Lending Program",
+      "Call EDC on 1-800-229-0575 to confirm fit for a small business"
+    ],
+    "url": "https://www.edc.ca/en/solutions/working-capital-guarantees.html",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-innovate-bc-go-to-market-microgrant",
+    "name": "Go-To-Market Microgrant (BC)",
+    "provider": "Innovate BC",
+    "region": "CA-BC",
+    "kind": "grant",
+    "summary": "Non-repayable funding for BC for-profit companies with a product or service in market, to speed up repeatable revenue.",
+    "amount": "C$10,000 to C$50,000 per company, up to 75% of project costs; 25% cash contribution",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Currently closed; the last intake ran 17 to 30 Nov 2025; sign up to the Innovate BC Insider newsletter for future calls"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check you are incorporated and headquartered in BC with a product in market",
+      "Email Microgrant@innovatebc.ca about the next intake",
+      "Keep proof of payment for reimbursement"
+    ],
+    "url": "https://www.innovatebc.ca/go-to-market-microgrant",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-enactus-student-entrepreneur-competition",
+    "name": "Student Entrepreneur Competition (Enactus Canada)",
+    "provider": "Enactus Canada",
+    "region": "CA",
+    "kind": "prize",
+    "summary": "National competition for full-time students at Canadian post-secondary institutions who run a business they own at least 25% of.",
+    "amount": "C$10,000 champion, C$4,000 runner-up, C$2,000 third place, plus travel to the national exposition for the top 3",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026-2027 nominations open in October 2026; closing date not listed. Judging Jan to Feb 2027, live final 27 to 30 April 2027"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check you are a full-time student at a Canadian institution and a founder with at least 25% ownership",
+      "Email programs@enactus.ca to be notified when nominations open",
+      "Read the Program and Competition Requirements page; traction is the heaviest scoring item"
+    ],
+    "url": "https://enactus.ca/programs/student-entrepreneur-competition/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ca-on-starter-company-plus",
+    "name": "Starter Company Plus (Ontario)",
+    "provider": "Government of Ontario, delivered by Small Business Enterprise Centres",
+    "region": "CA-ON",
+    "kind": "grant",
+    "summary": "Ontario program with advisor support, workshops and a mentor, plus a grant for people starting, expanding or buying a small business.",
+    "amount": "Free advice, training and mentoring; grant of up to C$5,000, with a cash or in-kind contribution of at least 25% of the grant",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply through your local Ontario Small Business Enterprise Centre; intake varies by centre"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Find your local Small Business Enterprise Centre on the Ontario page",
+      "Check you are 18 or older, an Ontario resident, a citizen or permanent resident, and not in school full-time",
+      "Plan your 25% contribution before applying"
+    ],
+    "url": "https://ontario.ca/page/starter-company-plus",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "ca-lab2market-launch-bc",
+    "name": "Lab2Market Launch (Pacific hub, BC and Yukon)",
+    "provider": "Lab2Market with Mitacs, delivered by UBC",
+    "region": "CA-BC",
+    "kind": "accelerator",
+    "summary": "Four-month entrepreneurship program for graduate students, postdocs and recent graduates in British Columbia and the Yukon, partly funded through Mitacs.",
+    "amount": "C$10,000 in stipends at no cost to participants (the page says $10,000; full-time commitment of 30+ hours a week required)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "The page gives no start date or deadline; info sessions are listed without a year"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check you are a Master's, PhD, postdoc (within 5 years) or recent graduate (within 2 years) in Canada, or a college student",
+      "Line up a faculty supervisor",
+      "Complete at least 50 customer discovery interviews"
+    ],
+    "url": "https://www.innovation.ubc.ca/lab2market-launch",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "ca-frontfundr",
+    "name": "FrontFundr",
+    "provider": "FrontFundr Financial Services Inc.",
+    "region": "CA",
+    "kind": "equity",
+    "investor_type": "crowdfunding",
+    "summary": "Canadian equity crowdfunding platform; FrontFundr Financial Services Inc. is registered as an exempt market dealer in BC, AB, SK, MB, ON, QC, NB, NS and YT. FEES: due diligence and listing fee from CAD 5,500 payable upfront (not refunded on cancellation) plus a trade fee from 7% in cash and warrants on success. NI 45-110 start-up crowdfunding cap is CAD 1.5 million per 12 months; other exemptions have no limit. Works with companies outside Canada.",
+    "amount": "NI 45-110 cap CAD 1.5 million in 12 months; no overall limit under other exemptions",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply any time; campaigns usually run 30 to 90 days"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Submit the application to receive a detailed fee proposal",
+      "Budget the upfront CAD 5,500 plus the success fee, and choose the exemption",
+      "File a Report of Exempt Distribution in each province you sell into"
+    ],
+    "url": "https://info.frontfundr.com/raise/faq",
+    "checked": "2026-10-23"
   }
 ]

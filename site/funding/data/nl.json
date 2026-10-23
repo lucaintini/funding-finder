@@ -13,12 +13,21 @@
       "company_required": false,
       "company_in": [],
       "citizenship": [],
-      "residence": ["NL"],
+      "residence": [
+        "NL"
+      ],
       "age_max": null
     },
-    "stages": ["prototype"],
-    "sectors": ["any"],
-    "deadline": {"type": "date", "date": "2026-12-31"},
+    "stages": [
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-12-31"
+    },
     "stacks_with": [],
     "next_steps": [
       "Confirm on the official page whether a sole trader can apply (the page speaks of a company)",
@@ -40,14 +49,26 @@
     "applicant": {
       "sole_trader": false,
       "company_required": true,
-      "company_in": ["NL"],
+      "company_in": [
+        "NL"
+      ],
       "citizenship": [],
-      "residence": ["NL"],
+      "residence": [
+        "NL"
+      ],
       "age_max": null
     },
-    "stages": ["prototype", "revenue"],
-    "sectors": ["any"],
-    "deadline": {"type": "cohort", "note": "Applications open all year; the 2026 funding period ends 31 Dec 2026, the 2027 period is not yet confirmed"},
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications open all year; the 2026 funding period ends 31 Dec 2026, the 2027 period is not yet confirmed"
+    },
     "stacks_with": [],
     "next_steps": [
       "Confirm the Dutch establishment rule on the official page",
@@ -71,13 +92,26 @@
       "company_required": false,
       "company_in": [],
       "citizenship": [],
-      "residence": ["NL"],
+      "residence": [
+        "NL"
+      ],
       "age_max": null
     },
-    "stages": ["prototype", "revenue"],
-    "sectors": ["software", "ai"],
-    "deadline": {"type": "cohort", "note": "Apply in advance for future R&D work; 2027 applications open from mid-November 2026"},
-    "stacks_with": ["nl-innovation-box"],
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "software",
+      "ai"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Apply in advance for future R&D work; 2027 applications open from mid-November 2026"
+    },
+    "stacks_with": [
+      "nl-innovation-box"
+    ],
     "next_steps": [
       "Register with the Dutch business register and taxes so the business pays income tax",
       "Log in with eHerkenning (level 3) and write the project plan in advance",
@@ -98,15 +132,28 @@
     "applicant": {
       "sole_trader": false,
       "company_required": true,
-      "company_in": ["NL"],
+      "company_in": [
+        "NL"
+      ],
       "citizenship": [],
-      "residence": ["NL"],
+      "residence": [
+        "NL"
+      ],
       "age_max": null
     },
-    "stages": ["revenue"],
-    "sectors": ["software", "ai"],
-    "deadline": {"type": "rolling"},
-    "stacks_with": ["nl-wbso"],
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "software",
+      "ai"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [
+      "nl-wbso"
+    ],
     "next_steps": [
       "Only useful once a Dutch BV makes profit from the declared innovation",
       "Obtain the RVO S&O declaration (through WBSO) for the innovation",
@@ -114,5 +161,631 @@
     ],
     "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/vennootschapsbelasting/innovatiebox",
     "checked": "2026-10-22"
+  },
+  {
+    "id": "nl-yesdelft-accelerator",
+    "name": "YES!Delft Validation and Accelerator",
+    "provider": "YES!Delft",
+    "region": "NL",
+    "kind": "accelerator",
+    "summary": "Delft incubator with Validation and Accelerator programs; the Accelerator is described as operating without taking equity. Requirements: at least two co-founders, a clear idea, innovative technology, and a base in or plan to move to the Netherlands (solo founders must first join the Meet your co-founder workshop). Duration, fee and dates not stated.",
+    "amount": "No equity taken in the Accelerator",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Book a call with the Investment Director",
+      "Join the Meet your co-founder workshop if solo",
+      "Plan a Netherlands base"
+    ],
+    "url": "https://www.yesdelft.com/support/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "nl-rockstart",
+    "name": "Rockstart",
+    "provider": "Rockstart",
+    "region": "NL",
+    "kind": "accelerator",
+    "summary": "Invests from pre-seed to Series B in AgriFood, Energy and Emerging Tech with mentor-driven support and fundraising preparation; offices in Amsterdam, Copenhagen and Bogota. Also corporate programs (Orsted Propel, New Energy Challenge). Amounts, equity and deadlines not stated on the page.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "agrifood",
+      "energy",
+      "emerging tech"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Use the Get started form",
+      "Check which sector track fits",
+      "Confirm terms"
+    ],
+    "url": "https://www.rockstart.com/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "nl-plnt-programs",
+    "name": "PLNT startup programs",
+    "provider": "PLNT",
+    "region": "NL",
+    "kind": "accelerator",
+    "summary": "Programs including Ready to Start (launching a science-based startup), Startup Play (assess an idea), Venture Academy (prepare for market launch), unlock_ (life sciences and health sector), Sprout (coaching), and Ready to Impact (The Hague). Costs, equity and the location of each program are not stated; there is a quiz to pick a program.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "life sciences",
+      "health"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Take the program quiz on the site",
+      "Check the page of the matching program",
+      "Ask PLNT about cost"
+    ],
+    "url": "https://plnt.nl/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "nl-bmkb",
+    "name": "Borgstelling MKB-kredieten (BMKB)",
+    "provider": "Rijksdienst voor Ondernemend Nederland (RVO), Ministry of Economic Affairs",
+    "region": "NL",
+    "kind": "loan",
+    "summary": "State guarantee on a bank loan for Dutch SMEs that lack collateral; sole proprietorships and partnerships can use it.",
+    "amount": "Loans up to EUR 1.5 million; state guarantees 90% of the credit, covering up to three quarters of financing up to EUR 333,333 and up to half above that",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [
+        "NL"
+      ],
+      "citizenship": [],
+      "residence": [
+        "NL"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2027-07-01",
+      "note": "Expanded scheme runs through 1 July 2027; apply via your financier, not RVO"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the business has up to 250 FTE and turnover up to EUR 50 million or balance sheet up to EUR 43 million",
+      "Ask your bank or an accredited financier whether BMKB fits",
+      "Compare the green variant BMKB-G for sustainability investments"
+    ],
+    "url": "https://www.rvo.nl/subsidies-financiering/bmkb",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-dhi-subsidie",
+    "name": "DHI subsidy: demonstration, feasibility and investment preparation",
+    "provider": "Rijksdienst voor Ondernemend Nederland (RVO)",
+    "region": "NL",
+    "kind": "grant",
+    "summary": "Subsidy for Dutch SMEs with international ambitions for demonstration projects, feasibility studies and investment preparation projects abroad.",
+    "amount": "50% or 70% of costs: demonstration up to EUR 200,000; feasibility study up to EUR 100,000; investment preparation up to EUR 100,000; 2026 budget EUR 8.5 million",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [
+        "NL"
+      ],
+      "citizenship": [],
+      "residence": [
+        "NL"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-12-31",
+      "note": "Open 2 March to 31 December 2026 while budget lasts; only one DHI project in progress at a time"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Submit the quickscan first, then follow the Stappenplan",
+      "Check the full eligibility conditions on the RVO page",
+      "Apply early because budget is limited"
+    ],
+    "url": "https://www.rvo.nl/onderwerpen/dhi-subsidieregeling",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-sib-subsidie",
+    "name": "Support International Business (SIB) subsidy",
+    "provider": "Rijksdienst voor Ondernemend Nederland (RVO)",
+    "region": "NL",
+    "kind": "grant",
+    "summary": "Small subsidies for market entry, export training and coaching, knowledge and skills, trade fairs and trade missions.",
+    "amount": "50% to 80% of costs, up to EUR 2,500 per activity (coaching up to EUR 1,000; trade mission up to EUR 1,500)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [
+        "NL"
+      ],
+      "citizenship": [],
+      "residence": [
+        "NL"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 budget is exhausted; new funding from January 2027"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the eligibility conditions in the regulation linked from the RVO page",
+      "Plan activities for 2027 and apply when funding reopens",
+      "Contact RVO advisors for eligibility questions"
+    ],
+    "url": "https://english.rvo.nl/topics/support-international-business-sib-subsidy",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-innovation-impact-challenge",
+    "name": "Innovation Impact Challenge (formerly SBIR)",
+    "provider": "Rijksdienst voor Ondernemend Nederland (RVO) for Dutch government bodies",
+    "region": "NL",
+    "kind": "prize",
+    "summary": "Phased innovation competition where government pays companies to test and develop solutions to public challenges. Phase 1 is a feasibility study, phase 2 development; the company keeps its IP.",
+    "amount": "Payment equals the approved offer, below a maximum set per challenge; See the official page for the current round",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [
+        "NL",
+        "EU"
+      ],
+      "citizenship": [],
+      "residence": [
+        "NL",
+        "EU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Challenges open at different times; check the Oproepen section for current calls"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Oproepen section for current challenges",
+      "Read the challenge documents on the Offertes indienen page",
+      "Submit an offer within the stated maximum"
+    ],
+    "url": "https://www.rvo.nl/subsidies-financiering/innovation-impact-challenge/hoe-werkt-het",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-qredits-business-loan",
+    "name": "Qredits business loans for entrepreneurs",
+    "provider": "Qredits",
+    "region": "NL",
+    "kind": "loan",
+    "summary": "Microfinance for Dutch entrepreneurs, including established ones taking over a business, investing in assets, hiring staff or making sustainability changes. Includes a free coach and training.",
+    "amount": "See the official page for the current round (Qredits reports EUR 927 million lent across 42,030 loans)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [
+        "NL"
+      ],
+      "citizenship": [],
+      "residence": [
+        "NL"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply online; Qredits then holds a personal conversation"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Apply online on qredits.nl",
+      "Prepare for the personal conversation about your situation",
+      "Ask for the free coach and training with the loan"
+    ],
+    "url": "https://www.qredits.nl/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-dsif-student-fund",
+    "name": "Dutch Student Investment Fund (DSIF)",
+    "provider": "DSIF, University of Twente",
+    "region": "NL",
+    "kind": "equity",
+    "summary": "Student-run fund investing in startups of University of Twente or Saxion students and recent graduates; the company should be built in Overijssel.",
+    "amount": "EUR 5,000 to EUR 10,000 per startup",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "NL"
+      ],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No deadlines; contact at any stage"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm you are a student, PhD or recent graduate of Twente or Saxion",
+      "Send a one-pager through the Apply for funding page",
+      "Prepare a business plan and a board pitch"
+    ],
+    "url": "https://dsif.nl",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-delft-graduate-entrepreneur-fund",
+    "name": "Graduate Entrepreneur Fund (Pre-Seed)",
+    "provider": "Delft University Fund and Graduate platform",
+    "region": "NL",
+    "kind": "equity",
+    "summary": "Pre-seed fund for startups founded by TU Delft alumni, students or staff. The Graduate platform serves students and young alumni of TU Delft, Erasmus University Rotterdam and Erasmus MC. The page is written for donors, so check graduate.nl for founder terms.",
+    "amount": "Initial investment of up to EUR 100,000; about 20 to 30 startups a year",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "NL"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No dates on the page. See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check eligibility on graduate.nl",
+      "Contact the Graduate team at hello@Graduate.nl",
+      "Confirm the terms before applying"
+    ],
+    "url": "https://tudelft.nl/en/delft-university-fund/support-us/graduate-entrepreneur-fund",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-graduate-ventures",
+    "name": "Graduate Ventures",
+    "provider": "Graduate Ventures",
+    "region": "NL",
+    "kind": "equity",
+    "summary": "Dutch university-linked fund investing at pre-seed and seed. The page shows partner university logos that appear to include Leiden and LUMC but does not state who may apply.",
+    "amount": "Invests up to EUR 3 million in pre-seed and seed founders",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "NL"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No intake dates on the page. See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Explore funding page on graduate.nl",
+      "Email hello@Graduate.nl to confirm whether Leiden students and alumni qualify",
+      "Prepare a short pitch"
+    ],
+    "url": "https://www.graduate.nl",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-invest-nl",
+    "name": "Invest-NL",
+    "provider": "Invest-NL",
+    "region": "NL",
+    "kind": "equity",
+    "investor_type": "government",
+    "summary": "Dutch government-backed investor acting as co-financier for innovative companies and projects in carbon-neutral and circular economy, sustainable food, affordable healthcare and deep tech, targeting businesses that will need at least EUR 10 million in financing. Start with the online financieringscheck.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "NL"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "energy",
+      "circular economy",
+      "agrifood",
+      "life sciences",
+      "deep tech"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open financieringscheck, no deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Complete the Invest-NL financieringscheck",
+      "Confirm your total financing need is at least EUR 10 million",
+      "Use the contact page to reach the team if the check is positive"
+    ],
+    "url": "https://www.invest-nl.nl/nl/onze-aanpak/financiering/financieringscheck",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-innovationquarter",
+    "name": "InnovationQuarter",
+    "provider": "InnovationQuarter (regional development agency, South Holland)",
+    "region": "NL-ZH",
+    "kind": "equity",
+    "investor_type": "government",
+    "summary": "South Holland regional development agency with over EUR 300 million in fund capital (including UNIIQ and InnovationQuarter Capital). Apply with the online quickscan or by phone or email. Aimed at technology startups and scale-ups based in or affecting Zuid-Holland, including Leiden.",
+    "amount": "Typically EUR 250,000 to EUR 5,000,000, often as part of a round with co-investors",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "NL"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "energy",
+      "life sciences",
+      "digital",
+      "high-tech",
+      "food",
+      "maritime"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open quickscan, no deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Take the 5 minute quickscan on the funding page",
+      "Complete the intake form",
+      "Confirm you are based in or impact Zuid-Holland"
+    ],
+    "url": "https://www.innovationquarter.nl/en/how-we-help/funding/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-uniiq-leiden",
+    "name": "UNIIQ",
+    "provider": "UNIIQ (InnovationQuarter)",
+    "region": "NL-ZH",
+    "kind": "equity",
+    "investor_type": "government",
+    "summary": "EUR 50 million early-stage fund for research-driven startups with complex technology, often university spin-offs in life sciences and deeptech. Gives startup capital as a convertible loan plus hands-on support. Book a free orientation conversation; no application fee is mentioned.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "NL"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "life sciences",
+      "deeptech",
+      "high-tech"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Free orientation sessions; no deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Book a free orientation conversation through the spreekuren page",
+      "Prepare a short description of the technology and team",
+      "Ask about the investment process and Vroege Fase Financiering"
+    ],
+    "url": "https://www.uniiq.nl/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nl-invesdor-oneplanetcrowd",
+    "name": "Invesdor (formerly Oneplanetcrowd)",
+    "provider": "Invesdor",
+    "region": "NL",
+    "kind": "equity",
+    "investor_type": "crowdfunding",
+    "summary": "Equity and bond crowdfunding platform licensed under the EU ECSP crowdfunding regulation (licence covers Germany, Austria, Scandinavia and the Benelux). Apply through the online form. The page lists no application fee.",
+    "amount": "EUR 250,000 to EUR 5 million (the page also gives EUR 500,000 as the lower bound in one place)",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "NL"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply any time; campaigns run up to three weeks"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Submit the form on the Invesdor business financing page",
+      "Confirm fees in the mandate agreement before signing",
+      "Prepare for due diligence and legal documents"
+    ],
+    "url": "https://www.invesdor.nl/bedrijfsfinanciering",
+    "checked": "2026-10-23"
   }
 ]

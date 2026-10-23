@@ -153,5 +153,396 @@
     ],
     "url": "https://eurohpc-ju.europa.eu/ai-factories_en",
     "checked": "2026-10-22"
+  },
+  {
+    "id": "eu-seedcamp",
+    "name": "Seedcamp",
+    "provider": "Seedcamp",
+    "region": "EU",
+    "kind": "accelerator",
+    "summary": "Pre-seed and seed investor that backs companies from pre-product to early revenue, mainly in Europe and Israel or with a European angle. Not a formal cohort: starts with a call, then a 45 minute partner pitch. Not suited if you have already raised more than a couple of million dollars.",
+    "amount": "First cheque usually USD 350,000 to USD 1.25M",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No deadlines listed; aims to finish the process within two weeks of meeting a founder"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Use the Pitch Us link on the site",
+      "Prepare for an initial call and a 45 minute partner pitch",
+      "Confirm the European angle fits"
+    ],
+    "url": "https://seedcamp.com/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "eu-startup-wise-guys",
+    "name": "Startup Wise Guys",
+    "provider": "Startup Wise Guys",
+    "region": "EU",
+    "kind": "accelerator",
+    "summary": "B2B startup accelerator with three stages (Building, Growing, Scaling) across seven verticals including SaaS, Fintech and Cybersecurity. Flagship initial ticket is EUR 100K. Equity, eligibility and application steps are not stated on the page.",
+    "amount": "Initial ticket of EUR 100,000 in flagship programs",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "SaaS",
+      "fintech",
+      "cybersecurity",
+      "B2B"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the All programs page",
+      "Pick the program for your vertical",
+      "Confirm equity terms"
+    ],
+    "url": "https://www.startupwiseguys.com/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "eu-eit-health-acceleration",
+    "name": "EIT Health acceleration programmes",
+    "provider": "EIT Health",
+    "region": "EU",
+    "kind": "accelerator",
+    "summary": "Acceleration programmes for health innovators (Catapult, Start-ups Meet Pharma, Open Innovation) giving access to markets, funding and partners. All three show Closed for applications today; watch the New call opportunities page.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "health"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Closed today; watch for new calls"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the New call opportunities page",
+      "Watch for the next call"
+    ],
+    "url": "https://eithealth.eu/what-we-do/acceleration/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "eu-eit-food-seedbed",
+    "name": "EIT Food Seedbed and Accelerator Network",
+    "provider": "EIT Food",
+    "region": "EU",
+    "kind": "accelerator",
+    "summary": "Programmes for agrifood startups (Seedbed, Accelerate and Tech Validation). A related Proof-of-Concept Co-Financing Instrument call to de-risk pilot projects lists a deadline of 30 November 2026. Terms of Seedbed and the Accelerator are not stated on the home page.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype"
+    ],
+    "sectors": [
+      "agrifood"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "PoC Co-Financing call deadline 30 November 2026; other programs see the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Seedbed and Accelerate pages",
+      "Check the PoC Co-Financing call"
+    ],
+    "url": "https://www.eitfood.eu/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "eu-eurostars",
+    "name": "Eurostars",
+    "provider": "EUREKA network with national funding bodies and the European Commission",
+    "region": "EU",
+    "kind": "grant",
+    "summary": "International R&D funding for consortia led by an innovative SME; money comes from each partner's national funding body under national rules. Canada is a participating Eurostars country.",
+    "amount": "Set per country by each national funding body; See the official page for the current round",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "EU",
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "EU",
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2027-03-04",
+      "note": "Eurostars Call 12 deadline 4 March 2027; calls run about twice a year"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Find at least one independent partner from another Eurostars country, one from an EU or Horizon Europe associated country",
+      "Contact your national funding body for budget and rates",
+      "Keep the project civil only and 36 months or less"
+    ],
+    "url": "https://www.eurekanetwork.org/programmes/eurostars/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "eu-euipo-sme-fund",
+    "name": "SME Fund (IP vouchers)",
+    "provider": "European Union Intellectual Property Office (EUIPO)",
+    "region": "EU",
+    "kind": "grant",
+    "summary": "Vouchers that reimburse EU SMEs for IP Scan and IP enforcement, trade mark and design applications, patents and plant varieties.",
+    "amount": "IP Scan 90%; trade marks and designs up to 75%; patents up to 75%; plant varieties 75% (national caps apply)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [
+        "EU"
+      ],
+      "citizenship": [],
+      "residence": [
+        "EU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "The 2026 edition launched 2 Feb 2026; see the official page for the closing date"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check your national IP office rules for caps",
+      "Apply for the voucher before filing the IP application",
+      "Keep invoices for reimbursement"
+    ],
+    "url": "https://intellectual-property-helpdesk.ec.europa.eu/news-events/news/applications-are-open-2026-sme-fund-2026-02-10_en",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "eu-eit-jumpstarter",
+    "name": "EIT Jumpstarter",
+    "provider": "EIT (European Institute of Innovation and Technology)",
+    "region": "EU",
+    "kind": "grant",
+    "summary": "Pre-acceleration programme where winners receive start-up funding and a travel budget. The page does not mention students; at least one team member must hold citizenship of a listed eligible country.",
+    "amount": "EUR 2,500, EUR 5,000 or EUR 10,000 to winners, plus a travel budget (EUR 2,000 + EUR 1,000)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [
+        "IT",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "EE",
+        "GR",
+        "HU",
+        "LV",
+        "LT",
+        "MT",
+        "PL",
+        "PT",
+        "RO",
+        "SI",
+        "SK",
+        "ES",
+        "AL",
+        "AM",
+        "BA",
+        "XK",
+        "MD",
+        "ME",
+        "MK",
+        "RS",
+        "UA",
+        "TR"
+      ],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 applications closed (due 17 May 2026 per the page). Next edition to be announced. See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check that one team member holds citizenship of a listed country (Italy is listed; Canada and Australia are not)",
+      "Watch the site for the 2027 call",
+      "Prepare an idea summary and a team"
+    ],
+    "url": "https://www.eitjumpstarter.eu",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "eu-speedinvest",
+    "name": "Speedinvest",
+    "provider": "Speedinvest",
+    "region": "EU",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Pan-European VC with offices in Berlin, London, Munich, Paris, Vienna and Abu Dhabi. Founders pitch through the Submit pitch Typeform on its Connect page; only shortlisted companies are contacted. Stage and cheque sizes are not stated on the page.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "AI",
+      "climate tech",
+      "deep tech",
+      "fintech",
+      "health",
+      "marketplaces"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open form; only shortlisted companies are contacted"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Connect page",
+      "Complete the Submit pitch application",
+      "Pick the thematic team that fits"
+    ],
+    "url": "https://www.speedinvest.com/connect",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "eu-cherry-ventures",
+    "name": "Cherry Ventures",
+    "provider": "Cherry Ventures",
+    "region": "EU",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Early-stage VC backing European founders. Investment inquiries go to opportunity@cherry.vc. Stage and cheque sizes are not stated on the page read.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open email route"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the What we look for section",
+      "Email opportunity@cherry.vc with a short summary and deck",
+      "Confirm stage fit"
+    ],
+    "url": "https://www.cherry.vc/",
+    "checked": "2026-10-23"
   }
 ]

@@ -1,0 +1,485 @@
+[
+  {
+    "id": "fr-station-f-founders",
+    "name": "STATION F Founders Program",
+    "provider": "STATION F",
+    "region": "FR",
+    "kind": "accelerator",
+    "summary": "Flagship STATION F program for early-stage companies in Paris, generalist; apply through the Join link. Other programs include Fighters (no degree needed) and Landing. Cost, equity and dates not stated on the page.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Use the Join link on the Founders program",
+      "Compare with Fighters and Landing"
+    ],
+    "url": "https://stationf.co/programs",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "cl-start-up-chile",
+    "name": "Start-Up Chile",
+    "provider": "Start-Up Chile",
+    "region": "CL",
+    "kind": "accelerator",
+    "summary": "Public Chilean accelerator with Build, Ignite and Growth programs; financing is equity-free. Current cycle shows applications closed; no next call date given. Funding amounts not stated on the page.",
+    "amount": "Equity-free financing; amount not stated",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Current call closed; next date not stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Watch the site for the next call",
+      "Check eligibility on the POSTULA link"
+    ],
+    "url": "https://www.startupchile.org/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "us-nsf-icorps-national-teams",
+    "name": "NSF I-Corps National Teams",
+    "provider": "U.S. National Science Foundation",
+    "region": "US",
+    "kind": "accelerator",
+    "summary": "Seven-week customer discovery training for research teams with a technology tied to a US higher-education institution, with an award to cover participation.",
+    "amount": "Up to US$50,000 award covers stipends and customer discovery costs; the US$10,000 participation fee is paid from the award funds",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "US"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Teams pick a cohort after a successful interview; see the NSF Cohorts page for dates"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check you have an active NSF award from the last five years, or finish a regional I-Corps program to earn a recommendation letter",
+      "Apply through a US higher-education institution and attend the monthly info webinar",
+      "Pick a cohort after the interview and block every session date"
+    ],
+    "url": "https://www.nsf.gov/funding/initiatives/i-corps/national-teams-applicants",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "kr-k-startup-grand-challenge",
+    "name": "K-Startup Grand Challenge",
+    "provider": "KISED, Ministry of SMEs and Startups (Korea)",
+    "region": "KR",
+    "kind": "accelerator",
+    "summary": "Korean government accelerator for non-Korean founders: online phase, then hybrid phases with prize money, commercialization grants, free workspace and travel support.",
+    "amount": "Travel support up to KRW 8 million per team in Phase 2; prize money and commercialization grants for the top teams (amounts: See the official page). No participation fee is listed. A Korean entity is needed for Phase 3",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 applications ran 6 May to 17 June 2026 (15:00 KST); the next call is not announced on the page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Watch ksgc.global for the next call",
+      "Confirm the CEO or representative founder is a non-Korean citizen",
+      "Prepare an MVP, traction or validated technology case for the online round"
+    ],
+    "url": "https://ksgc.global/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "cl-start-up-chile-build",
+    "name": "Start-Up Chile Build",
+    "provider": "Start-Up Chile, CORFO",
+    "region": "CL",
+    "kind": "accelerator",
+    "summary": "Four-month equity-free pre-acceleration program taking a validated idea to an MVP, with up to 50 startups per generation and two generations a year.",
+    "amount": "CLP 15 million equity-free funding; no program fee is listed (See the official page and its terms and conditions)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications were closed when checked; the page gives no dates, watch for the next call"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the bases legales linked on the Build page",
+      "Prepare a validated idea and MVP plan",
+      "Apply through the Postula link when the call opens"
+    ],
+    "url": "https://startupchile.org/programas/build/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "cl-start-up-chile-ignite",
+    "name": "Start-Up Chile Ignite",
+    "provider": "Start-Up Chile, CORFO",
+    "region": "CL",
+    "kind": "accelerator",
+    "summary": "Four-month acceleration and financing program for startups with a functional product, early validation and under 3 years of development.",
+    "amount": "CLP 30 million equity-free, with a possible CLP 20 million extension; no program fee is listed (See the official page and its terms and conditions)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications were closed when checked; the page gives no dates"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the bases legales PDF linked on the Ignite page",
+      "Show a functional product and early validation",
+      "Apply through the Postula link when the call opens"
+    ],
+    "url": "https://startupchile.org/programas/ignite/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "at-aws-preseed",
+    "name": "aws Preseed (Austria)",
+    "provider": "Austria Wirtschaftsservice (aws)",
+    "region": "AT",
+    "kind": "grant",
+    "summary": "Non-repayable pre-seed grant for innovative founding projects in Austria; individuals planning to found a company and sole proprietorships can apply.",
+    "amount": "Grant of 80% of eligible costs up to EUR 89,000 (90% or EUR 100,000 with the gender bonus); 20% own financing needed at application",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AT"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Ongoing applications; jury meets roughly quarterly and approval takes 2 to 4 months"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Do not start spending before the application date; earlier costs are ineligible",
+      "Plan the 20% own financing and a bank statement showing 10% shareholder cash before the first payment",
+      "Apply on aws.at with a project located in Austria"
+    ],
+    "url": "https://www.aws.at/en/faqs-aws-preseed-seedfinancing-modul-innovative-solutions/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "my-cradle-cip-spark",
+    "name": "Cradle CIP Spark",
+    "provider": "Cradle Fund (Malaysia)",
+    "region": "MY",
+    "kind": "grant",
+    "summary": "Conditional grant for development and pre-commercialisation of technology startups in Malaysia.",
+    "amount": "Conditional grant up to RM150,000 for up to 18 months; recipients must repay the disbursed amount if the agreement is terminated",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "MY"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply online through Cradle's Grant Management System; no dates are on the page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Form a team of at least two with at least one Malaysian and one member living in Malaysia",
+      "Prepare a pitch deck on Cradle's template",
+      "Apply at gms.cradle.com.my and pitch if shortlisted"
+    ],
+    "url": "https://cradle.com.my/cip-spark/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "us-mi-founders-fund-preaccelerator",
+    "name": "Michigan Founders Fund Pre-Accelerator (gener8tor)",
+    "provider": "gener8tor with Michigan Founders Fund",
+    "region": "US-MI",
+    "kind": "accelerator",
+    "summary": "Free seven-week hybrid pre-accelerator for tech or tech-enabled founders in Detroit and Kalamazoo, no equity taken.",
+    "amount": "Free to the five companies chosen per cohort, no equity; US$15,000 grant per founder",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "US"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "software"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "The page shows rolling applications TBD and says applications are not currently being accepted"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm you are based in Southeast or Southwest Michigan and fit the underrepresented founder criteria",
+      "Contact the program manager listed on the page for the next intake",
+      "Commit to at least 85% of programming"
+    ],
+    "url": "https://www.gener8tor.com/mffpa",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "de-exist-gruendungsstipendium",
+    "name": "EXIST Gruendungsstipendium",
+    "provider": "German Federal Ministry, managed by Projekttraeger Juelich",
+    "region": "DE",
+    "kind": "grant",
+    "summary": "Twelve-month stipend for students, graduates and researchers founding a knowledge-based company from a university or research institution.",
+    "amount": "Monthly stipend for 12 months: EUR 3,000 promoted founders, EUR 2,500 graduates, EUR 2,000 vocational qualification, EUR 1,000 students; EUR 150 per child; material allowance up to EUR 10,000 (EUR 30,000 for teams); coaching EUR 5,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "DE"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "The program page gives no deadlines; applications go through the host institution"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Contact the Gruendungsnetzwerk at a German university or research institution",
+      "Run the EGS Check on exist.de",
+      "Form a team of up to three; the company must not exist yet when funding starts"
+    ],
+    "url": "https://exist.de/programm/gruendungsstipendium/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "fr-french-tech-tremplin-incubation",
+    "name": "French Tech Tremplin Incubation",
+    "provider": "Mission French Tech and Bpifrance",
+    "region": "FR",
+    "kind": "accelerator",
+    "summary": "Twelve-month support in partner incubators plus financial aid for French tech startups held by founders from under-represented backgrounds.",
+    "amount": "Funding up to EUR 15,000 plus structured support in a partner incubator; no fee is listed",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "FR"
+      ],
+      "citizenship": [],
+      "residence": [
+        "FR"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "software"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 applications ran 22 January to 1 March 2026; the next call is not announced on the page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the company is registered in France (RCS), created since 1 January 2023, with EUR 3,000 minimum equity",
+      "Check that at least 50% of capital is held by partners who meet a social diversity criterion",
+      "Apply on the Bpifrance platform when the next call opens"
+    ],
+    "url": "https://bpifrance-creation.fr/entrepreneur/evenements/french-tech-tremplin-incubation-2026-ouverture-candidatures",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "ae-hub71-initiate-access",
+    "name": "Hub71 Initiate and Access programmes",
+    "provider": "Hub71 (Abu Dhabi)",
+    "region": "AE",
+    "kind": "accelerator",
+    "summary": "Abu Dhabi startup hub: Initiate for ideation or pre-MVP founders, Access for pre-seed to Series A, with housing, office and health insurance support.",
+    "amount": "Subsidised or free housing, office space and medical insurance (the site uses both wordings); cash amounts and equity terms: See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "The page shows Cohort 21 applications; check the Apply Now links for dates"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Pick Initiate or Access on the Hub71 page",
+      "Join an info session listed on the site",
+      "Ask Hub71 about the relocation requirement before applying"
+    ],
+    "url": "https://www.hub71.com/",
+    "checked": "2026-10-23",
+    "remote": false
+  }
+]

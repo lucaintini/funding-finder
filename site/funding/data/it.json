@@ -302,5 +302,448 @@
     ],
     "url": "https://www.agenziaentrate.gov.it/portale/lavoratori-impatriati-209-2023/infogen-lavoratori-impatriati-209-2023-cittadini",
     "checked": "2026-10-22"
+  },
+  {
+    "id": "it-zest-group",
+    "name": "Zest Group accelerators",
+    "provider": "Zest Group",
+    "region": "IT",
+    "kind": "accelerator",
+    "summary": "Italian innovation group (lventuregroup.com and digitalmagics.com both redirect to zestgroup.vc) listing 7 acceleration programs and 13 investment vehicles across AI, CleanTech, HealthTech, FinTech and other sectors. Terms, eligibility and dates not stated on the home page; a Scouting Ticket and a join form exist.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "AI",
+      "cleantech",
+      "healthtech",
+      "fintech"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Use the Join Zest Innovation Ecosystem form",
+      "Check the Scouting Ticket page",
+      "Confirm terms"
+    ],
+    "url": "https://zestgroup.vc/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "it-cdp-venture-capital-accelerators",
+    "name": "CDP Venture Capital accelerators",
+    "provider": "CDP Venture Capital",
+    "region": "IT",
+    "kind": "accelerator",
+    "summary": "Italian venture arm; the site announces Fondo Acceleratori II to strengthen acceleration and pre-seed and seed investment. Apply through pitch.cdpventurecapital.it. Amounts, equity and eligibility are not stated on the page.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Use the Applica ora button",
+      "Read the Term Sheet guidelines",
+      "Check Italian company requirements"
+    ],
+    "url": "https://www.cdpventurecapital.it/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "it-invitalia-competenze-specialistiche",
+    "name": "Sviluppo competenze specialistiche delle PMI",
+    "provider": "Invitalia for the Ministry of Enterprises and Made in Italy",
+    "region": "IT-75",
+    "kind": "grant",
+    "summary": "De minimis contribution for training existing employees in technological innovation and the green and digital transition, for SMEs in Puglia and six other southern regions.",
+    "amount": "50% of eligible costs; increased by 20% (micro and small) or 10% (medium) for inter-regional projects; second window budget EUR 12,449,676",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-12-21",
+      "note": "Second window 10 Sep 2026 12:00 to 21 Dec 2026 12:00; businesses that applied in the first window cannot apply"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Register in Anagrafica e deleghe on the Invitalia portal using SPID or CIE",
+      "Check the SME has an operating unit in Puglia or another listed region",
+      "Prepare the training plan and apply before the window closes"
+    ],
+    "url": "https://www.invitalia.it/incentivi-e-strumenti/sviluppo-competenze-specialistiche-delle-pmi",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "it-invitalia-investimenti-sostenibili-4-0",
+    "name": "Investimenti sostenibili 4.0, Bando 2026",
+    "provider": "Invitalia for the Ministry of Enterprises and Made in Italy",
+    "region": "IT-75",
+    "kind": "grant",
+    "summary": "Grant plus interest-free loan for SMEs in less developed southern regions (including Puglia) investing in sustainable 4.0 projects. 25% of funds are reserved for micro and small enterprises.",
+    "amount": "Up to 75% of eligible costs: grant 35% plus interest-free loan 40% (up to 7 years); EUR 447.6 million total",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications ran from 6 Oct 2026 and closed from 7 Oct 2026 because funds ran out; watch Invitalia for any reopening"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the Invitalia notice for reopening",
+      "Needs at least two approved balance sheets and ordinary accounting (per the earlier round)",
+      "Prepare the 25% own contribution without public funding"
+    ],
+    "url": "https://www.invitalia.it/incentivi-e-strumenti/investimenti-sostenibili-40-bando-2026/cose",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "it-puglia-start-cup-puglia",
+    "name": "Start Cup Puglia",
+    "provider": "ARTI Puglia with Regione Puglia, PNICube",
+    "region": "IT",
+    "kind": "prize",
+    "summary": "Regional business plan competition for aspiring entrepreneurs and teams that plan an innovative business in Puglia (Life science, ICT, Cleantech and Energy, or Industrial). Coaching is optional. Winners go to the national PNI.",
+    "amount": "1st EUR 10,000; 2nd EUR 7,000; 3rd EUR 5,000; 4th EUR 3,000; Green and Blue special prize EUR 2,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 edition (XIX) closed 4 Sept 2026; the page is marked expired. Next edition: See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Watch startcup.puglia.it for the next edition",
+      "Prepare a business plan and executive summary in one of the four categories",
+      "Use the optional coaching phase and a university endorsement letter"
+    ],
+    "url": "https://www.uniba.it/it/notizieuniba/anno-2026/start-cup-puglia-2026",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "it-pni-premio-nazionale-innovazione",
+    "name": "Premio Nazionale per l'Innovazione (PNI)",
+    "provider": "PNICube, with ARTI Puglia",
+    "region": "IT",
+    "kind": "prize",
+    "summary": "National startup competition fed by regional Start Cups, for researchers and young talent from universities. 2026 final is in Bari on 3 and 4 December 2026. The page lists no prize amounts or student rules.",
+    "amount": "Cash prizes from PNICube partners; amounts not listed on the page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 final on 3 and 4 Dec 2026 in Bari; entry is through a regional Start Cup. Next cycle: See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Enter your regional Start Cup (see the PNICube network)",
+      "Choose one of the four PNI categories",
+      "Watch pnicube.it for the 2027 cycle"
+    ],
+    "url": "https://www.pnicube.it",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "it-italian-angels-for-growth",
+    "name": "Italian Angels for Growth (IAG)",
+    "provider": "Italian Angels for Growth",
+    "region": "IT",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Italian angel group of over 300 business angels investing in innovative, technology-intensive startups. Apply through the Dealum form. Looks for a full-time founder, a prototype and initial traction. The official page mentions no fee to startups.",
+    "amount": "Typically EUR 200,000 to EUR 1.5 million",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No deadline stated; pre-seed investments currently available"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the criteria on the IAG startup page",
+      "Submit the Candida la tua startup form on Dealum",
+      "Prepare for a screening meeting with IAG members"
+    ],
+    "url": "https://italianangels.net/startup/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "it-club-degli-investitori",
+    "name": "Club degli Investitori",
+    "provider": "Club degli Investitori",
+    "region": "IT",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Italian investor club that backs Italian founders. Startups apply via the Apply with your startup button, which opens a Dealum form. Ticket size and fees are not stated on the official page.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Apply with your startup form from the Club website",
+      "Check ticket size and any fee with the Club before relying on it",
+      "Prepare a deck and traction figures"
+    ],
+    "url": "https://www.clubdeglinvestitori.it/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "it-cdp-venture-capital",
+    "name": "CDP Venture Capital",
+    "provider": "CDP Venture Capital SGR",
+    "region": "IT",
+    "kind": "equity",
+    "investor_type": "government",
+    "summary": "Italian state-backed venture investor (15 direct and indirect funds). Startups apply through its online pitch portal. The homepage says its accelerator fund supports acceleration, pre-seed and seed investments. Eligibility and ticket sizes are not stated on the pages read.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open pitch portal, no deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Click Applica ora on the CDP Venture Capital homepage to reach the pitch portal",
+      "Read the Strategia and Fondi pages for strategic sectors",
+      "Confirm eligibility with CDP Venture Capital"
+    ],
+    "url": "https://www.cdpventurecapital.it/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "it-united-ventures",
+    "name": "United Ventures",
+    "provider": "United Ventures SGR",
+    "region": "IT",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Milan VC for innovative tech startups. Founders submit a proposal through the Submit your proposal form (name, company, website, short description, funding needs and a pitch deck). Stage, cheque size and geography are not stated.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open form"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the FAQ on the investment focus",
+      "Fill in the Submit your proposal form with your deck",
+      "Be ready to describe your funding needs"
+    ],
+    "url": "https://www.unitedventures.com/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "it-crowdfundme",
+    "name": "CrowdFundMe",
+    "provider": "CrowdFundMe",
+    "region": "IT",
+    "kind": "equity",
+    "investor_type": "crowdfunding",
+    "summary": "Italian equity crowdfunding portal, authorised by Consob (resolution no. 22885 of 10 Nov 2023). Accepts applications from innovative SMEs and startups. Campaign costs (production, controls, commissions on capital raised, legal compliance) are not given as figures on the page.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Apply any time"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Contact CrowdFundMe through its site to apply",
+      "Ask for the full cost breakdown in writing",
+      "Check you meet startup or innovative SME criteria"
+    ],
+    "url": "https://www.crowdfundme.it/",
+    "checked": "2026-10-23"
   }
 ]

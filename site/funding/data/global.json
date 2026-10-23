@@ -548,5 +548,596 @@
     ],
     "url": "https://www.digitalocean.com/hatch",
     "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-500-global-flagship",
+    "name": "Flagship Accelerator",
+    "provider": "500 Global",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Four month in person accelerator in San Francisco for founders who have started building and think globally; founders should be in the U.S. or plan to be within six months. Phase 1 program fee is USD 35,000 per startup, excluding travel. Equity terms not stated on the page.",
+    "amount": "Up to USD 50,000 at acceptance, with potential for up to USD 1M more as the company progresses",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Batch 36 applications closed 11 October; that batch runs 30 November 2026 to 9 April 2027. Check the page for the next batch"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Flagship page and confirm the equity terms before applying",
+      "Plan relocation to San Francisco for four months and budget the USD 35,000 fee",
+      "Apply for the next batch when it opens"
+    ],
+    "url": "https://500.co/founders/flagship",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "gl-founder-institute",
+    "name": "Founder Institute",
+    "provider": "Founder Institute",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Idea-stage program run in 200+ cities with online cohorts; applications open now. Cohort fee is shown as TBD for the forthcoming cohort, fully refundable before Kickoff and 75% refundable before Session 3; teams of 2 to 3 pay 1.5 times and teams of 4 to 5 pay 2 times. Founders pledge 2.5% of future equity to the Equity Collective, active only at a qualified financing.",
+    "amount": "2.5% equity pledge, no investment stated",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications open; cohorts such as Fall 2026 and Spring 2027 are listed per city"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Choose the nearest chapter or the online cohort on the page",
+      "Check the exact cohort fee before paying",
+      "Read the 2.5% Equity Collective pledge terms"
+    ],
+    "url": "https://fi.co/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "gl-alchemist-accelerator",
+    "name": "Alchemist Accelerator",
+    "provider": "Alchemist Accelerator",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Six month program for AI-SaaS and deeptech companies selling to enterprises; companies can be located anywhere, with an in-person week in the Bay Area and virtual programming on California and European time zones. Teams of 2 or 3 preferred; solo founders face a higher bar. Tuition fee applies (offset by the optional investment). The page still shows a January 2026 start, so confirm current dates.",
+    "amount": "Optional investment, average about USD 30,000 net of the tuition offset; typically 5.00% common equity",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "AI",
+      "SaaS",
+      "deeptech"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Rolling, reviewed at the next application date; answer within three weeks"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the homepage for the next application date",
+      "Confirm the tuition fee on the official page",
+      "Plan the in-person Bay Area week"
+    ],
+    "url": "https://www.alchemistaccelerator.com/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "gl-sosv-hax",
+    "name": "HAX (SOSV)",
+    "provider": "SOSV",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Pre-seed program for hard tech (energy, advanced compute, transportation, health tech, manufacturing) based in San Francisco, New York or Newark for roughly 4 to 6 months. More than one founder required; companies under 10 people and under USD 1M revenue. Remote participation is unlikely.",
+    "amount": "Up to USD 550,000 pre-seed; SOSV needs a position above 10% for its average check",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype"
+    ],
+    "sectors": [
+      "hardtech",
+      "energy",
+      "manufacturing"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Is SOSV right for you page",
+      "Apply on the HAX page",
+      "Plan relocation to the US for 4 to 6 months"
+    ],
+    "url": "https://sosv.com/apply/hax/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "gl-sosv-indiebio",
+    "name": "SOSV New York and San Francisco (formerly IndieBio)",
+    "provider": "SOSV",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Pre-seed program for deep tech with wet-lab infrastructure (healthcare, engineering biology, robotics, decarbonization, critical minerals), in person in New York or San Francisco for roughly 4 to 6 months. Not for enterprise software, fintech, crypto or e-commerce.",
+    "amount": "Up to USD 550,000 pre-seed; SOSV needs a position above 10% for its average check",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "biotech",
+      "deeptech",
+      "healthcare"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Is SOSV right for you page",
+      "Apply on the SOSV page",
+      "Plan relocation to the US"
+    ],
+    "url": "https://sosv.com/apply/sosv/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "gl-startupbootcamp",
+    "name": "Startupbootcamp",
+    "provider": "Startupbootcamp",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Industry accelerators, mostly hybrid and based in Amsterdam or the Netherlands, described as a 3 month accelerator giving access to capital, networks and mentorship. Programs include Energy and Climate, Food and AgriTech, Health and Lifescience, DeepTech and Robotics, AIvolution and Momentum (women founders). Funding amount, equity and eligibility are not stated on the page.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "energy",
+      "agritech",
+      "health",
+      "deeptech",
+      "AI"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Dates on the page are mixed and partly past; confirm on each program page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the program page for your sector",
+      "Register for Selection Days",
+      "Confirm terms before accepting"
+    ],
+    "url": "https://www.startupbootcamp.org/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "gl-ycombinator-startup-school",
+    "name": "Startup School",
+    "provider": "Y Combinator",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Free online, self-paced course of about 7 weeks at 1 to 2 hours per week for anyone building a startup or turning a side project into a company. No equity mentioned. Useful as a no cost starting step before applying to accelerators.",
+    "amount": "Free",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No dates listed; self-paced"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Sign up on the page",
+      "Complete the course at your own pace"
+    ],
+    "url": "https://www.startupschool.org/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "gl-gener8tor",
+    "name": "gener8tor Accelerators",
+    "provider": "gener8tor",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Investment accelerators provide USD 100K and mentorship in a 12 week investment-for-equity program; free accelerators run 4 or 7 weeks; other tracks include sustainability and gATLAS market entry support for international startups entering the U.S. Eligibility is not listed on the page.",
+    "amount": "USD 100,000 for equity in the investment accelerators; equity percentage not stated",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Browse the Find a Program page",
+      "Apply on the Apply page",
+      "Check equity terms on the program page"
+    ],
+    "url": "https://gener8tor.com/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "gl-south-park-commons",
+    "name": "South Park Commons",
+    "provider": "South Park Commons",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Community for technical founders: a 6 month Residency listed as no cost or equity, plus funding for those ready to build a venture-scale company. Members get up to USD 1M in credits and perks from partners including Anthropic, OpenAI, Microsoft, GCP and AWS. Members range from pre-idea to pre-launch.",
+    "amount": "Funding of USD 1M to USD 10M; Residency has no cost or equity",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No deadlines listed"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Apply on the site, choosing the Residency or Funding pathway",
+      "Confirm location requirements on the page"
+    ],
+    "url": "https://www.southparkcommons.com/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "gl-founders-factory",
+    "name": "Founders Factory Accelerators",
+    "provider": "Founders Factory",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Accelerator and venture studio funding idea, pre-seed and seed startups. Open programs listed include the Rio Tinto Mining Tech Accelerator (Perth and Global), WA Government Nature Tech Accelerator (Perth and Global), MSWA MS and Neurological Care Accelerator (Perth and Global), Aviva Fintech Accelerator and Blue Action Accelerator. Check sizes and equity not stated on the page.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "mining tech",
+      "climate",
+      "health",
+      "fintech"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Per program; see the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open Explore programs and pick a Perth or global program",
+      "Apply through the Typeform link",
+      "Confirm terms before accepting"
+    ],
+    "url": "https://www.foundersfactory.com/",
+    "checked": "2026-10-23",
+    "remote": true
+  },
+  {
+    "id": "gl-github-student-developer-pack",
+    "name": "GitHub Student Developer Pack",
+    "provider": "GitHub",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Free bundle of developer tools and partner credits for verified students, including Azure, Heroku, MongoDB Atlas, Stripe and GitHub Codespaces.",
+    "amount": "Free while a student. Partner offers listed on the page: Azure $100 credit (18+), Heroku $13/month for 24 months, MongoDB Atlas $50, Stripe $25",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open all year; student status is verified"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Sign up on the Student Developer Pack page and verify student status",
+      "Claim the cloud credits you need (Azure, Heroku, MongoDB Atlas, Stripe)",
+      "Check each partner's own terms and expiry"
+    ],
+    "url": "https://education.github.com/pack",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gl-azure-for-students",
+    "name": "Azure for Students",
+    "provider": "Microsoft",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Azure credit and free services for full-time university students, no credit card needed.",
+    "amount": "$100 Azure credit valid for 12 months, plus free monthly amounts of popular services",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Renew yearly while still a student"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Sign up with your school email on the Azure for Students page",
+      "Use the credit within 12 months",
+      "Renew each year while enrolled"
+    ],
+    "url": "https://azure.microsoft.com/en-us/free/students",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gl-hult-prize",
+    "name": "Hult Prize",
+    "provider": "Hult Prize Foundation",
+    "region": "GLOBAL",
+    "kind": "prize",
+    "summary": "Student startup competition: teams of 2 to 4 degree-seeking students build and pitch a startup that addresses a UN Sustainable Development Goal.",
+    "amount": "Winning team receives US$1 million in seed funding",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Registration form is open but no deadline is shown. Members must be 18 by 28 Feb 2027. See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Form a team of 2 to 4 enrolled students",
+      "Complete the Register to compete form and pick the SDG your startup addresses",
+      "Read the terms and conditions before you pitch"
+    ],
+    "url": "https://www.hultprize.org",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gl-thiel-fellowship",
+    "name": "Thiel Fellowship",
+    "provider": "Thiel Foundation",
+    "region": "GLOBAL",
+    "kind": "grant",
+    "summary": "Two-year fellowship for young people who build a company or project instead of finishing a degree. You may apply while in school but must leave to accept.",
+    "amount": "$250,000 grant over two years plus network access",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": 22,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Applications accepted year round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the FAQ: applicants must be 22 or younger and hold no university degree",
+      "Apply on the fellowship application portal",
+      "Only apply if you are ready to leave university if selected"
+    ],
+    "url": "https://thielfellowship.org",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gl-yc-startup-school",
+    "name": "Y Combinator Startup School",
+    "provider": "Y Combinator",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Free self-paced online course (about 7 weeks) for early founders with advice from YC partners, a progress tracker and co-founder matching. Open to anyone, so students may join.",
+    "amount": "Free; the page lists no credits or funding",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Self-paced, about 7 weeks at 1 to 2 hours a week"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Sign up on the Startup School site",
+      "Use the weekly progress tracker",
+      "Try YC co-founder matching if you need a partner"
+    ],
+    "url": "https://www.startupschool.org",
+    "checked": "2026-10-23"
   }
 ]

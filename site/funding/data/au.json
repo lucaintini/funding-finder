@@ -388,5 +388,859 @@
     ],
     "url": "https://www.business.gov.au/IGP",
     "checked": "2026-10-22"
+  },
+  {
+    "id": "au-nsw-cicada-innovations",
+    "name": "Cicada Innovations programs",
+    "provider": "Cicada Innovations",
+    "region": "AU-NSW",
+    "kind": "accelerator",
+    "summary": "Deep tech incubator and programs including Stride (NSW-based space, aerospace and defence startups; applications close 22 November 2026) and Elevate (cohort 16 and 17 February 2027). Incubator residency offers labs and offices for deep tech founders. Cost and equity are not stated on the page.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "space",
+      "aerospace",
+      "defence",
+      "deeptech"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-11-22",
+      "note": "Stride cohort applications close 22 November 2026; Elevate runs 16 and 17 February 2027"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the Stride and Elevate pages",
+      "Confirm NSW base and sector fit",
+      "Ask Cicada about cost and equity"
+    ],
+    "url": "https://cicadainnovations.com/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "au-wa-spacecubed-programs",
+    "name": "Spacecubed programs (Plus Eight, Landing Pad)",
+    "provider": "Spacecubed",
+    "region": "AU-WA",
+    "kind": "accelerator",
+    "summary": "Perth based coworking and startup programs: intensive accelerators and talent development, with Plus Eight and Landing Pad named on the page, plus an IdeaStarter Fund and an Alumni Syndicate. Hot desks from AUD 50 per day. Program cost, equity and intake dates are not stated on the home page.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Programs and Capital pages",
+      "Contact Spacecubed for the next Plus Eight intake",
+      "Confirm cost and equity"
+    ],
+    "url": "https://www.spacecubed.com/",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "au-export-finance-small-business-export-loan",
+    "name": "Small Business Export Loan",
+    "provider": "Export Finance Australia",
+    "region": "AU",
+    "kind": "loan",
+    "summary": "Unsecured loan for Australian companies or trusts that export or supply exporters and have traded for at least two years.",
+    "amount": "A$20,000 to A$350,000; indicative fixed rate around 13% p.a. unsecured; A$1,000 application fee at drawdown; no early repayment penalty",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "AU"
+      ],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open for applications through the online eligibility check"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Run the online eligibility check: ACN, 2+ years trading, turnover above A$250,000, direct exporter or in an export supply chain",
+      "A sole trader without an ACN does not qualify as is; a company or trust would be needed",
+      "Prepare six months of bank statements, two years of accountant-prepared financials and a 12-month profit and loss forecast"
+    ],
+    "url": "https://www.exportfinance.gov.au/small-business-export-loan/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-emdg",
+    "name": "Export Market Development Grants (EMDG), Round 4",
+    "provider": "Austrade",
+    "region": "AU",
+    "kind": "grant",
+    "summary": "Matched reimbursement grant for Australian SMEs that are ready to export, grow in existing markets or enter new key markets. Sole traders, partnerships, trusts and companies can apply.",
+    "amount": "Grants per financial year by tier, matched by the applicant's own spending (at least A$20,000 of own money per year); exact tier caps are in the Round 4 Grant Guidelines",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Round 4 is demand driven and closes when funds in each tier are allocated; confirm on Austrade whether it is still open"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check turnover: more than A$100,000 (Tier 1), A$500,000 (Tier 2) or A$1,000,000 (Tier 3) and under A$20 million",
+      "Confirm the product is of substantially Australian origin and read the Round 4 Grant Guidelines",
+      "Email Austrade through austrade.gov.au/EMDG to confirm whether the round is open before spending"
+    ],
+    "url": "https://www.austrade.gov.au/en/how-we-can-help-you/programs-and-services/export-market-development-grants-emdg",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-defence-industry-development-grants",
+    "name": "Defence Industry Development Grants Program",
+    "provider": "Department of Industry, Science and Resources (business.gov.au)",
+    "region": "AU",
+    "kind": "grant",
+    "summary": "Batch-assessed grants for Australian SMEs under 200 employees that grow defence industry capability through exports, security, skilling and sovereign priorities.",
+    "amount": "Up to 50% of eligible costs: Exports A$15,000 to A$250,000; Security A$10,000 to A$100,000; Skilling A$5,000 to A$250,000; Sovereign Industrial Priorities A$50,000 to A$1,000,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "AU"
+      ],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "established"
+    ],
+    "sectors": [
+      "defence",
+      "security",
+      "manufacturing"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-10-31",
+      "note": "Exports and Security batch closes 31 Oct 2026; Skilling and Sovereign close 30 Nov 2026 but may be temporarily closed; new guidelines due about 3 Nov 2026"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the stream is open and read the grant opportunity guidelines",
+      "Needs an incorporated entity with ABN and GST registration; individuals and partnerships are excluded",
+      "Contact industry.grants@defence.gov.au with questions before applying"
+    ],
+    "url": "https://business.gov.au/grants-and-programs/defence-industry-development-grants-program",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-wa-commercialisation-bridge-grant",
+    "name": "Commercialisation Bridge Grant (WA)",
+    "provider": "Government of Western Australia, Department of Energy and Economic Diversification",
+    "region": "AU-WA",
+    "kind": "grant",
+    "summary": "Matched grant for innovation-driven WA small and medium businesses bridging early commercialisation to sustainable growth.",
+    "amount": "A$50,000 to A$250,000 per application; matched cash 35% (25% for regional WA, First Nations founded and female founded businesses)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications currently closed (page updated 8 Dec 2025); the previous round closed 24 Oct 2025; no new round announced"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Email cbg@deed.wa.gov.au or call (08) 6277 3000 to ask when the next round opens",
+      "Hold the matched funding in cash in the business; in-kind does not count",
+      "Read the application information and FAQ before the next round"
+    ],
+    "url": "https://www.wa.gov.au/organisation/department-of-energy-and-economic-diversification/new-industries-and-innovation-fund-commercialisation-bridge-grant",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-spintel-student-entrepreneur-grant",
+    "name": "SpinTel Student Entrepreneur Grant",
+    "provider": "SpinTel",
+    "region": "AU",
+    "kind": "grant",
+    "summary": "Annual single grant for Australian full-time undergraduate students in business, marketing, finance, economics or communications, chosen by essay and statement.",
+    "amount": "A$5,000, one grant, paid by EFT",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [
+        "AU"
+      ],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 round closed 30 June 2026; grant draw 10 Nov 2026. Next round: See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check eligibility: Australian citizen or permanent resident, 18+, full-time undergraduate",
+      "Prepare proof of enrolment, a 500 word essay and a 300 word statement",
+      "Re-check the page for the 2027 opening (the 2026 round opened 1 April)"
+    ],
+    "url": "https://www.spintel.net.au/grant",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-wa-venture-uwa-ventureup",
+    "name": "VentureUp Incubator (Venture UWA)",
+    "provider": "Venture UWA (student-led, University of Western Australia)",
+    "region": "AU-WA",
+    "kind": "grant",
+    "summary": "Equity-free incubator grant stream for early-stage ideas. Only for UWA students (per the StartupWA listing).",
+    "amount": "Grants of up to A$7,500, equity free",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 intake closed 27 April, program started June 2026. Next intake: See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm you are an enrolled UWA student",
+      "Watch the Venture UWA incubator page for the next intake",
+      "Contact Venture UWA through its Contact page"
+    ],
+    "url": "https://www.ventureuwa.com.au/incubator-program",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-wa-venture-uwa-ventureon",
+    "name": "VentureOn Accelerator (Venture UWA)",
+    "provider": "Venture UWA (student-led, University of Western Australia)",
+    "region": "AU-WA",
+    "kind": "accelerator",
+    "summary": "Seven-month accelerator for UWA students, PhD candidates and alumni who already have traction or product-market fit.",
+    "amount": "A$20,000 equity-free funding over 7 months",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Dates not shown on the page. See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm you are a UWA student, PhD candidate or alumnus",
+      "Show traction or product-market fit",
+      "Contact Venture UWA via its Contact page for the next intake"
+    ],
+    "url": "https://www.ventureuwa.com.au/venture-uwa-accelerator-program",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-wa-murdoch-startup-microgrants",
+    "name": "Startup Microgrants (Murdoch University)",
+    "provider": "Murdoch Business School, Murdoch University",
+    "region": "AU-WA",
+    "kind": "grant",
+    "summary": "Microgrants for Murdoch student entrepreneurs to explore and validate business ideas. Murdoch students only. The page I could open confirms only the amount and that it opened 17 June 2026.",
+    "amount": "Up to A$5,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Announced 17 June 2026 as open; the 2026 round has likely closed. Next round: See the official page for the current round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm you are a current Murdoch student",
+      "Watch Murdoch student announcements for the next round",
+      "Ask the Murdoch Business School entrepreneurship team about eligibility"
+    ],
+    "url": "https://announcements.murdoch.edu.au/student/id/11302",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-csiro-on-accelerate",
+    "name": "CSIRO ON Accelerate",
+    "provider": "CSIRO",
+    "region": "AU",
+    "kind": "accelerator",
+    "summary": "Three-month non-dilutive accelerator for research teams commercialising science, with bootcamp, mentoring and a showcase.",
+    "amount": "Free to participate (CSIRO values it at over A$150,000). Non-dilutive funding: A$20,000 to the team's Tech Transfer Officer at the end of Immersion; up to A$80,000 per team from a A$400,000 pool for high performers",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Closed now; rounds usually open once a year around mid-year; bootcamp typically October or November"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Email ON@csiro.au to confirm the next round",
+      "Form a team of three to six with a researcher at an Australian university or public research organisation (or a PhD student or graduate of the last 24 months)",
+      "Be ready to commit the equivalent of one full-time person"
+    ],
+    "url": "https://www.csiro.au/en/work-with-us/funding-programs/innovation-programs/on-accelerate",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "au-csiro-on-prime",
+    "name": "CSIRO ON Prime",
+    "provider": "CSIRO",
+    "region": "AU",
+    "kind": "accelerator",
+    "summary": "Nine-week commercialisation skills program for research teams, no business experience needed, ending in a showcase.",
+    "amount": "No participation fee is stated on the page; travel for required in-person sessions is supported; performance rewards for top teams (amounts: See the official page)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications currently closed; the page says the next intake re-opens later in the year and gives two different intake patterns, so confirm with ON@csiro.au"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Form a team of two to five with at least one researcher at an Australian university or publicly funded research organisation",
+      "Plan about one day a week for nine weeks",
+      "Confirm the next intake with ON@csiro.au or 1300 363 400"
+    ],
+    "url": "https://www.csiro.au/work-with-us/funding-programs/Innovation-programs/ON-Prime",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "au-vic-civvic-labs",
+    "name": "CivVic Labs (LaunchVic)",
+    "provider": "LaunchVic, Victorian Government",
+    "region": "AU-VIC",
+    "kind": "accelerator",
+    "summary": "Six-week immersive bootcamp in Melbourne where early-stage founders tackle government-identified challenges.",
+    "amount": "No participation fee. Teams receive A$12,500 equity-free on completion; two teams get a further A$25,000 seed funding",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Each challenge has its own expression of interest window; the latest one listed closed on Thursday 21 August; the application process takes about two months"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Watch the CivVic Labs page for the next challenge",
+      "Keep the team to three attendees and be able to attend every session in Melbourne",
+      "Prepare an invoice at the end to receive the seed funding"
+    ],
+    "url": "https://launchvic.org/programs/civvic-labs",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "au-nsw-mvp-ventures",
+    "name": "MVP Ventures (NSW)",
+    "provider": "NSW Government",
+    "region": "AU-NSW",
+    "kind": "grant",
+    "summary": "NSW grant for early-stage companies building a product between Technology Readiness Level 3 and 9; sole traders are not eligible.",
+    "amount": "Grant of A$20,000 to A$75,000 depending on stream",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "AU"
+      ],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2025-12-21",
+      "note": "The 2025-26 round closed 21 December 2025 at 5:00 pm; no later round is mentioned on the page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Watch the NSW grants page for a 2026-27 round",
+      "Incorporate in Australia with an ABN, NSW headquarters and turnover of A$400,000 or less",
+      "Plan a 3 to 12 month funded project"
+    ],
+    "url": "https://www.nsw.gov.au/grants-and-funding/mvp-ventures-2025-2026-round-2",
+    "checked": "2026-10-23",
+    "remote": false
+  },
+  {
+    "id": "au-perth-angels",
+    "name": "Perth Angels",
+    "provider": "Perth Angels",
+    "region": "AU-WA",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Perth angel network that invests in early-stage, high-growth, founder-led businesses. Founders apply through the Apply for Funding form on the group's Gust profile. The official page does not mention an application fee.",
+    "amount": "Typically A$100k to A$500k for a 15% to 40% holding",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No deadlines stated on the official page; ask about the next pitch night"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the investment focus on the Perth Angels Entrepreneurs page",
+      "Submit the Apply for Funding form on the Perth Angels Gust profile with a deck",
+      "Ask about the next pitch night and confirm there is no fee"
+    ],
+    "url": "https://perthangels.com/entrepreneurs/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-sydney-angels",
+    "name": "Sydney Angels",
+    "provider": "Sydney Angels",
+    "region": "AU",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Angel group investing in Australian startups with high growth potential. Applications go through Gust and are reviewed in six cycles a year; the top six pitch, and the syndicate can approach the A$10m Sydney Angels Sidecar Fund for about 50% co-investment. The group states it does not charge companies a fee to apply.",
+    "amount": "A$100K to A$1M initial capital sought, pre-money valuation A$1m to A$4m",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "AU"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Cycle 1 applications due 12 Jan 2027, cycle 2 on 2 Mar 2027, cycle 3 on 4 May 2027 (six cycles a year)"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the investment criteria on the Sydney Angels Founders page",
+      "Apply through Gust before the next cycle deadline (12 Jan 2027)",
+      "Have traction evidence ready (sales, pre-sales or letters of intent)"
+    ],
+    "url": "https://www.sydneyangels.net.au/founders",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-brisbane-angels",
+    "name": "Brisbane Angels",
+    "provider": "Brisbane Angels",
+    "region": "AU-QLD",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Brisbane angel group. Founders submit an online application (company overview, financial summary, pitch deck), then a pre-screening pitch, a monthly member pitch night and due diligence. The official page mentions no fee for founders.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Monthly pitch nights; no application deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Use the Apply for Funding link on the Brisbane Angels Founders page",
+      "Prepare an overview, financial summary and pitch deck",
+      "Be ready for a 10 minute pre-screening pitch plus 20 minutes of questions"
+    ],
+    "url": "https://www.brisbaneangels.com.au/founders",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-blackbird",
+    "name": "Blackbird Ventures",
+    "provider": "Blackbird",
+    "region": "AU",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Australian VC that invests from pre-seed. Founders can use the Pitch for investment form or share a deck directly; no warm introduction needed, and it says it will respond within a week. Requires a strong connection to Australia or New Zealand.",
+    "amount": "Has invested from A$30,000 in a seed round up to A$5M in a Series A (currency not stated on the page)",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open form, reply within a week according to the page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Get Investment page",
+      "Submit the Pitch for investment form or share your deck",
+      "Prepare a product roadmap, financial model and cap table"
+    ],
+    "url": "https://www.blackbird.vc/get-investment",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-airtree",
+    "name": "Airtree Ventures",
+    "provider": "Airtree",
+    "region": "AU",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Sydney VC backing Australian and New Zealand founders (and those with an Australian or New Zealand connection) from early stage. Founders submit details through its Submit a pitch form. Cheque sizes are not stated.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open form"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Airtree FAQ",
+      "Submit the Submit a pitch form",
+      "Have an early MVP and a clear problem statement ready"
+    ],
+    "url": "https://www.airtree.vc/faq",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-square-peg",
+    "name": "Square Peg",
+    "provider": "Square Peg Capital",
+    "region": "AU",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "VC backing AI, fintech and SaaS founders across Australia, New Zealand, Southeast Asia and Israel. The Contact page has a Get investment link for founders. Stage and cheque sizes are not stated.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "AI",
+      "fintech",
+      "SaaS"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open contact route"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Use the Get investment link on the Square Peg contact page",
+      "Prepare a deck aligned to AI, fintech or SaaS",
+      "Confirm stage fit with the team"
+    ],
+    "url": "https://www.squarepeg.vc/contact",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "au-folklore-ventures",
+    "name": "Folklore Ventures",
+    "provider": "Folklore",
+    "region": "AU",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Australian and New Zealand tech VC (tagline: from first cheque to forever). The site has a Get funding page and office hours with the team. Cheque sizes are not stated.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Office hours; no deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Get funding page on the Folklore site",
+      "Book an office hours session or email hello@folklore.vc",
+      "Prepare a short deck"
+    ],
+    "url": "https://www.folklore.vc/",
+    "checked": "2026-10-23"
   }
 ]
