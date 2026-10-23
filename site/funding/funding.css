@@ -27,9 +27,8 @@
 .ff-summary-line { font-weight: 700; }
 .ff-group h2, .ff-group summary { font-size: 1.15rem; margin: 22px 0 10px; cursor: default; }
 .ff-group summary { cursor: pointer; font-weight: 700; }
-.ff-card { background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--accent-deep); border-radius: var(--radius-sm); padding: 12px 16px; margin: 10px 0; }
-.ff-card.ff-conditional { border-left-color: #e0a63a; }
-.ff-card.ff-no { border-left-color: var(--border); opacity: 0.8; }
+.ff-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 16px; margin: 10px 0; }
+.ff-card.ff-no { opacity: 0.8; }
 .ff-card h3 { margin: 6px 0 2px; font-size: 1.05rem; }
 .ff-card h3 a { color: var(--text); }
 .ff-card p { margin: 4px 0; font-size: 0.93rem; }
@@ -41,8 +40,13 @@
 .ff-provider, .ff-checked { color: var(--muted); }
 .ff-checked { font-size: 0.8rem !important; }
 .ff-amount { font-weight: 700; }
-.ff-verdict { font-weight: 600; }
-.ff-why { border-left: 3px solid var(--accent); padding-left: 10px; }
+.ff-verdict { font-weight: 600; display: flex; gap: 6px; align-items: baseline; }
+.ff-verdict .ff-ico { flex: none; position: relative; top: 2px; }
+.ff-verdict-eligible .ff-ico { color: var(--accent-deep); }
+.ff-verdict-conditional .ff-ico { color: #b7791f; }
+.ff-verdict-no .ff-ico { color: var(--muted); }
+.ff-kind { display: inline-flex; align-items: center; gap: 5px; }
+.ff-why { background: var(--bg); border-radius: var(--radius-sm); padding: 6px 10px; }
 .ff-steps { margin: 6px 0; padding-left: 20px; font-size: 0.9rem; }
 .ff-foot { font-size: 0.85rem; color: var(--muted); margin-top: 28px; }
 code { font-size: 0.85em; }

@@ -111,13 +111,32 @@
   var byId = {};
   PROGRAMS.forEach(function (p) { byId[p.id] = p; });
 
+  // Lucide icons (ISC licence, lucide.dev, lucide-static 0.460.0), drawn with DOM calls so the
+  // page needs no icon font or network. 23 Oct 2026: emoji and the coloured left stripe were
+  // replaced on a visitor's feedback.
+  var ICONS = {"grant":[["rect",{"width":"20","height":"12","x":"2","y":"6","rx":"2"}],["circle",{"cx":"12","cy":"12","r":"2"}],["path",{"d":"M6 12h.01M18 12h.01"}]],"prize":[["path",{"d":"M6 9H4.5a2.5 2.5 0 0 1 0-5H6"}],["path",{"d":"M18 9h1.5a2.5 2.5 0 0 0 0-5H18"}],["path",{"d":"M4 22h16"}],["path",{"d":"M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"}],["path",{"d":"M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"}],["path",{"d":"M18 2H6v7a6 6 0 0 0 12 0V2Z"}]],"credits":[["path",{"d":"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"}]],"accelerator":[["path",{"d":"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"}],["path",{"d":"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"}],["path",{"d":"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"}],["path",{"d":"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"}]],"loan":[["line",{"x1":"3","x2":"21","y1":"22","y2":"22"}],["line",{"x1":"6","x2":"6","y1":"18","y2":"11"}],["line",{"x1":"10","x2":"10","y1":"18","y2":"11"}],["line",{"x1":"14","x2":"14","y1":"18","y2":"11"}],["line",{"x1":"18","x2":"18","y1":"18","y2":"11"}],["polygon",{"points":"12 2 20 7 4 7"}]],"equity":[["path",{"d":"m11 17 2 2a1 1 0 1 0 3-3"}],["path",{"d":"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"}],["path",{"d":"m21 3 1 11h-2"}],["path",{"d":"M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"}],["path",{"d":"M3 4h8"}]],"tax":[["path",{"d":"M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"}],["path",{"d":"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"}],["path",{"d":"M12 17.5v-11"}]],"eligible":[["path",{"d":"M20 6 9 17l-5-5"}]],"conditional":[["circle",{"cx":"12","cy":"12","r":"10"}],["path",{"d":"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"}],["path",{"d":"M12 17h.01"}]],"no":[["path",{"d":"M18 6 6 18"}],["path",{"d":"m6 6 12 12"}]]};
+  function icon(name) {
+    var NS = "http://www.w3.org/2000/svg", svg = document.createElementNS(NS, "svg");
+    var base = { viewBox: "0 0 24 24", width: "14", height: "14", fill: "none", stroke: "currentColor",
+      "stroke-width": "2", "stroke-linecap": "round", "stroke-linejoin": "round", "aria-hidden": "true", "class": "ff-ico" };
+    Object.keys(base).forEach(function (k) { svg.setAttribute(k, base[k]); });
+    (ICONS[name] || []).forEach(function (d) {
+      var e = document.createElementNS(NS, d[0]);
+      Object.keys(d[1]).forEach(function (k) { e.setAttribute(k, d[1][k]); });
+      svg.appendChild(e);
+    });
+    return svg;
+  }
+
   function card(row) {
     var p = row.p, v = row.v;
     var c = el("article", "ff-card ff-" + v.status);
     c.dataset.id = p.id;
     var head = el("div", "ff-card-head");
-    head.appendChild(el("span", "ff-kind ff-kind-" + p.kind,
-      p.investor_type ? INVESTOR_LABEL[p.investor_type] : KIND_LABEL[p.kind]));
+    var kind = el("span", "ff-kind ff-kind-" + p.kind,
+      p.investor_type ? INVESTOR_LABEL[p.investor_type] : KIND_LABEL[p.kind]);
+    kind.insertBefore(icon(p.kind), kind.firstChild);
+    head.appendChild(kind);
     head.appendChild(el("span", "ff-region", p.region === "GLOBAL" ? "Worldwide" : p.region));
     if (v.days !== null && v.days >= 0) head.appendChild(el("span", "ff-days" + (v.days <= 30 ? " ff-soon" : ""), v.days + " days left"));
     else if (p.deadline.type === "rolling") head.appendChild(el("span", "ff-days", "Open all year"));
@@ -131,10 +150,11 @@
     c.appendChild(el("p", "ff-provider", p.provider));
     c.appendChild(el("p", "ff-amount", p.amount + (p.equity ? " (takes equity)" : "")));
     c.appendChild(el("p", "ff-summary", p.summary));
-    var verdict = el("p", "ff-verdict");
-    verdict.textContent = v.status === "eligible" ? "You look eligible."
+    var verdict = el("p", "ff-verdict ff-verdict-" + v.status);
+    verdict.appendChild(icon(v.status));
+    verdict.appendChild(document.createTextNode(v.status === "eligible" ? "You look eligible."
       : v.status === "conditional" ? "Eligible if: " + v.conditions.join("; ") + "."
-      : "Not for you now: " + v.reasons.join("; ") + ".";
+      : "Not for you now: " + v.reasons.join("; ") + "."));
     c.appendChild(verdict);
     var stack = (p.stacks_with || []).filter(function (id) { return byId[id]; });
     if (stack.length) c.appendChild(el("p", "ff-stack", "Can be combined with: " + stack.map(function (id) { return byId[id].name; }).join(", ")));
