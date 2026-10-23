@@ -50,6 +50,8 @@ REGION = re.compile(r"^(GLOBAL|EU|[A-Z]{2}(-[A-Z0-9]{2,3})?)$")
 COUNTRY = re.compile(r"^[A-Z]{2}$")
 ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 DASHES = re.compile("[–—]")
+CLOSED_NOTE = re.compile(r"\bclosed\b|ceased|exhausted|expired", re.I)
+REOPENS = re.compile(r"opens|reopen", re.I)
 # Luca, 23 Oct 2026: keep the list updated every 3 months.
 MAX_AGE_DAYS = 92
 # Investors (23 Oct 2026): only ones with an open, official application route.
@@ -135,6 +137,10 @@ def check_record(r: dict, today: dt.date) -> list[str]:
     # no next date; the finder shows it with a condition instead of "eligible".
     if d.get("type") not in ("rolling", "date", "cohort", "closed"):
         out.append("deadline.type must be rolling, date, cohort or closed")
+    elif d["type"] == "cohort" and CLOSED_NOTE.search(d.get("note", "")) and not REOPENS.search(d.get("note", "")):
+        # 23 Oct 2026: 27 records said "closed" in the note but were typed cohort, so they
+        # ranked as "You look eligible" at the top of the results.
+        out.append('deadline.note says the round is closed: set deadline.type to "closed"')
     elif d["type"] == "closed" and not d.get("note"):
         out.append("deadline.note must say what the page says when type is closed")
     elif d["type"] == "date":
@@ -205,6 +211,7 @@ def self_test() -> int:
         "search summary": {**GOOD, "url": "http://blog.example.com"},
         "stale": {**GOOD, "checked": "2026-01-01"},
         "bad kind": {**GOOD, "kind": "vibes"},
+        "closed round typed cohort": {**GOOD, "deadline": {"type": "cohort", "note": "2026 round closed 30 March"}},
         "dash": {**GOOD, "summary": "Grant \u2014 big"},
         "no steps": {**GOOD, "next_steps": []},
         "bad country": {**GOOD, "applicant": {**GOOD["applicant"], "residence": ["Italy"]}},

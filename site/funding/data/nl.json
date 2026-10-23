@@ -396,7 +396,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 budget is exhausted; new funding from January 2027"
     },
     "stacks_with": [],

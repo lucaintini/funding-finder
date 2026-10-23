@@ -493,7 +493,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 edition (XIX) closed 4 Sept 2026; the page is marked expired. Next edition: See the official page for the current round"
     },
     "stacks_with": [],

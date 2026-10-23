@@ -348,7 +348,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Spring 2027 intake closed 11 October; check for the next cohort"
     },
     "stacks_with": [],
@@ -714,7 +714,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Currently closed; the last intake ran 17 to 30 Nov 2025; sign up to the Innovate BC Insider newsletter for future calls"
     },
     "stacks_with": [],

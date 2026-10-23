@@ -64,7 +64,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Current call closed; next date not stated"
     },
     "stacks_with": [],
@@ -183,7 +183,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Applications were closed when checked; the page gives no dates, watch for the next call"
     },
     "stacks_with": [],
@@ -222,7 +222,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Applications were closed when checked; the page gives no dates"
     },
     "stacks_with": [],

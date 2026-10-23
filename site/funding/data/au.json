@@ -26,7 +26,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 round closed 30 March 2026; no 2027 round date announced yet"
     },
     "stacks_with": [],
@@ -65,7 +65,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 round closed 27 May 2026; the next round is not announced. Ceremony 2 November 2026"
     },
     "stacks_with": [],
@@ -178,7 +178,7 @@
       "ai"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 applications closed 19 July 2026; the programme runs each year. Register interest for the next round"
     },
     "stacks_with": [],
@@ -626,7 +626,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Applications currently closed (page updated 8 Dec 2025); the previous round closed 24 Oct 2025; no new round announced"
     },
     "stacks_with": [],
@@ -668,7 +668,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 round closed 30 June 2026; grant draw 10 Nov 2026. Next round: See the official page for the current round"
     },
     "stacks_with": [],
@@ -708,7 +708,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 intake closed 27 April, program started June 2026. Next intake: See the official page for the current round"
     },
     "stacks_with": [],
@@ -787,7 +787,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Announced 17 June 2026 as open; the 2026 round has likely closed. Next round: See the official page for the current round"
     },
     "stacks_with": [],
@@ -827,7 +827,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Closed now; rounds usually open once a year around mid-year; bootcamp typically October or November"
     },
     "stacks_with": [],
@@ -908,7 +908,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Each challenge has its own expression of interest window; the latest one listed closed on Thursday 21 August; the application process takes about two months"
     },
     "stacks_with": [],

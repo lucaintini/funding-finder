@@ -384,7 +384,7 @@
       "software"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Regional cohorts open yearly; the 2026 rounds have closed, watch the regional pages for 2027 windows"
     },
     "stacks_with": [],
@@ -575,7 +575,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Batch 36 applications closed 11 October; that batch runs 30 November 2026 to 9 April 2027. Check the page for the next batch"
     },
     "stacks_with": [],
@@ -1166,7 +1166,7 @@
       "social impact"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 round closed; the page gives no dates for future cycles"
     },
     "stacks_with": [],

@@ -66,7 +66,7 @@
       "ai"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Yearly call. The 2026 call closed 9 June 2026 at 17:00 CET"
     },
     "stacks_with": [],
@@ -261,7 +261,7 @@
       "health"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "Closed today; watch for new calls"
     },
     "stacks_with": [],
@@ -450,7 +450,7 @@
       "any"
     ],
     "deadline": {
-      "type": "cohort",
+      "type": "closed",
       "note": "2026 applications closed (due 17 May 2026 per the page). Next edition to be announced. See the official page for the current round"
     },
     "stacks_with": [],

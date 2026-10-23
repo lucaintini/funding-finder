@@ -848,7 +848,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Closed now; rounds usually open once a year around mid-year; bootcamp typically October or November"
   },
   "stacks_with": [],
@@ -1255,7 +1255,7 @@ window.FUNDING_PROGRAMS = [
    "ai"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 applications closed 19 July 2026; the programme runs each year. Register interest for the next round"
   },
   "stacks_with": [],
@@ -1638,7 +1638,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 round closed 30 June 2026; grant draw 10 Nov 2026. Next round: See the official page for the current round"
   },
   "stacks_with": [],
@@ -1798,7 +1798,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Each challenge has its own expression of interest window; the latest one listed closed on Thursday 21 August; the application process takes about two months"
   },
   "stacks_with": [],
@@ -1839,7 +1839,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Applications currently closed (page updated 8 Dec 2025); the previous round closed 24 Oct 2025; no new round announced"
   },
   "stacks_with": [],
@@ -2004,7 +2004,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 round closed 30 March 2026; no 2027 round date announced yet"
   },
   "stacks_with": [],
@@ -2043,7 +2043,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 round closed 27 May 2026; the next round is not announced. Ceremony 2 November 2026"
   },
   "stacks_with": [],
@@ -2081,7 +2081,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Announced 17 June 2026 as open; the 2026 round has likely closed. Next round: See the official page for the current round"
   },
   "stacks_with": [],
@@ -2202,7 +2202,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 intake closed 27 April, program started June 2026. Next intake: See the official page for the current round"
   },
   "stacks_with": [],
@@ -2414,7 +2414,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Spring 2027 intake closed 11 October; check for the next cohort"
   },
   "stacks_with": [],
@@ -2741,7 +2741,7 @@ window.FUNDING_PROGRAMS = [
   "host_in": [],
   "mobility": "Holding the award outside Canada (up to 30% of awards) needs Canadian citizenship, permanent residence or protected status and a Canadian doctorate.",
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Round closed: CIHR 16 September, SSHRC 10 September, NSERC 17 October; next dates not on the page"
   },
   "stacks_with": [],
@@ -3097,7 +3097,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Currently closed; the last intake ran 17 to 30 Nov 2025; sign up to the Innovate BC Insider newsletter for future calls"
   },
   "stacks_with": [],
@@ -3594,7 +3594,7 @@ window.FUNDING_PROGRAMS = [
   ],
   "mobility": "",
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "The October 2026 competition closed on 1 October; next date not on the page"
   },
   "stacks_with": [],
@@ -3958,7 +3958,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Current call closed; next date not stated"
   },
   "stacks_with": [],
@@ -3996,7 +3996,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Applications were closed when checked; the page gives no dates, watch for the next call"
   },
   "stacks_with": [],
@@ -4035,7 +4035,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Applications were closed when checked; the page gives no dates"
   },
   "stacks_with": [],
@@ -4728,7 +4728,7 @@ window.FUNDING_PROGRAMS = [
    "ai"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Yearly call. The 2026 call closed 9 June 2026 at 17:00 CET"
   },
   "stacks_with": [],
@@ -4803,7 +4803,7 @@ window.FUNDING_PROGRAMS = [
    "health"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Closed today; watch for new calls"
   },
   "stacks_with": [],
@@ -4869,7 +4869,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 applications closed (due 17 May 2026 per the page). Next edition to be announced. See the official page for the current round"
   },
   "stacks_with": [],
@@ -6476,7 +6476,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Batch 36 applications closed 11 October; that batch runs 30 November 2026 to 9 April 2027. Check the page for the next batch"
   },
   "stacks_with": [],
@@ -6780,7 +6780,7 @@ window.FUNDING_PROGRAMS = [
    "social impact"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 round closed; the page gives no dates for future cycles"
   },
   "stacks_with": [],
@@ -7082,7 +7082,7 @@ window.FUNDING_PROGRAMS = [
    "software"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Regional cohorts open yearly; the 2026 rounds have closed, watch the regional pages for 2027 windows"
   },
   "stacks_with": [],
@@ -8941,7 +8941,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 edition (XIX) closed 4 Sept 2026; the page is marked expired. Next edition: See the official page for the current round"
   },
   "stacks_with": [],
@@ -10331,7 +10331,7 @@ window.FUNDING_PROGRAMS = [
   ],
   "mobility": "",
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "Calls run in packages during the year; all 2026 packages are closed. See the official page"
   },
   "stacks_with": [],
@@ -10655,7 +10655,7 @@ window.FUNDING_PROGRAMS = [
    "any"
   ],
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "2026 budget is exhausted; new funding from January 2027"
   },
   "stacks_with": [],
@@ -11506,7 +11506,7 @@ window.FUNDING_PROGRAMS = [
   "host_in": [],
   "mobility": "The award is held outside the United States.",
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "The 2027-2028 application is closed; the page gives no date for the next one"
   },
   "stacks_with": [],
@@ -11846,7 +11846,7 @@ window.FUNDING_PROGRAMS = [
   ],
   "mobility": "",
   "deadline": {
-   "type": "cohort",
+   "type": "closed",
    "note": "The 2026 round closed 19 to 23 October by field; next dates not yet on the page"
   },
   "stacks_with": [],
