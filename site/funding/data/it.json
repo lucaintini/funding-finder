@@ -1,0 +1,306 @@
+[
+  {
+    "id": "it-smartstart-italia",
+    "name": "Smart&Start Italia",
+    "provider": "Invitalia for the Italian Ministry of Enterprises and Made in Italy (MIMIT)",
+    "region": "IT",
+    "kind": "loan",
+    "summary": "Zero-interest loan for innovative startups with high technology content. In the southern regions, 30% of the loan is non-repayable.",
+    "amount": "Zero-interest loan for 80% of eligible costs (90% if the team is all women and or under 36), for plans of EUR 100,000 to EUR 1,500,000; 30% non-repayable in southern regions",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the official Invitalia page and check eligibility",
+      "Write a plan of EUR 100,000 or more with software, staff and services costs",
+      "If approved, incorporate as a startup innovativa within 30 days"
+    ],
+    "url": "https://www.invitalia.it/incentivi-e-strumenti/smartstart-italia",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "it-nidi-puglia",
+    "name": "NIDI, New Business Initiatives Fund",
+    "provider": "Regione Puglia, managed by Puglia Sviluppo",
+    "region": "IT-75",
+    "kind": "grant",
+    "summary": "Grants and repayable loans for people starting a new business in Puglia, with tracks for young people, women, the unemployed and new tourism businesses.",
+    "amount": "Mix of non-repayable grant and repayable loan. Amounts vary by track, see official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the category you fall under on the official page",
+      "Ask Puglia Sviluppo whether a sole trader Australian ABN affects eligibility",
+      "Apply online through Sistema Puglia"
+    ],
+    "url": "https://www.regione.puglia.it/web/competitivita-e-innovazione/-/nidi-fondo-di-sostegno-per-le-nuove-iniziative-d-impresa",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "it-resto-al-sud-20",
+    "name": "Resto al Sud 2.0",
+    "provider": "Invitalia for the Italian Government",
+    "region": "IT",
+    "kind": "grant",
+    "summary": "Non-repayable vouchers and grants for young people aged 18 to 34 who start a business in the southern regions.",
+    "amount": "Voucher up to EUR 40,000 (raisable to EUR 50,000); 75% grant up to EUR 120,000; 70% grant from EUR 120,000 to EUR 200,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": 34
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the age and employment conditions on the official page",
+      "Confirm the business will operate in an eligible southern region",
+      "Apply online with SPID, CNS or CIE and a certified email (PEC)"
+    ],
+    "url": "https://www.invitalia.it/incentivi-e-strumenti/resto-al-sud-20",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "it-marchi-2026",
+    "name": "Marchi+ 2026",
+    "provider": "Italian Ministry of Enterprises and Made in Italy (MIMIT)",
+    "region": "IT",
+    "kind": "grant",
+    "summary": "Grants that cover part of the cost of registering a trademark abroad, at the EU Office (EUIPO) or through WIPO.",
+    "amount": "80% of eligible costs, up to EUR 6,000 per EU trademark (EUIPO); 90% of eligible costs, up to EUR 9,000 per international mark (WIPO)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications open 3 Dec 2026 at 12:00 CET; first come, first served"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Register the company in Italy first, since the applicant must have a registered and operating office in Italy",
+      "Hold the trademark and have the EU or WIPO filing dated after 1 June 2023",
+      "Apply on the Marchi+ 2026 portal when it opens"
+    ],
+    "url": "https://www.mimit.gov.it/it/incentivi/marchi-2026",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "it-fondo-impresa-femminile",
+    "name": "Fondo Impresa Femminile",
+    "provider": "Invitalia for the Italian Ministry of Enterprises and Made in Italy (MIMIT)",
+    "region": "IT",
+    "kind": "grant",
+    "summary": "Loans and grants for businesses led by women in Italy.",
+    "amount": "Loan and grant on eligible costs; project caps depend on company age, see official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "women-led"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the female ownership and board thresholds on the official page",
+      "Confirm that a woman holds the required share of the business",
+      "Apply through Invitalia"
+    ],
+    "url": "https://www.invitalia.it/incentivi-e-strumenti/fondo-impresa-femminile/chi-si-rivolge",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "it-zes-unica-tax-credit",
+    "name": "ZES Unica Investment Tax Credit (ZES 2026)",
+    "provider": "Italian Revenue Agency (Agenzia delle Entrate)",
+    "region": "IT",
+    "kind": "tax",
+    "summary": "Tax credit for investing in machinery, plants and property in the Southern special economic zone. Software development is not the target.",
+    "amount": "Tax credit on investments of at least EUR 200,000 per project (capped at EUR 100 million per project); 2026 budget EUR 2.3 billion",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2027-01-17"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the official page for the 2026 communication rules",
+      "Confirm the investment is at least EUR 200,000 and sited in the ZES",
+      "Ask an accountant before relying on the credit"
+    ],
+    "url": "https://www.agenziaentrate.gov.it/portale/credito-d-imposta-per-investimenti-nella-zes-unica-zes-2026-/che-cos-imprese",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "it-patent-box",
+    "name": "Patent Box (110% super-deduction)",
+    "provider": "Italian Revenue Agency (Agenzia delle Entrate)",
+    "region": "IT",
+    "kind": "tax",
+    "summary": "Extra deduction on R&D costs for copyright-protected software, patents and designs. Software must be registered to qualify.",
+    "amount": "R&D costs increased by 110% for income tax and regional production tax, see official page for the conditions",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "software"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Register the software in the SIAE public register",
+      "Keep R&D cost records year by year",
+      "Ask a tax adviser how it applies once there is taxable income"
+    ],
+    "url": "https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/patent-box/i-benefici",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "it-impatriati",
+    "name": "Impatriati Regime (returning workers tax relief)",
+    "provider": "Italian Revenue Agency (Agenzia delle Entrate)",
+    "region": "IT",
+    "kind": "tax",
+    "summary": "Half of employment or professional income earned in Italy is exempt from income tax for several years, for people who move their tax residence to Italy.",
+    "amount": "50% of qualifying employment or professional income exempt, up to EUR 600,000 a year; 6 or 7 tax years, or 9 or 10 with a home purchase",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the residence and high-qualification conditions on the official page",
+      "Note that business income is excluded",
+      "Ask a tax adviser before moving tax residence"
+    ],
+    "url": "https://www.agenziaentrate.gov.it/portale/lavoratori-impatriati-209-2023/infogen-lavoratori-impatriati-209-2023-cittadini",
+    "checked": "2026-10-22"
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "au-wa-innovation-booster-grant",
+    "name": "Innovation Booster Grant (WA)",
+    "provider": "Government of Western Australia, Department of Energy and Economic Diversification",
+    "region": "AU-WA",
+    "kind": "grant",
+    "summary": "Matched grant for WA-based early-stage businesses to buy external services for pre-revenue product development, testing, IP and commercialisation.",
+    "amount": "Up to A$50,000 grant per application; recipient must match 20% in demonstrated cash (15% for regional, First Nations-founded and female-founded businesses); matched cash cannot include other WA government money",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 round closed 30 March 2026; no 2027 round date announced yet"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Email ibg@deed.wa.gov.au to confirm the next round dates and whether a clinician review counts as eligible spend",
+      "Confirm the business is registered in WA with an ABN and will stay WA-based for three years",
+      "Do not pay suppliers before the Financial Assistance Agreement is signed; those costs are not reimbursable"
+    ],
+    "url": "https://www.wa.gov.au/organisation/department-of-energy-and-economic-diversification/new-industries-fund-innovation-booster-grant",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-wa-innovators-of-the-year",
+    "name": "WA Innovators of the Year, Community Benefit and Wellbeing Award",
+    "provider": "Government of Western Australia, Department of Energy and Economic Diversification",
+    "region": "AU-WA",
+    "kind": "prize",
+    "summary": "Annual WA innovation award for an emerging innovation with a clear benefit to WA communities and wellbeing.",
+    "amount": "A$30,000 for the Community Benefit and Wellbeing winner (excluding GST); finalists receive video, photo and accelerator access",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 round closed 27 May 2026; the next round is not announced. Ceremony 2 November 2026"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the 2027 applicant guidelines for entity rules; the 2026 page does not say whether sole traders can enter",
+      "Watch the program page for the 2027 opening date"
+    ],
+    "url": "https://www.wa.gov.au/organisation/department-of-energy-and-economic-diversification/wa-innovators-of-the-year-2026-application-information",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-curtin-ignition",
+    "name": "Curtin Ignition",
+    "provider": "Curtin University",
+    "region": "AU-WA",
+    "kind": "accelerator",
+    "summary": "One-week intensive in Bentley, WA, that helps people test and prepare a business idea for the commercial market.",
+    "amount": "A$3,750 fee per person (ex GST) before scholarships; fully funded scholarships are offered each year",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Expressions of interest for 2027 are open now; 2027 dates to be announced"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Submit the 2027 expression of interest form on the Curtin Ignition page",
+      "Ask about fully funded scholarships when the 2027 round opens"
+    ],
+    "url": "https://www.curtin.edu.au/study/professional-development/executive-education/ignition/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-curtin-accelerate",
+    "name": "Curtin Accelerate",
+    "provider": "Curtin University",
+    "region": "AU-WA",
+    "kind": "accelerator",
+    "summary": "Free 12-week accelerator for validated ventures with a Curtin connection, with an equity-free grant and a route to investment.",
+    "amount": "A$5,000 equity-free grant on reaching the next milestone; access to a A$500,000 Melt Ventures pool, with investment possible",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-11-02"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm a team member has a Curtin connection (alumnus, researcher, staff, student or Curtin Ignition alumnus)",
+      "Apply before 7:00am Monday 2 November 2026 AWST",
+      "Ask Accelerate@curtin.edu.au for the equity terms of any Melt Ventures investment"
+    ],
+    "url": "https://www.curtin.edu.au/engage/entrepreneurs/accelerate/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-google-for-startups-accelerator-anz",
+    "name": "Google for Startups Accelerator: Australia and New Zealand",
+    "provider": "Google",
+    "region": "AU",
+    "kind": "accelerator",
+    "summary": "Equity-free 10-week accelerator with mentoring and AI support for seed to Series A startups building AI or ML products.",
+    "amount": "Varies, see official page (equity-free programme support)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU",
+        "NZ"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 applications closed 19 July 2026; the programme runs each year. Register interest for the next round"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Register interest on the programme page",
+      "Only apply if the CEO and a CTO or technical lead can commit to the required sessions"
+    ],
+    "url": "https://startup.google.com/programs/accelerator/australia-new-zealand/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-startmate-accelerator",
+    "name": "Startmate Accelerator",
+    "provider": "Startmate",
+    "region": "AU",
+    "kind": "accelerator",
+    "summary": "Remote-first accelerator for Australian and New Zealand founders, with 14 weeks of support and in-person weeks.",
+    "amount": "A$120,000 for 8% at an A$1.5 million post-money valuation (for founders who have not raised before); SAFE or priced equity at your choice",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-11-01"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Apply before 11:59pm AEDT Sunday 1 November 2026",
+      "Confirm that at least one founder can go full time for the program, which runs 1 February to 7 May 2027",
+      "Decide on equity dilution before applying"
+    ],
+    "url": "https://startmate.com/accelerator",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-antler-australia",
+    "name": "Antler Australia",
+    "provider": "Antler",
+    "region": "AU",
+    "kind": "accelerator",
+    "summary": "Eight-week in-person residency that invests in pre-seed founding teams in Australia.",
+    "amount": "Varies, see official page (equity investment)",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Residencies run twice a year, in February and July"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Note that Antler does not invest in solo founders; a complementary co-founder is needed",
+      "Check the cohort start dates page before applying"
+    ],
+    "url": "https://antler.co/residency/australia",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-rd-tax-incentive",
+    "name": "Research and Development Tax Incentive",
+    "provider": "Australian Government, Australian Taxation Office and AusIndustry",
+    "region": "AU",
+    "kind": "tax",
+    "summary": "Tax offset for eligible research and development spending by Australian companies.",
+    "amount": "Varies, see official page (refundable offset on eligible R&D spend; the rate depends on turnover)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "AU"
+      ],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "software",
+      "health",
+      "ai",
+      "deeptech"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Claimed through the annual income tax return; activities must be registered in time (see official page)"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the eligibility page; the official page describes the program for companies",
+      "Talk to a registered tax agent before forming a company to claim it",
+      "Note that the rules change from 1 July 2028 as announced in the 2026 to 2027 Budget"
+    ],
+    "url": "https://business.gov.au/Grants-and-Programs/Research-and-Development-Tax-Incentive",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-birchal-csf",
+    "name": "Birchal Crowd-Sourced Funding (CSF)",
+    "provider": "Birchal",
+    "region": "AU",
+    "kind": "equity",
+    "summary": "Equity crowdfunding platform for Australian unlisted companies that want to raise from a wide base of investors.",
+    "amount": "Up to A$5 million in any 12 months; fees of A$2,000 (EOI) and A$5,000 (administration), plus a success fee of 5% to 8%",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "AU"
+      ],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Form an unlisted public or proprietary company first; assets and turnover must be under A$25 million",
+      "Plan 10 to 12 weeks for onboarding, the expression-of-interest campaign and the offer"
+    ],
+    "url": "https://www.birchal.com/raise-capital",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "au-industry-growth-program",
+    "name": "Industry Growth Program",
+    "provider": "Australian Government, Department of Industry, Science and Resources",
+    "region": "AU",
+    "kind": "grant",
+    "summary": "Advisory service and grants for Australian companies with an innovation in a National Reconstruction Fund priority area.",
+    "amount": "Grants of A$50,000 to A$250,000 (early-stage commercialisation) and A$100,000 to A$5 million (commercialisation and growth), available after an Advisory Service report",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "AU"
+      ],
+      "citizenship": [],
+      "residence": [
+        "AU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Paused to new applications; check the page for reopening"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the program page for reopening",
+      "Confirm an ABN, GST registration and under A$20 million turnover over three years, which need an incorporated company"
+    ],
+    "url": "https://www.business.gov.au/IGP",
+    "checked": "2026-10-22"
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "id": "ca-new-ventures-bc",
+    "name": "New Ventures BC Competition",
+    "provider": "Innovate BC (Province of British Columbia)",
+    "region": "CA-BC",
+    "kind": "prize",
+    "summary": "A yearly competition for early technology ventures with a BC resident on the team. Prizes are cash, with no equity taken.",
+    "amount": "CAD 80,000 cash first prize, CAD 45,000 second, CAD 25,000 third (in packages worth more), CAD 10,000 specialty awards; 2026 figures subject to change",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Annual competition; the 2026 round finished in September 2026; the 2027 round is not yet announced"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the 2027 call on the official site when it opens",
+      "Confirm a team member is a BC resident",
+      "Keep non-grant funding raised under CAD 1 million and the company under 5 years old",
+      "Pay the CAD 200 entry fee only with Luca's approval"
+    ],
+    "url": "https://www.newventuresbc.com/competition/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "ca-creative-destruction-lab",
+    "name": "Creative Destruction Lab (CDL)",
+    "provider": "Creative Destruction Lab (non-profit, Rotman School of Management origin)",
+    "region": "CA",
+    "kind": "accelerator",
+    "summary": "A non-profit program of mentoring for early science and technology ventures, with Health and AI streams. There are no fees and no equity, but the program needs your time at scheduled sessions.",
+    "amount": "No fees, no equity; mentoring from investor-mentors, with no guaranteed investment",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "ai",
+      "health"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Applications are open for the 2026/27 program year on the official site; decisions come in early September"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Apply to the AI or Health stream on the CDL portal",
+      "Block the scheduled session days in the calendar (the FAQ gives both four and five)",
+      "Confirm the dates in the CDL application portal"
+    ],
+    "url": "https://creativedestructionlab.com/faq/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "ca-mitacs-accelerate-entrepreneur",
+    "name": "Mitacs Accelerate Entrepreneur",
+    "provider": "Mitacs (Canadian non-profit research network)",
+    "region": "CA",
+    "kind": "grant",
+    "summary": "Funds a research intern from a Canadian university to work on a startup, with the company paying half. The startup must be incorporated and housed in an approved incubator.",
+    "amount": "CAD 15,000 per 4-month internship: CAD 7,500 from Mitacs and CAD 7,500 from the company",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Incorporate a Canadian company (sole proprietorships are not eligible)",
+      "Place the startup in an approved incubator for the project",
+      "Find a Canadian university supervisor and intern",
+      "Pay the CAD 7,500 company share only with Luca's approval"
+    ],
+    "url": "https://www.mitacs.ca/en/programs/accelerate-entrepreneur",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "ca-futurpreneur",
+    "name": "Futurpreneur Canada startup loan",
+    "provider": "Futurpreneur Canada (non-profit, with BDC support)",
+    "region": "CA",
+    "kind": "loan",
+    "summary": "A startup loan and mentoring for young Canadian founders who live in Canada and run a young business.",
+    "amount": "Varies, see official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": 39
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the age range (18 to 39 at application) on the official page",
+      "Confirm you are a Canadian citizen or permanent resident living in Canada",
+      "Check the loan amount for the offering you qualify for"
+    ],
+    "url": "https://futurpreneur.ca/en/eligibility/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "ca-irap",
+    "name": "NRC IRAP (Industrial Research Assistance Program)",
+    "provider": "National Research Council Canada (NRC), Government of Canada",
+    "region": "CA",
+    "kind": "grant",
+    "summary": "Non-repayable support and advisory help for incorporated Canadian SMEs developing technology in Canada. Sole proprietorships and partnerships are not eligible.",
+    "amount": "Non-repayable contributions set case by case; see official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [
+      "ca-sred"
+    ],
+    "next_steps": [
+      "Incorporate a profit-oriented company in Canada with 500 or fewer employees",
+      "Put the technical work on a Canadian payroll",
+      "Call IRAP (1-877-994-4727) to be assigned an Industrial Technology Advisor"
+    ],
+    "url": "https://nrc.canada.ca/en/support-technology-innovation/about-nrc-industrial-research-assistance-program",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "ca-sred",
+    "name": "SR&ED (Scientific Research and Experimental Development) tax incentive",
+    "provider": "Canada Revenue Agency (CRA), Government of Canada",
+    "region": "CA",
+    "kind": "tax",
+    "summary": "A federal tax credit for eligible research and development work in Canada. Canadian-controlled private corporations get a refundable credit; other claimants get a non-refundable credit.",
+    "amount": "35 percent refundable credit on up to CAD 6 million of eligible spending a year for CCPCs (tax years starting after 15 Dec 2024); 15 percent non-refundable for other corporations and individuals",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "CA"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "software",
+      "ai"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [
+      "ca-irap"
+    ],
+    "next_steps": [
+      "Keep time and cost records of the eligible R&D work in Canada",
+      "Claim with the income tax return after the year end",
+      "Consider a BC corporation (a CCPC) for the 35 percent refundable rate"
+    ],
+    "url": "https://www.canada.ca/en/revenue-agency/services/scientific-research-experimental-development-tax-incentive-program/sred-claim/investment-tax-credit.html",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "ca-grand-challenges-nexa-lighthouse",
+    "name": "Grand Challenges Canada, Nexa Lighthouse",
+    "provider": "Grand Challenges Canada with AVPN",
+    "region": "CA",
+    "kind": "grant",
+    "summary": "Transition to Scale funding for proven climate and health innovations that will expand across eligible countries in Asia and the Pacific. Applicant organisations can be incorporated in any country. Full eligibility is in the funding opportunity document.",
+    "amount": "About US$250,000 to US$2,000,000 per innovation",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "health",
+      "cleantech"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-11-17"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the funding opportunity document and the Appendix B country list",
+      "Join the information session on 2 Nov 2026",
+      "Submit through the Fluxx portal by 17 Nov 2026, 2:00 pm ET (7:00 pm UTC, 3:00 am AWST on 18 Nov)"
+    ],
+    "url": "https://www.grandchallenges.ca/funding-opportunity-nexa-lighthouse/",
+    "checked": "2026-10-22"
+  }
+]

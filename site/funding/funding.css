@@ -1,0 +1,53 @@
+/* Funding finder (lucaintini.ai/funding). Uses the brand.css tokens. */
+.ff { max-width: 860px; }
+.ff-lead { font-size: 1.05rem; color: var(--muted); }
+.ff-privacy { background: var(--surface); border: 1px solid var(--accent-deep); border-radius: var(--radius); padding: 14px 18px; margin: 18px 0; }
+.ff-privacy h2 { margin: 0 0 6px; font-size: 1.05rem; }
+.ff-privacy p { margin: 6px 0; font-size: 0.93rem; color: var(--muted); }
+.ff-privacy strong { color: var(--text); }
+.ff-legal { font-style: italic; }
+.ff-form { display: grid; gap: 14px; margin: 18px 0; }
+.ff-form fieldset { border: 0; padding: 0; margin: 0; }
+.ff-q { font-weight: 700; display: block; margin-bottom: 6px; color: var(--text); }
+.ff-form textarea, .ff-form select, .ff-form input[type=number] {
+  width: 100%; box-sizing: border-box; font: inherit; color: var(--text); background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 12px; }
+.ff-form input[type=number] { width: 6em; margin-left: 6px; }
+.ff-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.ff-chips label { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--border); background: var(--surface);
+  border-radius: 999px; padding: 6px 12px; font-size: 0.92rem; cursor: pointer; }
+.ff-chips label:has(input:checked) { border-color: var(--accent-deep); background: color-mix(in srgb, var(--accent) 30%, var(--surface)); }
+.ff-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+.ff-inline { display: inline-flex; align-items: center; gap: 6px; }
+.ff-actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 8px 0; }
+.ff-go { background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 999px; padding: 12px 22px; font: inherit; font-weight: 800; cursor: pointer; }
+.ff-plain { background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 999px; padding: 10px 18px; font: inherit; cursor: pointer; }
+.ff-go:focus-visible, .ff-plain:focus-visible, .ff-chips label:focus-within { outline: 3px solid var(--accent-deep); outline-offset: 2px; }
+.ff-note { font-size: 0.9rem; color: var(--muted); }
+.ff-summary-line { font-weight: 700; }
+.ff-group h2, .ff-group summary { font-size: 1.15rem; margin: 22px 0 10px; cursor: default; }
+.ff-group summary { cursor: pointer; font-weight: 700; }
+.ff-card { background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--accent-deep); border-radius: var(--radius-sm); padding: 12px 16px; margin: 10px 0; }
+.ff-card.ff-conditional { border-left-color: #e0a63a; }
+.ff-card.ff-no { border-left-color: var(--border); opacity: 0.8; }
+.ff-card h3 { margin: 6px 0 2px; font-size: 1.05rem; }
+.ff-card h3 a { color: var(--text); }
+.ff-card p { margin: 4px 0; font-size: 0.93rem; }
+.ff-card-head { display: flex; flex-wrap: wrap; gap: 6px; font-size: 0.78rem; }
+.ff-card-head span { border-radius: 999px; padding: 2px 9px; background: var(--bg); border: 1px solid var(--border); }
+.ff-kind-grant, .ff-kind-prize, .ff-kind-credits { background: color-mix(in srgb, var(--accent) 40%, var(--surface)) !important; }
+.ff-kind-tax { background: var(--bg); }
+.ff-soon { border-color: var(--coral) !important; color: var(--coral); font-weight: 700; }
+.ff-provider, .ff-checked { color: var(--muted); }
+.ff-checked { font-size: 0.8rem !important; }
+.ff-amount { font-weight: 700; }
+.ff-verdict { font-weight: 600; }
+.ff-why { border-left: 3px solid var(--accent); padding-left: 10px; }
+.ff-steps { margin: 6px 0; padding-left: 20px; font-size: 0.9rem; }
+.ff-foot { font-size: 0.85rem; color: var(--muted); margin-top: 28px; }
+code { font-size: 0.85em; }
+@media print {
+  .ln-header, footer, .ff-form, .ff-privacy, .ff-actions, .ff-ai, .ff-note, .ff-group-no { display: none !important; }
+  .ff-card { break-inside: avoid; }
+}
+.sg-code { font: 800 2rem/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 0.15em; margin: 8px 0; }

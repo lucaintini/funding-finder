@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Free funding finder for founders: grants, prizes, cloud and AI credits, accelerators and tax incentives in Australia, Italy, the EU, Canada and worldwide. Every program checked on its official page. Runs in your browser, collects nothing.">
+<title>Funding finder: grants and credits for your idea</title>
+<link rel="stylesheet" href="/brand.css">
+<link rel="stylesheet" href="/funding/funding.css">
+<link rel="canonical" href="https://lucaintini.ai/funding">
+<link rel="icon" type="image/png" href="/logo.png">
+<script defer src="/nav.js"></script>
+<script defer src="/funding/programs.js"></script>
+<script defer src="/funding/match.js"></script>
+<script defer src="/funding/app.js"></script>
+</head>
+<body>
+<main class="wrap ff">
+  <h1>Funding finder<span class="dot">.</span></h1>
+  <p class="ff-lead">Describe your idea and get the grants, prizes, cloud and AI credits, accelerators and tax incentives
+  you can actually apply for, with a clear yes, a condition, or a no for each one.
+  <span id="ff-count">0</span> programs in Australia, Italy, the EU, Canada, the Netherlands and worldwide, each checked by hand on its official page.</p>
+
+  <aside class="ff-privacy" aria-label="Privacy">
+    <h2>Your idea stays on your device</h2>
+    <p><strong>We collect nothing.</strong> The matching runs entirely in your browser. There are no accounts, no cookies,
+    no analytics, and this page keeps no server logs.</p>
+    <p>You do not have to trust us on this. The page's security policy (<code>connect-src 'none'</code>,
+    <code>form-action 'none'</code>) stops it from sending anything to anyone, including us. Open your browser's
+    developer tools, Network tab, and run a search: nothing leaves. The code is open on
+    <a href="https://github.com/lucaintini/lucaintini.ai/tree/main/site/funding" target="_blank" rel="noopener noreferrer">GitHub</a>.
+    Your answers are remembered only in this browser so you can come back; the "Forget me" button wipes them.</p>
+    <p class="ff-legal">Information only, not financial, legal or tax advice. Programs change: always confirm on the official page before you apply.</p>
+  </aside>
+
+  <p id="ff-restored" class="ff-note" hidden>Your last answers were restored from this browser.</p>
+  <p id="ff-forgot" class="ff-note" role="status" hidden>Done: your answers are gone from this browser.</p>
+
+  <form id="ff-form" class="ff-form" autocomplete="off">
+    <label for="ff-idea" class="ff-q">1. Your idea, in a few sentences</label>
+    <textarea id="ff-idea" rows="5" maxlength="3000" placeholder="For example: a mobile app that uses AI to help small farms in Puglia plan irrigation and cut water use."></textarea>
+
+    <fieldset>
+      <legend class="ff-q">2. Your citizenships</legend>
+      <div class="ff-chips">
+        <label><input type="checkbox" name="cit" value="AU"> Australia</label>
+        <label><input type="checkbox" name="cit" value="IT"> Italy</label>
+        <label><input type="checkbox" name="cit" value="NL"> Netherlands</label>
+        <label><input type="checkbox" name="cit" value="EU"> Another EU country</label>
+        <label><input type="checkbox" name="cit" value="CA"> Canada</label>
+        <label><input type="checkbox" name="cit" value="NZ"> New Zealand</label>
+        <label><input type="checkbox" name="cit" value="GB"> United Kingdom</label>
+        <label><input type="checkbox" name="cit" value="US"> United States</label>
+        <label><input type="checkbox" name="cit" value="IN"> India</label>
+        <label><input type="checkbox" name="cit" value="XX"> Other</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="ff-q">3. Where you live or could be based</legend>
+      <div class="ff-chips">
+        <label><input type="checkbox" name="res" value="AU"> Australia</label>
+        <label><input type="checkbox" name="res" value="IT"> Italy</label>
+        <label><input type="checkbox" name="res" value="NL"> Netherlands</label>
+        <label><input type="checkbox" name="res" value="EU"> Another EU country</label>
+        <label><input type="checkbox" name="res" value="CA"> Canada</label>
+        <label><input type="checkbox" name="res" value="NZ"> New Zealand</label>
+        <label><input type="checkbox" name="res" value="GB"> United Kingdom</label>
+        <label><input type="checkbox" name="res" value="US"> United States</label>
+        <label><input type="checkbox" name="res" value="IN"> India</label>
+        <label><input type="checkbox" name="res" value="XX"> Other</label>
+      </div>
+    </fieldset>
+
+    <label for="ff-company" class="ff-q">4. Do you have a company?</label>
+    <select id="ff-company">
+      <option value="none">No, I am an individual or sole trader</option>
+      <option value="AU">Yes, registered in Australia</option>
+      <option value="IT">Yes, registered in Italy</option>
+      <option value="NL">Yes, registered in the Netherlands</option>
+      <option value="EU">Yes, in another EU country</option>
+      <option value="CA">Yes, registered in Canada</option>
+      <option value="GB">Yes, registered in the UK</option>
+      <option value="US">Yes, registered in the US</option>
+      <option value="XX">Yes, somewhere else</option>
+    </select>
+
+    <fieldset>
+      <legend class="ff-q">5. Stage</legend>
+      <div class="ff-chips">
+        <label><input type="radio" name="stage" value="idea" checked> Just an idea</label>
+        <label><input type="radio" name="stage" value="prototype"> Prototype or first users</label>
+        <label><input type="radio" name="stage" value="revenue"> Making revenue</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="ff-q">6. Sectors (optional, we also read them from your idea)</legend>
+      <div class="ff-chips">
+        <label><input type="checkbox" name="sector" value="ai"> AI</label>
+        <label><input type="checkbox" name="sector" value="software"> Software</label>
+        <label><input type="checkbox" name="sector" value="deeptech"> Deep tech and hardware</label>
+        <label><input type="checkbox" name="sector" value="health"> Health</label>
+        <label><input type="checkbox" name="sector" value="cleantech"> Climate and energy</label>
+        <label><input type="checkbox" name="sector" value="agrifood"> Agriculture and food</label>
+        <label><input type="checkbox" name="sector" value="fintech"> Finance</label>
+        <label><input type="checkbox" name="sector" value="edtech"> Education</label>
+        <label><input type="checkbox" name="sector" value="cyber"> Security</label>
+        <label><input type="checkbox" name="sector" value="creative"> Creative and media</label>
+        <label><input type="checkbox" name="sector" value="social"> Social impact</label>
+        <label><input type="checkbox" name="sector" value="tourism"> Tourism</label>
+        <label><input type="checkbox" name="sector" value="manufacturing"> Manufacturing</label>
+        <label><input type="checkbox" name="sector" value="opensource"> Open source project</label>
+        <label><input type="checkbox" name="sector" value="women-led"> Women-led business</label>
+      </div>
+    </fieldset>
+
+    <div class="ff-row">
+      <label class="ff-inline"><input type="checkbox" id="ff-equity"> I am open to giving up equity</label>
+      <label class="ff-inline" for="ff-age">Age (optional, some programs have a limit)
+        <input type="number" id="ff-age" min="14" max="99" inputmode="numeric"></label>
+    </div>
+
+    <div class="ff-actions">
+      <button type="submit" class="ff-go">Find my funding</button>
+      <button type="button" id="ff-forget" class="ff-plain">Forget me</button>
+    </div>
+  </form>
+
+  <section id="ff-out" class="ff-out" hidden>
+    <p id="ff-summary" class="ff-summary-line" tabindex="-1" role="status"></p>
+    <div id="ff-ai-row" class="ff-ai" hidden>
+      <button type="button" id="ff-ai" class="ff-plain">Explain my top matches with on-device AI</button>
+      <p id="ff-ai-note" class="ff-note">Uses the AI model built into your browser. It runs on your computer; nothing is sent.</p>
+    </div>
+    <div id="ff-results"></div>
+    <div class="ff-actions"><button type="button" id="ff-print" class="ff-plain">Save as PDF or print</button></div>
+  </section>
+
+  <p class="ff-foot">Programs are ranked money first: grants, prizes and credits, then accelerators, loans and investment, with tax incentives last.
+  Every program shows the date we last read its official page. Data built <span id="ff-built"></span>.
+  Spotted something out of date, or know a program we miss? <a href="/funding/suggest">Suggest it</a>.</p>
+</main>
+</body>
+</html>

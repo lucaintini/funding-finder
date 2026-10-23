@@ -1,0 +1,157 @@
+[
+  {
+    "id": "eu-eic-accelerator",
+    "name": "EIC Accelerator",
+    "provider": "European Innovation Council (European Commission)",
+    "region": "EU",
+    "kind": "accelerator",
+    "summary": "Grant and or equity for high-risk, high-potential SMEs and startups with breakthrough innovation. Natural persons may apply intending to set up an SME.",
+    "amount": "Grant below EUR 2.5 million, and or equity of EUR 1 million to EUR 10 million, in grant-only, blended or equity-only options",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "EU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Full proposal cut-offs in 2026: 7 Jan, 4 Mar, 6 May, 8 Jul, 2 Sep and 4 Nov (17:00 Brussels). Short proposals any time"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the official EIC Accelerator page and check the eligibility rules",
+      "Prepare a short proposal, which can be submitted at any time",
+      "Form an EU company before the full proposal stage if required"
+    ],
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "eu-eit-digital-venture-program",
+    "name": "EIT Digital Venture Incubation Program (28DIGITAL)",
+    "provider": "EIT Digital, part of the European Institute of Innovation and Technology (EIT)",
+    "region": "EU",
+    "kind": "accelerator",
+    "summary": "A 12-week incubation for early-stage digital startups led by multidisciplinary teams, with a cash prize and a Demo Day.",
+    "amount": "EUR 5,000 Growth Package prize at stage 1; stage 2 up to EUR 25,000 (see official page)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "EU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "software",
+      "ai"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Yearly call. The 2026 call closed 9 June 2026 at 17:00 CET"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Watch the official page for the next yearly call",
+      "Form a team of at least two members",
+      "Check the incorporation date rule for the call"
+    ],
+    "url": "https://www.eit.europa.eu/our-activities/opportunities/venture-incubation-program",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "eu-erasmus-young-entrepreneurs",
+    "name": "Erasmus for Young Entrepreneurs",
+    "provider": "European Commission, Erasmus for Young Entrepreneurs programme",
+    "region": "EU",
+    "kind": "grant",
+    "summary": "A funded exchange in which a new or recently started entrepreneur works with an experienced entrepreneur running an SME in another participating country.",
+    "amount": "Monthly travel and living support for a 1 to 6 month exchange; no fees to take part. Amounts: see official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "EU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the official page for the participating countries and eligibility",
+      "Plan a host entrepreneur match in a participating country",
+      "Apply through the programme website"
+    ],
+    "url": "https://www.erasmus-entrepreneurs.eu/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "eu-eurohpc-ai-factories",
+    "name": "EuroHPC AI Factories (access for SMEs and startups)",
+    "provider": "EuroHPC Joint Undertaking, European Commission",
+    "region": "EU",
+    "kind": "credits",
+    "summary": "Free customised support and access to EU AI computing for SMEs and startups, through the EU AI Factories network.",
+    "amount": "Free access and support, value varies. See official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "EU"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the access routes on the official page",
+      "Contact the AI Factories helpdesk to check establishment requirements",
+      "Describe the AI model work you need"
+    ],
+    "url": "https://eurohpc-ju.europa.eu/ai-factories_en",
+    "checked": "2026-10-22"
+  }
+]

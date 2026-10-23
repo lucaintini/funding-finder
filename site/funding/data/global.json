@@ -1,0 +1,552 @@
+[
+  {
+    "id": "gl-aws-activate",
+    "name": "AWS Activate",
+    "provider": "Amazon Web Services",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Cloud credits and technical support for early-stage startups building on AWS, from first prototype to Series A and beyond.",
+    "amount": "Up to US$200,000 in AWS credits (amount depends on eligibility, see official page)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check eligibility and credit tier on the official Activate page",
+      "Apply with your project details and a working prototype"
+    ],
+    "url": "https://aws.amazon.com/activate/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-microsoft-founders-hub",
+    "name": "Microsoft for Startups Founders Hub",
+    "provider": "Microsoft",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Azure credits, OpenAI and GitHub benefits, and technical support for startups building products on Microsoft cloud.",
+    "amount": "Up to US$150,000 in Azure credits (maximum, see official page)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check eligibility on the official Founders Hub page",
+      "Apply and link your product and company details"
+    ],
+    "url": "https://www.microsoft.com/en-us/startups",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-nvidia-inception",
+    "name": "NVIDIA Inception",
+    "provider": "NVIDIA",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Free cloud credits, preferred pricing on NVIDIA hardware and software, technical courses and investor networking for AI and deep tech startups.",
+    "amount": "Varies, see official page (cloud credits, preferred hardware pricing)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "ai",
+      "software"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm your company is incorporated and under 10 years old",
+      "Apply with a clear NVIDIA technology use case"
+    ],
+    "url": "https://www.nvidia.com/en-us/startups/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-cloudflare-for-startups",
+    "name": "Cloudflare for Startups",
+    "provider": "Cloudflare",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Cloudflare platform credits for funded technology startups, scaled by funding tier.",
+    "amount": "Up to US$350,000 in credits over one year, by tier (US$10,000 to US$350,000)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "software"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check your funding tier against the official page",
+      "Use a company email that matches your domain"
+    ],
+    "url": "https://www.cloudflare.com/forstartups/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-mongodb-for-startups",
+    "name": "MongoDB for Startups",
+    "provider": "MongoDB",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "MongoDB Atlas credits and support for software startups that are Series A or earlier and less than seven years old.",
+    "amount": "Varies, see official page (Atlas and Voyage AI credits by tier)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "software"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the company has a single software product",
+      "Apply with company name, domain and LinkedIn"
+    ],
+    "url": "https://www.mongodb.com/startups",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-y-combinator",
+    "name": "Y Combinator",
+    "provider": "Y Combinator",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Three-month accelerator in San Francisco for early-stage technology companies, with mentoring and a network of investors.",
+    "amount": "Varies, see official page (investment terms are set per batch)",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-11-02"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Apply before 2 Nov 2026 at 8pm PT (3 Nov 2026 12:00 AWST)",
+      "Prepare a short video and a clear product description"
+    ],
+    "url": "https://www.ycombinator.com/apply",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-entrepreneur-first",
+    "name": "Entrepreneur First",
+    "provider": "Entrepreneur First",
+    "region": "GLOBAL",
+    "kind": "equity",
+    "summary": "Programme for technical and ambitious people to find a co-founder and build a company from an early idea, with an equity-free grant at the ideation stage.",
+    "amount": "Up to US$250,000 initial investment once a company is formed (equity-based)",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See apply.joinef.com for the current intake"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Apply at apply.joinef.com with your idea or background",
+      "Check the intake dates on the apply page"
+    ],
+    "url": "https://www.joinef.com/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-github-secure-open-source-fund",
+    "name": "GitHub Secure Open Source Fund",
+    "provider": "GitHub",
+    "region": "GLOBAL",
+    "kind": "grant",
+    "summary": "Funding, security training and support for open source maintainers to make their projects more secure.",
+    "amount": "US$10,000 per project, paid in tranches",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "opensource"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm your project has an open source license and a clear governance structure",
+      "Check that GitHub Sponsors supports your region before applying"
+    ],
+    "url": "https://github.com/open-source/github-secure-open-source-fund",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-emergent-ventures",
+    "name": "Emergent Ventures",
+    "provider": "Mercatus Center at George Mason University",
+    "region": "GLOBAL",
+    "kind": "grant",
+    "summary": "Fast, flexible grants for individuals and small teams with ambitious projects that can create large benefits, open to applicants worldwide.",
+    "amount": "Varies, see official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the programme criteria on the official page",
+      "Apply with a short description of your project and its benefit"
+    ],
+    "url": "https://www.mercatus.org/emergent-ventures",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-google-for-startups-cloud",
+    "name": "Google for Startups Cloud Program",
+    "provider": "Google Cloud",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Google Cloud credits for startups. The Start tier is for unfunded startups with a working MVP founded in the last 24 months; the Scale tier is for startups with verifiable pre-seed to Series A funding, founded in the last 5 years.",
+    "amount": "Start tier US$2,000; Scale tier up to US$200,000 over 2 years, up to US$350,000 for AI-first startups (funding proof needed for Scale)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [
+      "gl-aws-activate",
+      "gl-digitalocean-hatch"
+    ],
+    "next_steps": [
+      "Check which tier fits on the official page",
+      "Have your 18-character Google Cloud billing account ID, a company website and a matching company email ready",
+      "Apply once the product has a live website"
+    ],
+    "url": "https://cloud.google.com/startup",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-google-for-startups-accelerator",
+    "name": "Google for Startups Accelerator",
+    "provider": "Google",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Equity-free accelerator of about 10 weeks to 3 months with mentoring and Google technical support, run as regional cohorts each year (North America, Europe and Israel, Southeast Asia, Africa, MENA and others). Mostly for seed to Series A tech startups, often with a minimum team size.",
+    "amount": "Equity-free; no cash, mentoring and Google product support",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "ai",
+      "software"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Regional cohorts open yearly; the 2026 rounds have closed, watch the regional pages for 2027 windows"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Pick the regional program that matches your company location",
+      "Check team size and stage on its entry criteria page",
+      "Watch for the next application window"
+    ],
+    "url": "https://startup.google.com/programs/accelerator/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-techstars",
+    "name": "Techstars Accelerator",
+    "provider": "Techstars",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Three-month mentorship-driven accelerator for early-stage startups, run in many cities. Techstars invests USD 220,000 and takes common stock plus the value of an uncapped MFN SAFE.",
+    "amount": "US$220,000 (US$200,000 uncapped MFN SAFE plus US$20,000 for 5% common stock)",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Each city program has its own intake, see apply.techstars.com"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Pick a program and check its intake dates",
+      "Check the current terms in the Techstars help article",
+      "Prepare a team profile and traction summary"
+    ],
+    "url": "https://help.techstars.com/support/solutions/articles/4000207063-what-investments-does-techstars-make-in-its-accelerator-portfolio-companies-",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-antler",
+    "name": "Antler Residency",
+    "provider": "Antler",
+    "region": "GLOBAL",
+    "kind": "accelerator",
+    "summary": "Pre-seed investor that runs residencies in many cities (Asia Pacific, Europe, Americas, Middle East and Africa). Individuals can join without a team or idea to find co-founders; solo founders may enter but Antler has a strong bias towards co-founding teams and usually does not invest in solo founders after the program.",
+    "amount": "Pre-seed investment for equity, amount and terms vary by location (see the location page)",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Cohort start dates per city, see the Antler cohort list"
+    },
+    "stacks_with": [
+      "gl-google-for-startups-cloud"
+    ],
+    "next_steps": [
+      "Choose a location and read its residency page",
+      "Apply through the form on the Antler apply page",
+      "Plan to find a co-founder during the residency"
+    ],
+    "url": "https://www.antler.co/apply",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-oracle-for-startups",
+    "name": "Oracle for Startups",
+    "provider": "Oracle",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Oracle Cloud program open to startups anywhere that are not yet acquired or listed, with sign-up credits and a two-year discount. A separate, selective Startup Growth Engine offers larger credits.",
+    "amount": "US$500 credits on joining, US$1,000 more on request, 70% discount on Oracle Cloud for two years; Growth Engine credits US$5,000 to US$60,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [
+      "gl-aws-activate"
+    ],
+    "next_steps": [
+      "Create an Oracle Cloud account via Join Oracle for Startups",
+      "Request the extra credits after you start consuming",
+      "Check the terms for the Startup Growth Engine on the official page"
+    ],
+    "url": "https://www.oracle.com/startup/",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "gl-digitalocean-hatch",
+    "name": "DigitalOcean Hatch",
+    "provider": "DigitalOcean",
+    "region": "GLOBAL",
+    "kind": "credits",
+    "summary": "Cloud credits for new startups that have raised US$10 million or less, with priority for AI-native startups. Consultancies, agencies and web or app development shops are not eligible. Credits are used over 12 months.",
+    "amount": "Varies by award, shown in the onboarding email (usual limit US$10,000 per month)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "ai",
+      "software"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [
+      "gl-google-for-startups-cloud"
+    ],
+    "next_steps": [
+      "Create a DigitalOcean team account with a company email and website",
+      "Check the partner list, or apply with Other as partner",
+      "Apply before building on a paid plan, credits are for new accounts only"
+    ],
+    "url": "https://www.digitalocean.com/hatch",
+    "checked": "2026-10-22"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "nl-vff-early-phase-loan",
+    "name": "VFF Early Phase Financing (Vroegefasefinanciering)",
+    "provider": "Netherlands Enterprise Agency (RVO), Dutch Government",
+    "region": "NL",
+    "kind": "loan",
+    "summary": "A loan for innovative Dutch companies at proof-of-principle stage that aim for a proof of concept and have a follow-up investor lined up. It is repaid with interest.",
+    "amount": "Up to EUR 450,000 loan at 7.71 percent interest (rate from 1 Sep 2026)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": ["NL"],
+      "age_max": null
+    },
+    "stages": ["prototype"],
+    "sectors": ["any"],
+    "deadline": {"type": "date", "date": "2026-12-31"},
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm on the official page whether a sole trader can apply (the page speaks of a company)",
+      "Do the free RVO Quick Scan",
+      "Secure an investor who will come in after the project"
+    ],
+    "url": "https://www.rvo.nl/subsidies-financiering/vroegefasefinanciering",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "nl-innovatiekrediet",
+    "name": "Innovatiekrediet",
+    "provider": "Netherlands Enterprise Agency (RVO), Dutch Government",
+    "region": "NL",
+    "kind": "loan",
+    "summary": "A repayable credit for technical development with a high risk of failure, for innovative companies that can reach the market within 5 years. Repayment is due only on success.",
+    "amount": "Up to 45 percent of project costs for small companies (35 percent medium, 25 percent large; up to 50 percent for small and medium companies in collaborations)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": ["NL"],
+      "citizenship": [],
+      "residence": ["NL"],
+      "age_max": null
+    },
+    "stages": ["prototype", "revenue"],
+    "sectors": ["any"],
+    "deadline": {"type": "cohort", "note": "Applications open all year; the 2026 funding period ends 31 Dec 2026, the 2027 period is not yet confirmed"},
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the Dutch establishment rule on the official page",
+      "Show at least 55 percent of project costs funded from other sources",
+      "Prepare a technical risk and market plan (market within 5 years)"
+    ],
+    "url": "https://www.rvo.nl/subsidies-financiering/innovatiekrediet",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "nl-wbso",
+    "name": "WBSO (R&D wage tax reduction and self-employed deduction)",
+    "provider": "Netherlands Enterprise Agency (RVO), Dutch Tax Administration",
+    "region": "NL",
+    "kind": "tax",
+    "summary": "A tax reduction for developing new software or technical research in the Netherlands. Self-employed people get a fixed R&D deduction; businesses with staff get a wage tax reduction.",
+    "amount": "2026: 36 percent wage tax reduction on the first EUR 391,020 of R&D cost (50 percent for starters), 16 percent above; self-employed deduction EUR 15,979 plus EUR 7,996 for starters",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": ["NL"],
+      "age_max": null
+    },
+    "stages": ["prototype", "revenue"],
+    "sectors": ["software", "ai"],
+    "deadline": {"type": "cohort", "note": "Apply in advance for future R&D work; 2027 applications open from mid-November 2026"},
+    "stacks_with": ["nl-innovation-box"],
+    "next_steps": [
+      "Register with the Dutch business register and taxes so the business pays income tax",
+      "Log in with eHerkenning (level 3) and write the project plan in advance",
+      "Plan the work in phases with a technical problem to solve"
+    ],
+    "url": "https://www.rvo.nl/subsidies-financiering/wbso",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "nl-innovation-box",
+    "name": "Innovation Box (Innovatiebox)",
+    "provider": "Dutch Tax Administration (Belastingdienst)",
+    "region": "NL",
+    "kind": "tax",
+    "summary": "A reduced corporate tax rate on profit from innovation that RVO has declared as R&D (S&O-verklaring). It applies to corporate income tax, not to a sole trader's income tax.",
+    "amount": "9 percent effective corporate tax rate on qualifying profit",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": ["NL"],
+      "citizenship": [],
+      "residence": ["NL"],
+      "age_max": null
+    },
+    "stages": ["revenue"],
+    "sectors": ["software", "ai"],
+    "deadline": {"type": "rolling"},
+    "stacks_with": ["nl-wbso"],
+    "next_steps": [
+      "Only useful once a Dutch BV makes profit from the declared innovation",
+      "Obtain the RVO S&O declaration (through WBSO) for the innovation",
+      "Ask an adviser to confirm the rules for your situation"
+    ],
+    "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/vennootschapsbelasting/innovatiebox",
+    "checked": "2026-10-22"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "itr-puglia-tecnonidi-jtf-taranto",
+    "name": "TecnoNidi Just Transition Fund Taranto",
+    "provider": "Regione Puglia, managed by Puglia Sviluppo S.p.A. (PN JTF Italia 2021-2027)",
+    "region": "IT-75",
+    "kind": "grant",
+    "summary": "Non-repayable and zero-interest support for technology investment plans by small firms with an operational site in the province of Taranto. Applicants must be based in the Taranto province of Puglia.",
+    "amount": "Investments covered 100%: 40% grant, 40% zero-interest loan, 20% conditional grant; projects EUR 25,000 to 500,000; running costs 90% grant",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the avviso and check the eligible investment list on the official Regione Puglia page",
+      "Confirm an operational site in the province of Taranto before applying",
+      "Apply online at moduli.regione.puglia.it with SPID, CIE or CNS and submit the form (unsent data is inadmissible)"
+    ],
+    "url": "https://www.regione.puglia.it/en/web/ricerca-e-relazioni-internazionali/-/avviso-pubblico-tecnonidi-just-transition-fund-taranto-pn-jtf-italia-2021-2027",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "itr-puglia-nidi-jtf-taranto",
+    "name": "NIDI JTF Taranto (new business incentive)",
+    "provider": "Regione Puglia, managed by Puglia Sviluppo S.p.A. (JTF Taranto)",
+    "region": "IT-75",
+    "kind": "grant",
+    "summary": "Support for new microenterprises in the Taranto area that have not yet formed a company, or are under six months old, where at least half is owned by a listed group such as people aged 18 to 35 or women over 18. Applicants must be based in the Taranto area of Puglia.",
+    "amount": "Investment EUR 10,000 to 150,000 at 100% aid: 50% grant, 25% repayable loan, 25% repayable assistance; running costs grant up to EUR 15,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the category rules (ownership by a listed group) on the official page",
+      "Prepare an investment plan of EUR 10,000 to 150,000 for a new business in the Taranto area",
+      "Apply online at sistema.puglia.it/nidijtf"
+    ],
+    "url": "https://press.regione.puglia.it/-/la-puglia-lancia-nidi-jtf-per-taranto-20-milioni-per-nuove-imprese-e-lavoro-sostenibile",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "itr-lombardia-startup-innovativa-fesr",
+    "name": "Sviluppo Tecnologico delle Startup Innovative (FESR)",
+    "provider": "Regione Lombardia (FESR)",
+    "region": "IT-25",
+    "kind": "grant",
+    "summary": "Non-repayable support for technology development projects by micro or small innovative startups. Applicants must have an operating site in Lombardia, which can be opened by the first payment request.",
+    "amount": "80% of eligible costs, up to EUR 1,000,000 (up to EUR 1,500,000 for an operating site in an assisted area)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-11-25"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm registration in the special startup innovativa section of the Registro delle Imprese",
+      "Prepare the project and its eligible cost plan before 25 Nov 2026 at 15:00 Italian time",
+      "Submit through the Bandi e Servizi platform"
+    ],
+    "url": "https://www.regione.lombardia.it/attivita-produttive-imprese/start-up-e-avvio-di-impresa/sviluppo-tecnologico-delle-startup-innovative",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "itr-sardegna-voucher-startup",
+    "name": "Voucher Startup (Programma Sardegna)",
+    "provider": "Regione Autonoma della Sardegna, managed by Sardegna Ricerche (PR FESR 2021-2027, Action 1.1.1)",
+    "region": "IT-88",
+    "kind": "grant",
+    "summary": "Support for registered innovative startups, founded no more than 48 months earlier and with a working prototype, to develop plans of EUR 40,000 to 200,000. The project must be located in Sardinia.",
+    "amount": "70% grant, rising to 85% with premiums (maximum grant EUR 170,000); plans EUR 40,000 to 200,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2027-04-30"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm registration in the innovative startup register and the 48-month limit",
+      "Confirm the project location in Sardinia before applying",
+      "Apply online through the SIPES system before 30 Apr 2027 at 12:00 Italian time"
+    ],
+    "url": "https://www.sardegnaricerche.it/index.php?xsl=370&s=467234&v=2&c=3169&nc=1&sc=&qr=1&qp=2&vd=2&t=3&sb=1",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "itr-lombardia-nuova-impresa-2026",
+    "name": "Nuova Impresa 2026 (Lombardia)",
+    "provider": "Regione Lombardia, managed by Unioncamere Lombardia",
+    "region": "IT-25",
+    "kind": "grant",
+    "summary": "Grant for new micro, small and medium businesses and self-employed workers with a partita IVA who opened a new activity in Lombardy from 1 June 2025 to 31 December 2026. Minimum investment EUR 3,000. Window open until 29 January 2027 or until funds run out.",
+    "amount": "Up to 50% of eligible costs, maximum EUR 10,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2027-01-29"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the activity opened in Lombardy after 1 Jun 2025",
+      "Prepare a budget with at least EUR 3,000 of investment",
+      "Apply on the Restart platform by Infocamere before the funds run out"
+    ],
+    "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/attivita-produttive-imprese/start-up-impresa/nuova-impresa-2026-UC2025051184",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "itr-piemonte-voucher-digitalizzazione-2026",
+    "name": "Voucher Digitalizzazione PMI 2026 (Piemonte)",
+    "provider": "Regione Piemonte, managed by Unioncamere Piemonte (FESR)",
+    "region": "IT-21",
+    "kind": "grant",
+    "summary": "Grant for Piedmont small and medium businesses that adopt at least one listed digital technology such as AI, cloud or robotics. Consulting and training may not exceed 30% of eligible costs. Third edition, EUR 19.2 million.",
+    "amount": "Grant of 50% to 70% of eligible costs depending on size and project (per the regional notice; check the call text)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "software",
+      "ai"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-12-15"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the regional technology list and your company size",
+      "Plan a digitalisation project with eligible costs",
+      "Apply on the Restart platform between 22 Oct 2026 11:00 and 15 Dec 2026 16:00 Italian time"
+    ],
+    "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/voucher-digitalizzazione-pmi-2026",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "itr-valle-daosta-startup-innovative",
+    "name": "Sostegno allo sviluppo delle startup innovative (Valle d'Aosta)",
+    "provider": "Regione autonoma Valle d'Aosta (FESR 2021-2027)",
+    "region": "IT-23",
+    "kind": "grant",
+    "summary": "Grant for micro and small innovative startups in Aosta Valley, founded no more than 5 years ago and operating for at least 6 months, in the regional smart specialisation areas. Plans last 12 to 24 months. Rolling evaluation, open until 30 June 2027 unless extended.",
+    "amount": "Up to 60% of eligible costs, maximum EUR 150,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "IT"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "deeptech",
+      "software"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2027-06-30"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the startup requirements in article 3 of the notice",
+      "Prepare a 12 to 24 month project plan",
+      "Apply online on SISPREG2014"
+    ],
+    "url": "https://new.regione.vda.it/europa/bandi/avviso-sostegno-allo-sviluppo-delle-startup-innovative",
+    "checked": "2026-10-22"
+  },
+  {
+    "id": "itr-valle-daosta-neoimpresa",
+    "name": "Bando Neoimpresa (Valle d'Aosta)",
+    "provider": "Regione autonoma Valle d'Aosta (FSE Plus)",
+    "region": "IT-23",
+    "kind": "grant",
+    "summary": "Free business plan consulting and a start-up grant for people opening a new business or freelance activity in Aosta Valley, plus specialist support after launch. Open to individuals, including freelancers.",
+    "amount": "EUR 8,000 for new businesses, EUR 5,000 for new freelance activities, plus EUR 1,000 for women entrepreneurs",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "IT"
+      ],
+      "age_max": null
+    },
+    "stages": [
+      "idea"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "date",
+      "date": "2026-11-15"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the call and check the application deadline on the page",
+      "Apply for the consulting step first",
+      "Open the activity and claim the grant within 6 months"
+    ],
+    "url": "https://lavoro.regione.vda.it/cittadini/lavoro/bando-neoimpresa",
+    "checked": "2026-10-22"
+  }
+]
