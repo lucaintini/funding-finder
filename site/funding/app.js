@@ -28,6 +28,7 @@
       stage: (form.querySelector("input[name=stage]:checked") || {}).value || "idea",
       equityOk: $("ff-equity").checked,
       age: isNaN(age) ? null : age,
+      student: $("ff-student").checked,
       sectors: picked.concat(fromText.filter(function (s) { return picked.indexOf(s) === -1; })),
       textSectors: fromText
     };
@@ -45,6 +46,7 @@
     $("ff-company").value = p.company || "none";
     $("ff-equity").checked = !!p.equityOk;
     $("ff-age").value = p.age || "";
+    $("ff-student").checked = !!p.student;
     ["cit", "res"].forEach(function (n) {
       var vals = n === "cit" ? p.citizenship : p.residence;
       form.querySelectorAll("input[name=" + n + "]").forEach(function (i) { i.checked = (vals || []).indexOf(i.value) !== -1; });

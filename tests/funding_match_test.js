@@ -59,4 +59,22 @@ assert.ok(M.sectorsFromText("early diagnosis of skin cancer").includes("health")
 // No sector known: a sector-specific program is not ruled out on sector.
 assert.notStrictEqual(M.assess(prog({ sectors: ["health"] }), { ...luca, sectors: [] }, today).status, "no");
 
+// Students (23 Oct 2026): student-only programs need the student box.
+const forStudents = prog({ applicant: { student: "only" } });
+assert.strictEqual(M.assess(forStudents, { ...luca, student: false }, today).status, "no");
+assert.notStrictEqual(M.assess(forStudents, { ...luca, student: true }, today).status, "no");
+
+// Established businesses (Luke's case): a "revenue" program is a maybe, an idea-only one is out.
+const est = { ...luca, stage: "established" };
+const rev = M.assess(prog({ stages: ["revenue"] }), est, today);
+assert.strictEqual(rev.status, "conditional");
+assert.ok(rev.conditions.some((c) => /younger businesses/.test(c)));
+assert.strictEqual(M.assess(prog({ stages: ["idea"] }), est, today).status, "no");
+assert.notStrictEqual(M.assess(prog({ stages: ["established"] }), est, today).status, "no");
+
+// In-person accelerators elsewhere are flagged, remote ones are not.
+const away = prog({ kind: "accelerator", region: "US", remote: false });
+assert.ok(M.assess(away, luca, today).conditions.some((c) => /In person/.test(c)));
+assert.ok(!M.assess({ ...away, remote: true }, luca, today).conditions.some((c) => /In person/.test(c)));
+
 console.log("funding matcher ok");

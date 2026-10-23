@@ -76,7 +76,7 @@
     return list.join(" or ");
   }
 
-  // profile: {citizenship:[], residence:[], company:"none"|"XX", stage, equityOk, age, sectors:[], idea}
+  // profile: {citizenship:[], residence:[], company:"none"|"XX", stage, student, equityOk, age, sectors:[], idea}
   // returns {status:"eligible"|"conditional"|"no", reasons:[], conditions:[], sectorFit, days}
   function assess(p, prof, today) {
     var a = p.applicant, reasons = [], conditions = [];
@@ -85,10 +85,20 @@
     var days = daysLeft(p.deadline, today);
 
     if (days !== null && days < 0) reasons.push("The last deadline has passed");
-    if (p.stages.indexOf(prof.stage) === -1) reasons.push("Not open at your stage (" + p.stages.join(", ") + ")");
+    if (prof.stage === "established" && p.stages.indexOf("established") === -1 && p.stages.indexOf("revenue") !== -1) {
+      // Many "revenue" programs have no age limit, some are for young firms only.
+      conditions.push("May be only for younger businesses: check the age or revenue limit");
+    } else if (p.stages.indexOf(prof.stage) === -1) {
+      reasons.push("Not open at your stage (" + p.stages.join(", ") + ")");
+    }
     if (p.equity && !prof.equityOk) reasons.push("The funder takes equity");
     if (a.citizenship.length && !overlaps(a.citizenship, cit)) reasons.push("Needs citizenship of " + names(a.citizenship));
     if (a.age_max && prof.age && prof.age > a.age_max) reasons.push("Age limit " + a.age_max);
+    if (a.student === "only" && !prof.student) reasons.push("Only for students and recent graduates");
+    if (p.kind === "accelerator" && p.remote === false && p.region !== "GLOBAL") {
+      var home = expand([].concat(prof.residence || []));
+      if (!home[regionCountry(p.region)]) conditions.push("In person: you would need to be there for the program");
+    }
     if (!a.sole_trader && !hasCompany && !a.company_required) conditions.push("Not open to individuals: you need a business entity");
 
     if (a.residence.length && !overlaps(a.residence, res)) {
