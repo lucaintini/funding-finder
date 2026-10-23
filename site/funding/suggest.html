@@ -23,10 +23,9 @@
     <p>To keep out spam and fake programs, posting needs <strong>two factors</strong>: a one-time code we email you,
     and a code from an authenticator app (Google Authenticator, Microsoft Authenticator, 1Password and similar),
     which you set up once on your first suggestion.</p>
-    <p><strong>We do not keep your email address.</strong> We keep an unreadable fingerprint of it (a keyed hash),
-    your authenticator key, the time and your suggestion. No IP address.
-    Ask <a href="mailto:hello@lucaintini.ai">hello@lucaintini.ai</a> to delete a suggestion at any time.
-    The <a href="/funding">funding finder</a> itself still collects nothing.</p>
+    <p><strong>We store nothing about you: not your email, not a fingerprint, not your IP.</strong>
+    Only the suggestion text and the time are kept, so we can review it. Do not put personal details in the suggestion.
+    The <a href="/funding">funding finder</a> itself also collects nothing.</p>
   </aside>
 
   <form id="sg-s1" class="ff-form" autocomplete="off">
@@ -45,12 +44,12 @@
   </form>
 
   <form id="sg-s3" class="ff-form" autocomplete="off" hidden>
-    <div id="sg-enrol" class="ff-privacy">
-      <h2>First time: add lucaintini.ai to your authenticator app</h2>
+    <details id="sg-enrol" class="ff-privacy">
+      <summary>First time? Add it to your authenticator app</summary>
       <p>On your phone, <a id="sg-otpauth" href="#">tap here to add it</a>, or in the app choose "enter a setup key" and type:</p>
       <p class="sg-code" id="sg-secret"></p>
       <p>Next time you will only need the code.</p>
-    </div>
+    </details>
     <label for="sg-totp" class="ff-q">4. The 6-digit code from your authenticator app</label>
     <input id="sg-totp" inputmode="numeric" pattern="[0-9 ]{6,7}" maxlength="7" required autocomplete="one-time-code">
     <div class="ff-actions"><button type="submit" class="ff-go">Send my suggestion</button></div>

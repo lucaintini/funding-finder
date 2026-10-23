@@ -10,7 +10,6 @@
     bad: "That email code is not right. Check it and try again.",
     expired: "The code expired. Start again from the top.",
     bad_totp: "That authenticator code is not right. Use the current 6-digit code from your app.",
-    limit: "You have reached today's limit of 5 suggestions. Thank you!",
     stored: "Thank you, your suggestion is in. We review every one by hand.",
     error: "Something went wrong on our side. Nothing was stored; please try again later."
   };
@@ -39,11 +38,8 @@
     api("verify", { email: $("sg-email").value, code: $("sg-code").value }).then(function (d) {
       if (d.state !== "ok") { say(d.state); if (d.state === "expired") show("sg-s1"); return; }
       ticket = d.ticket;
-      $("sg-enrol").hidden = d.enrolled;
-      if (!d.enrolled) {
-        $("sg-secret").textContent = d.secret.replace(/(.{4})/g, "$1 ").trim();
-        $("sg-otpauth").href = d.otpauth;
-      }
+      $("sg-secret").textContent = d.secret.replace(/(.{4})/g, "$1 ").trim();
+      $("sg-otpauth").href = d.otpauth;
       $("sg-status").textContent = "";
       show("sg-s3");
       $("sg-totp").focus();
