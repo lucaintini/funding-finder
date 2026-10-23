@@ -78,3 +78,32 @@ assert.ok(M.assess(away, luca, today).conditions.some((c) => /In person/.test(c)
 assert.ok(!M.assess({ ...away, remote: true }, luca, today).conditions.some((c) => /In person/.test(c)));
 
 console.log("funding matcher ok");
+
+// Academic track (23 Oct 2026): its own stages, host country and mobility rule;
+// a founder never sees academic programs and the other way round.
+const phd = { track: "academic", citizenship: ["IT"], residence: ["AU"], company: "none", host: "any", stage: "phd",
+  equityOk: false, age: 30, sectors: ["life-sciences-medicine"] };
+const scholarship = prog({ track: "academic", kind: "scholarship", stages: ["phd"], host_in: ["GB"], mobility: "" });
+assert.strictEqual(M.assess(scholarship, phd, today).status, "eligible", "happy to move: no host condition");
+const stayHome = M.assess(scholarship, Object.assign({}, phd, { host: "AU" }), today);
+assert.strictEqual(stayHome.status, "conditional");
+assert.ok(/done in GB/.test(stayHome.conditions[0]));
+const msca = prog({ track: "academic", kind: "fellowship", stages: ["postdoc"], region: "EU", host_in: ["EU"],
+  mobility: "Must not have lived in the host country for more than 12 of the last 36 months." });
+assert.strictEqual(M.assess(msca, phd, today).status, "no", "a PhD candidate is not a postdoc");
+const pd = M.assess(msca, Object.assign({}, phd, { stage: "postdoc", host: "IT" }), today);
+assert.strictEqual(pd.status, "conditional");
+assert.ok(/12 of the last 36 months/.test(pd.conditions.join(" ")), "the mobility rule is a condition");
+assert.strictEqual(M.assess(prog({ track: "academic", kind: "grant", stages: ["phd"], sectors: ["humanities"] }), phd, today).status, "no", "field mismatch");
+assert.strictEqual(M.assess(prog({ track: "academic", kind: "grant", stages: ["phd"], applicant: { citizenship: ["US"] } }), phd, today).status, "no");
+// A closed round is never "eligible" at the top (HELLO, 23 Oct 2026).
+const closed = M.assess(prog({ deadline: { type: "closed", note: "next call not announced" } }), luca, today);
+assert.strictEqual(closed.status, "conditional");
+assert.ok(/round is closed/.test(closed.conditions[0]));
+// Tracks never mix, and academic money for the person ranks first.
+const mixed = [prog({ id: "f1" }), scholarship, prog({ id: "g1", track: "academic", kind: "grant", stages: ["phd"] }),
+  prog({ id: "p1", track: "academic", kind: "prize", stages: ["phd"] })];
+assert.deepStrictEqual(M.rank(mixed, luca, today).map((r) => r.p.id), ["f1"]);
+assert.deepStrictEqual(M.rank(mixed, phd, today).map((r) => r.p.id), ["x", "g1", "p1"]);
+assert.deepStrictEqual(M.fieldsFromText("A PhD on seagrass restoration in marine biology"), ["life-sciences-medicine"]);
+console.log("academic track ok");

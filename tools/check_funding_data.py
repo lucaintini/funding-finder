@@ -33,7 +33,17 @@ DATA = os.path.join(ROOT, "site", "funding", "data")
 
 # Ranking follows Luca's funding rule (17 Oct 2026): money and credits first,
 # tax incentives last.
-KINDS = ["grant", "prize", "credits", "accelerator", "loan", "equity", "tax"]
+KINDS = ["grant", "prize", "credits", "accelerator", "loan", "equity", "tax", "scholarship", "fellowship"]
+# Academic track (Luca, 23 Oct 2026): PhD scholarships, fellowships, research grants
+# and prizes worldwide, alongside the founder programs. A record's "track" is
+# "founder" (default) or "academic"; the two tracks have their own stages and
+# their own ranking (money for the person first: scholarship, fellowship, then
+# grant, then prize).
+TRACKS = ["founder", "academic"]
+ACADEMIC_KINDS = ["scholarship", "fellowship", "grant", "prize"]
+ACADEMIC_STAGES = ["masters", "phd", "postdoc", "early-career", "established-researcher"]
+FIELDS = ["natural-sciences", "engineering-computing", "life-sciences-medicine",
+          "social-sciences", "humanities", "arts"]
 # "established" = trading 3+ years, no longer a startup (23 Oct 2026, Luke's case).
 STAGES = ["idea", "prototype", "revenue", "established"]
 REGION = re.compile(r"^(GLOBAL|EU|[A-Z]{2}(-[A-Z0-9]{2,3})?)$")
@@ -72,6 +82,21 @@ def check_record(r: dict, today: dt.date) -> list[str]:
         out.append(f"region {r['region']!r} is not GLOBAL, EU, XX or XX-YY")
     if r["kind"] not in KINDS:
         out.append(f"kind must be one of {KINDS}")
+    track = r.get("track", "founder")
+    if track not in TRACKS:
+        out.append(f"track must be one of {TRACKS}")
+    if track == "academic":
+        if r["kind"] not in ACADEMIC_KINDS:
+            out.append(f"an academic record's kind must be one of {ACADEMIC_KINDS}")
+        if r["sectors"] != ["any"] and any(s not in FIELDS for s in r["sectors"]):
+            out.append(f'an academic record\'s sectors must be ["any"] or a subset of {FIELDS}')
+        for c in r.get("host_in", []) or []:
+            if not (c == "EU" or COUNTRY.match(str(c))):
+                out.append(f"host_in entry {c!r} must be an ISO country code or EU")
+        if not isinstance(r.get("host_in", []), list) or not isinstance(r.get("mobility", ""), str):
+            out.append("host_in must be a list and mobility a string")
+    elif r["kind"] in ("scholarship", "fellowship"):
+        out.append("scholarship and fellowship are academic kinds: set track to academic")
     if not r["url"].startswith("https://"):
         out.append("url must be the official https page")
     try:
@@ -82,8 +107,9 @@ def check_record(r: dict, today: dt.date) -> list[str]:
             out.append(f"checked {r['checked']} is older than {MAX_AGE_DAYS} days: recheck the official page")
     except ValueError:
         out.append("checked must be YYYY-MM-DD")
-    if not r["stages"] or any(s not in STAGES for s in r["stages"]):
-        out.append(f"stages must be a non-empty subset of {STAGES}")
+    allowed = ACADEMIC_STAGES if track == "academic" else STAGES
+    if not r["stages"] or any(s not in allowed for s in r["stages"]):
+        out.append(f"stages must be a non-empty subset of {allowed}")
     if not r["sectors"]:
         out.append('sectors must list sectors or ["any"]')
     if not r["next_steps"]:
@@ -105,15 +131,19 @@ def check_record(r: dict, today: dt.date) -> list[str]:
     if "remote" in r and not isinstance(r["remote"], bool):
         out.append("remote must be true or false")
     d = r["deadline"]
-    if d.get("type") not in ("rolling", "date", "cohort"):
-        out.append("deadline.type must be rolling, date or cohort")
+    # "closed" (23 Oct 2026): the page says the current round is closed and names
+    # no next date; the finder shows it with a condition instead of "eligible".
+    if d.get("type") not in ("rolling", "date", "cohort", "closed"):
+        out.append("deadline.type must be rolling, date, cohort or closed")
+    elif d["type"] == "closed" and not d.get("note"):
+        out.append("deadline.note must say what the page says when type is closed")
     elif d["type"] == "date":
         try:
             dt.date.fromisoformat(d.get("date", ""))
         except ValueError:
             out.append("deadline.date must be YYYY-MM-DD when type is date")
-    for k in ("name", "summary", "amount"):
-        if DASHES.search(r[k]):
+    for k in ("name", "summary", "amount", "mobility"):
+        if DASHES.search(r.get(k, "") or ""):
             out.append(f"{k} contains an em or en dash")
     for s in r["next_steps"]:
         if DASHES.search(s):

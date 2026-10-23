@@ -34,7 +34,7 @@
 .ff-card p { margin: 4px 0; font-size: 0.93rem; }
 .ff-card-head { display: flex; flex-wrap: wrap; gap: 6px; font-size: 0.78rem; }
 .ff-card-head span { border-radius: 999px; padding: 2px 9px; background: var(--bg); border: 1px solid var(--border); }
-.ff-kind-grant, .ff-kind-prize, .ff-kind-credits { background: color-mix(in srgb, var(--accent) 40%, var(--surface)) !important; }
+.ff-kind-grant, .ff-kind-prize, .ff-kind-credits, .ff-kind-scholarship, .ff-kind-fellowship { background: color-mix(in srgb, var(--accent) 40%, var(--surface)) !important; }
 .ff-kind-tax { background: var(--bg); }
 .ff-soon { border-color: var(--coral) !important; color: var(--coral); font-weight: 700; }
 .ff-provider, .ff-checked { color: var(--muted); }

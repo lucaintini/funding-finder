@@ -7,7 +7,7 @@
   var M = window.FundingMatch, PROGRAMS = window.FUNDING_PROGRAMS || [];
   var KEY = "funding-finder-answers";
   var KIND_LABEL = { grant: "Grant", prize: "Prize", credits: "Credits", accelerator: "Accelerator",
-    loan: "Loan", equity: "Investment", tax: "Tax incentive" };
+    loan: "Loan", equity: "Investment", tax: "Tax incentive", scholarship: "Scholarship", fellowship: "Fellowship" };
   var INVESTOR_LABEL = { angel: "Angel network", government: "Public co-investor", vc: "Venture fund",
     crowdfunding: "Equity crowdfunding" };
   var $ = function (id) { return document.getElementById(id); };
@@ -55,18 +55,39 @@
     var co = $("ff-company"), have = {};
     Array.prototype.forEach.call(co.options, function (o) { have[o.value] = true; });
     byName.forEach(function (c) { if (!have[c]) co.appendChild(new Option("Yes, registered in " + regionName(c), c)); });
+    var ho = $("ff-host"), haveHost = {};
+    Array.prototype.forEach.call(ho.options, function (o) { haveHost[o.value] = true; });
+    byName.forEach(function (c) { if (!haveHost[c]) ho.appendChild(new Option(regionName(c), c)); });
   })();
+  form.querySelectorAll("input[name=track]").forEach(function (i) {
+    i.addEventListener("change", function () { showTrack(currentTrack()); });
+  });
+
+  function currentTrack() {
+    return (form.querySelector("input[name=track]:checked") || {}).value || "founder";
+  }
+
+  // The founder and academic questions share one form; the blocks marked
+  // data-track show for their track only (23 Oct 2026).
+  function showTrack(t) {
+    form.querySelectorAll("[data-track]").forEach(function (b) { b.hidden = b.getAttribute("data-track") !== t; });
+  }
 
   function profile() {
     var age = parseInt($("ff-age").value, 10);
-    var picked = checked("sector");
-    var fromText = M.sectorsFromText($("ff-idea").value);
+    var academic = currentTrack() === "academic";
+    var picked = checked(academic ? "field" : "sector");
+    var fromText = academic ? M.fieldsFromText($("ff-idea").value) : M.sectorsFromText($("ff-idea").value);
     return {
+      track: academic ? "academic" : "founder",
       idea: $("ff-idea").value,
       citizenship: checked("cit"),
       residence: checked("res"),
       company: $("ff-company").value,
-      stage: (form.querySelector("input[name=stage]:checked") || {}).value || "idea",
+      host: $("ff-host").value,
+      stage: academic
+        ? (form.querySelector("input[name=astage]:checked") || {}).value || "phd"
+        : (form.querySelector("input[name=stage]:checked") || {}).value || "idea",
       equityOk: $("ff-equity").checked,
       age: isNaN(age) ? null : age,
       student: $("ff-student").checked,
@@ -83,8 +104,12 @@
     var p;
     try { p = JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) { p = null; }
     if (!p) return false;
+    var tr = form.querySelector("input[name=track][value=" + (p.track || "founder") + "]");
+    if (tr) tr.checked = true;
+    showTrack(p.track || "founder");
     $("ff-idea").value = p.idea || "";
     $("ff-company").value = p.company || "none";
+    $("ff-host").value = p.host || "any";
     $("ff-equity").checked = !!p.equityOk;
     $("ff-age").value = p.age || "";
     $("ff-student").checked = !!p.student;
@@ -93,10 +118,10 @@
       (vals || []).forEach(function (c) { if (COUNTRIES.indexOf(c) !== -1) addChip(n, c); });
       form.querySelectorAll("input[name=" + n + "]").forEach(function (i) { i.checked = (vals || []).indexOf(i.value) !== -1; });
     });
-    form.querySelectorAll("input[name=sector]").forEach(function (i) {
+    form.querySelectorAll("input[name=sector], input[name=field]").forEach(function (i) {
       i.checked = (p.sectors || []).indexOf(i.value) !== -1 && (p.textSectors || []).indexOf(i.value) === -1;
     });
-    var st = form.querySelector("input[name=stage][value=" + (p.stage || "idea") + "]");
+    var st = form.querySelector("input[name=" + (p.track === "academic" ? "astage" : "stage") + "][value=" + (p.stage || "idea") + "]");
     if (st) st.checked = true;
     return true;
   }
@@ -114,7 +139,7 @@
   // Lucide icons (ISC licence, lucide.dev, lucide-static 0.460.0), drawn with DOM calls so the
   // page needs no icon font or network. 23 Oct 2026: emoji and the coloured left stripe were
   // replaced on a visitor's feedback.
-  var ICONS = {"grant":[["rect",{"width":"20","height":"12","x":"2","y":"6","rx":"2"}],["circle",{"cx":"12","cy":"12","r":"2"}],["path",{"d":"M6 12h.01M18 12h.01"}]],"prize":[["path",{"d":"M6 9H4.5a2.5 2.5 0 0 1 0-5H6"}],["path",{"d":"M18 9h1.5a2.5 2.5 0 0 0 0-5H18"}],["path",{"d":"M4 22h16"}],["path",{"d":"M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"}],["path",{"d":"M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"}],["path",{"d":"M18 2H6v7a6 6 0 0 0 12 0V2Z"}]],"credits":[["path",{"d":"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"}]],"accelerator":[["path",{"d":"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"}],["path",{"d":"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"}],["path",{"d":"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"}],["path",{"d":"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"}]],"loan":[["line",{"x1":"3","x2":"21","y1":"22","y2":"22"}],["line",{"x1":"6","x2":"6","y1":"18","y2":"11"}],["line",{"x1":"10","x2":"10","y1":"18","y2":"11"}],["line",{"x1":"14","x2":"14","y1":"18","y2":"11"}],["line",{"x1":"18","x2":"18","y1":"18","y2":"11"}],["polygon",{"points":"12 2 20 7 4 7"}]],"equity":[["path",{"d":"m11 17 2 2a1 1 0 1 0 3-3"}],["path",{"d":"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"}],["path",{"d":"m21 3 1 11h-2"}],["path",{"d":"M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"}],["path",{"d":"M3 4h8"}]],"tax":[["path",{"d":"M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"}],["path",{"d":"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"}],["path",{"d":"M12 17.5v-11"}]],"eligible":[["path",{"d":"M20 6 9 17l-5-5"}]],"conditional":[["circle",{"cx":"12","cy":"12","r":"10"}],["path",{"d":"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"}],["path",{"d":"M12 17h.01"}]],"no":[["path",{"d":"M18 6 6 18"}],["path",{"d":"m6 6 12 12"}]]};
+  var ICONS = {"grant":[["rect",{"width":"20","height":"12","x":"2","y":"6","rx":"2"}],["circle",{"cx":"12","cy":"12","r":"2"}],["path",{"d":"M6 12h.01M18 12h.01"}]],"prize":[["path",{"d":"M6 9H4.5a2.5 2.5 0 0 1 0-5H6"}],["path",{"d":"M18 9h1.5a2.5 2.5 0 0 0 0-5H18"}],["path",{"d":"M4 22h16"}],["path",{"d":"M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"}],["path",{"d":"M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"}],["path",{"d":"M18 2H6v7a6 6 0 0 0 12 0V2Z"}]],"credits":[["path",{"d":"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"}]],"accelerator":[["path",{"d":"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"}],["path",{"d":"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"}],["path",{"d":"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"}],["path",{"d":"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"}]],"loan":[["line",{"x1":"3","x2":"21","y1":"22","y2":"22"}],["line",{"x1":"6","x2":"6","y1":"18","y2":"11"}],["line",{"x1":"10","x2":"10","y1":"18","y2":"11"}],["line",{"x1":"14","x2":"14","y1":"18","y2":"11"}],["line",{"x1":"18","x2":"18","y1":"18","y2":"11"}],["polygon",{"points":"12 2 20 7 4 7"}]],"equity":[["path",{"d":"m11 17 2 2a1 1 0 1 0 3-3"}],["path",{"d":"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"}],["path",{"d":"m21 3 1 11h-2"}],["path",{"d":"M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"}],["path",{"d":"M3 4h8"}]],"tax":[["path",{"d":"M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"}],["path",{"d":"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"}],["path",{"d":"M12 17.5v-11"}]],"scholarship":[["path",{"d":"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"}],["path",{"d":"M22 10v6"}],["path",{"d":"M6 12.5V16a6 3 0 0 0 12 0v-3.5"}]],"fellowship":[["path",{"d":"M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"}],["path",{"d":"M6.453 15h11.094"}],["path",{"d":"M8.5 2h7"}]],"eligible":[["path",{"d":"M20 6 9 17l-5-5"}]],"conditional":[["circle",{"cx":"12","cy":"12","r":"10"}],["path",{"d":"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"}],["path",{"d":"M12 17h.01"}]],"no":[["path",{"d":"M18 6 6 18"}],["path",{"d":"m6 6 12 12"}]]};
   function icon(name) {
     var NS = "http://www.w3.org/2000/svg", svg = document.createElementNS(NS, "svg");
     var base = { viewBox: "0 0 24 24", width: "14", height: "14", fill: "none", stroke: "currentColor",
@@ -141,6 +166,7 @@
     if (v.days !== null && v.days >= 0) head.appendChild(el("span", "ff-days" + (v.days <= 30 ? " ff-soon" : ""), v.days + " days left"));
     else if (p.deadline.type === "rolling") head.appendChild(el("span", "ff-days", "Open all year"));
     else if (p.deadline.type === "cohort") head.appendChild(el("span", "ff-days", "Intakes" + (p.deadline.note ? ": " + p.deadline.note : "")));
+    else if (p.deadline.type === "closed") head.appendChild(el("span", "ff-days", "Round closed"));
     c.appendChild(head);
     var h = el("h3");
     var a = el("a", "", p.name);
@@ -193,10 +219,10 @@
       list.forEach(function (r) { sec.appendChild(card(r)); });
       out.appendChild(sec);
     });
-    var sum = $("ff-summary");
+    var sum = $("ff-summary"), pool = M.forTrack(PROGRAMS, p).length;
     sum.textContent = counts.eligible + " programs you look eligible for, " + counts.conditional
-      + " more with a condition, out of " + PROGRAMS.length + " checked programs."
-      + (p.textSectors.length ? " From your idea we read: " + p.textSectors.join(", ") + "." : "");
+      + " more with a condition, out of " + pool + (p.track === "academic" ? " academic" : " founder") + " programs checked."
+      + (p.textSectors.length ? " From your " + (p.track === "academic" ? "description" : "idea") + " we read: " + p.textSectors.join(", ") + "." : "");
     $("ff-out").hidden = false;
     $("ff-ai-row").hidden = !aiPossible;
   }
@@ -251,7 +277,7 @@
         var p = top[i].p;
         note.textContent = "Explaining match " + (i + 1) + " of " + top.length + "...";
         var answer = await session.prompt(
-          "A founder describes their idea: \"" + idea + "\".\n" +
+          (lastRows.length && lastRows[0].p.track === "academic" ? "A researcher describes their research: \"" : "A founder describes their idea: \"") + idea + "\".\n" +
           "Program: " + p.name + ". " + p.summary + " Amount: " + p.amount + ".\n" +
           "In one or two plain sentences, say how this idea could fit this program and what to stress in the application. " +
           "Do not invent facts about the program. No dashes.");

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Free funding finder for founders: grants, prizes, cloud and AI credits, accelerators, investors and tax incentives worldwide. Every program checked on its official page. Runs in your browser, collects nothing.">
-<title>Funding finder: grants and credits for your idea</title>
+<meta name="description" content="Free funding finder for founders and researchers: grants, prizes, cloud and AI credits, accelerators, investors and tax incentives, plus PhD scholarships, fellowships and research grants worldwide. Every program checked on its official page. Runs in your browser, collects nothing.">
+<title>Funding finder: grants, credits and fellowships for your idea</title>
 <link rel="stylesheet" href="/brand.css">
 <link rel="stylesheet" href="/funding/funding.css">
 <link rel="canonical" href="https://lucaintini.ai/funding">
@@ -17,8 +17,8 @@
 <body>
 <main class="wrap ff">
   <h1>Funding finder<span class="dot">.</span></h1>
-  <p class="ff-lead">Describe your idea and get the grants, prizes, cloud and AI credits, accelerators and tax incentives
-  you can actually apply for, with a clear yes, a condition, or a no for each one.
+  <p class="ff-lead">Describe your idea or your research and get the grants, prizes, cloud and AI credits, accelerators and tax incentives,
+  or the scholarships, fellowships and research grants, you can actually apply for, with a clear yes, a condition, or a no for each one.
   <span id="ff-count">0</span> programs from around the world, each checked by hand on its official page.</p>
 
   <aside class="ff-privacy" aria-label="Privacy">
@@ -37,8 +37,16 @@
   <p id="ff-forgot" class="ff-note" role="status" hidden>Done: your answers are gone from this browser.</p>
 
   <form id="ff-form" class="ff-form" autocomplete="off">
-    <label for="ff-idea" class="ff-q">1. Your idea, in a few sentences</label>
-    <textarea id="ff-idea" rows="5" maxlength="3000" placeholder="For example: a mobile app that uses AI to help small farms in Puglia plan irrigation and cut water use."></textarea>
+    <fieldset>
+      <legend class="ff-q">Who are you?</legend>
+      <div class="ff-chips">
+        <label><input type="radio" name="track" value="founder" checked> A founder or a business</label>
+        <label><input type="radio" name="track" value="academic"> A student or researcher looking for academic funding</label>
+      </div>
+    </fieldset>
+
+    <label for="ff-idea" class="ff-q">1. Your idea or your research, in a few sentences</label>
+    <textarea id="ff-idea" rows="5" maxlength="3000" placeholder="For example: a mobile app that uses AI to help small farms in Puglia plan irrigation and cut water use. Or: a PhD in marine biology on seagrass restoration, looking for a scholarship abroad."></textarea>
 
     <fieldset>
       <legend class="ff-q">2. Your citizenships</legend>
@@ -74,6 +82,21 @@
       <select class="ff-add" data-for="res" aria-label="Add another country where you live or could be based"><option value="">Add another country</option></select>
     </fieldset>
 
+    <div data-track="academic" hidden>
+    <label for="ff-host" class="ff-q">4. Where would you do the research or the degree?</label>
+    <select id="ff-host">
+      <option value="any">Anywhere, I am happy to move</option>
+      <option value="AU">Australia</option>
+      <option value="IT">Italy</option>
+      <option value="NL">Netherlands</option>
+      <option value="EU">Another EU country</option>
+      <option value="CA">Canada</option>
+      <option value="GB">United Kingdom</option>
+      <option value="US">United States</option>
+    </select>
+    </div>
+
+    <div data-track="founder">
     <label for="ff-company" class="ff-q">4. Do you have a company?</label>
     <select id="ff-company">
       <option value="none">No, I am an individual or sole trader</option>
@@ -86,8 +109,9 @@
       <option value="US">Yes, registered in the US</option>
       <option value="XX">Yes, somewhere else</option>
     </select>
+    </div>
 
-    <fieldset>
+    <fieldset data-track="founder">
       <legend class="ff-q">5. Stage</legend>
       <div class="ff-chips">
         <label><input type="radio" name="stage" value="idea" checked> Just an idea</label>
@@ -97,7 +121,30 @@
       </div>
     </fieldset>
 
-    <fieldset>
+    <fieldset data-track="academic" hidden>
+      <legend class="ff-q">5. Where you are in your career</legend>
+      <div class="ff-chips">
+        <label><input type="radio" name="astage" value="masters"> Master's student or applicant</label>
+        <label><input type="radio" name="astage" value="phd" checked> PhD candidate or applying for one</label>
+        <label><input type="radio" name="astage" value="postdoc"> Postdoc (within about 8 years of the PhD)</label>
+        <label><input type="radio" name="astage" value="early-career"> Early-career researcher with a position</label>
+        <label><input type="radio" name="astage" value="established-researcher"> Established researcher, group leader or professor</label>
+      </div>
+    </fieldset>
+
+    <fieldset data-track="academic" hidden>
+      <legend class="ff-q">6. Your field (optional, we also read it from your description)</legend>
+      <div class="ff-chips">
+        <label><input type="checkbox" name="field" value="natural-sciences"> Natural sciences</label>
+        <label><input type="checkbox" name="field" value="engineering-computing"> Engineering and computing</label>
+        <label><input type="checkbox" name="field" value="life-sciences-medicine"> Life sciences and medicine</label>
+        <label><input type="checkbox" name="field" value="social-sciences"> Social sciences</label>
+        <label><input type="checkbox" name="field" value="humanities"> Humanities</label>
+        <label><input type="checkbox" name="field" value="arts"> Arts</label>
+      </div>
+    </fieldset>
+
+    <fieldset data-track="founder">
       <legend class="ff-q">6. Sectors (optional, we also read them from your idea)</legend>
       <div class="ff-chips">
         <label><input type="checkbox" name="sector" value="ai"> AI</label>
@@ -119,10 +166,10 @@
     </fieldset>
 
     <div class="ff-row">
-      <label class="ff-inline"><input type="checkbox" id="ff-equity"> I am open to giving up equity</label>
+      <label class="ff-inline" data-track="founder"><input type="checkbox" id="ff-equity"> I am open to giving up equity</label>
       <label class="ff-inline" for="ff-age">Age (optional, some programs have a limit)
         <input type="number" id="ff-age" min="14" max="99" inputmode="numeric"></label>
-      <label class="ff-inline"><input type="checkbox" id="ff-student"> I am a student or a recent graduate</label>
+      <label class="ff-inline" data-track="founder"><input type="checkbox" id="ff-student"> I am a student or a recent graduate</label>
     </div>
 
     <div class="ff-actions">
@@ -142,6 +189,7 @@
   </section>
 
   <p class="ff-foot">Programs are ranked money first: grants, prizes and credits, then accelerators, loans and investment, with tax incentives last.
+  Academic programs are ranked money for you first: scholarships and fellowships, then research grants, then prizes.
   Every program shows the date we last read its official page. Data built <span id="ff-built"></span>.
   Spotted something out of date, or know a program we miss? <a href="/funding/suggest">Suggest it</a>.</p>
 </main>
