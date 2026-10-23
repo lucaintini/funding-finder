@@ -42,6 +42,8 @@ ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 DASHES = re.compile("[–—]")
 # Luca, 23 Oct 2026: keep the list updated every 3 months.
 MAX_AGE_DAYS = 92
+# Investors (23 Oct 2026): only ones with an open, official application route.
+INVESTOR_TYPES = ["angel", "government", "vc", "crowdfunding"]
 
 REQUIRED = {
     "id": str, "name": str, "provider": str, "region": str, "kind": str,
@@ -98,6 +100,8 @@ def check_record(r: dict, today: dt.date) -> list[str]:
                 out.append(f"applicant.{k} entry {c!r} must be an ISO country code or EU")
     if a.get("student", "ok") not in ("ok", "only"):
         out.append('applicant.student must be "ok" or "only"')
+    if r.get("investor_type", "angel") not in INVESTOR_TYPES or ("investor_type" in r and r["kind"] != "equity"):
+        out.append(f"investor_type must be one of {INVESTOR_TYPES} and only on kind equity")
     if "remote" in r and not isinstance(r["remote"], bool):
         out.append("remote must be true or false")
     d = r["deadline"]

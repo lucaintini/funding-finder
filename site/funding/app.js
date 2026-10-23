@@ -8,6 +8,8 @@
   var KEY = "funding-finder-answers";
   var KIND_LABEL = { grant: "Grant", prize: "Prize", credits: "Credits", accelerator: "Accelerator",
     loan: "Loan", equity: "Investment", tax: "Tax incentive" };
+  var INVESTOR_LABEL = { angel: "Angel network", government: "Public co-investor", vc: "Venture fund",
+    crowdfunding: "Equity crowdfunding" };
   var $ = function (id) { return document.getElementById(id); };
   var form = $("ff-form");
 
@@ -15,6 +17,45 @@
     return Array.prototype.slice.call(form.querySelectorAll("input[name=" + name + "]:checked"))
       .map(function (i) { return i.value; });
   }
+
+  // Every country (23 Oct 2026: programs worldwide). Names come from the browser
+  // (Intl.DisplayNames), so the page still needs nothing from the network.
+  var COUNTRIES = ("AD AE AF AG AL AM AO AR AT AU AZ BA BB BD BE BF BG BH BI BJ BN BO BR BS BT BW BY BZ CA CD CF " +
+    "CG CH CI CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO DZ EC EE EG ER ES ET FI FJ FM FR GA GB GD GE GH GM GN GQ " +
+    "GR GT GW GY HK HN HR HT HU ID IE IL IN IQ IR IS IT JM JO JP KE KG KH KI KM KN KR KW KZ LA LB LC LI LK LR LS " +
+    "LT LU LV LY MA MC MD ME MG MH MK ML MM MN MO MR MT MU MV MW MX MY MZ NA NE NG NI NL NO NP NR NZ OM PA PE PG " +
+    "PH PK PL PS PT PW PY QA RO RS RU RW SA SB SC SD SE SG SI SK SL SM SN SO SR SS ST SV SY SZ TD TG TH TJ TL TM " +
+    "TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VN VU WS XK YE ZA ZM ZW").split(" ");
+  var regionName = (function () {
+    try { var dn = new Intl.DisplayNames(["en"], { type: "region" }); return function (c) { return dn.of(c) || c; }; }
+    catch (e) { return function (c) { return c; }; }
+  })();
+  var byName = COUNTRIES.slice().sort(function (a, b) { return regionName(a).localeCompare(regionName(b)); });
+
+  function addChip(name, code) {
+    if (form.querySelector("input[name=" + name + "][value=" + code + "]")) return;
+    var box = form.querySelector("select.ff-add[data-for=" + name + "]").previousElementSibling;
+    var lab = document.createElement("label"), inp = document.createElement("input");
+    inp.type = "checkbox"; inp.name = name; inp.value = code; inp.checked = true;
+    lab.appendChild(inp); lab.appendChild(document.createTextNode(" " + regionName(code)));
+    box.appendChild(lab);
+  }
+
+  form.querySelectorAll("select.ff-add").forEach(function (sel) {
+    byName.forEach(function (c) {
+      if (!form.querySelector("input[name=" + sel.dataset.for + "][value=" + c + "]")) {
+        sel.appendChild(new Option(regionName(c), c));
+      }
+    });
+    sel.addEventListener("change", function () {
+      if (sel.value) { addChip(sel.dataset.for, sel.value); sel.value = ""; }
+    });
+  });
+  (function () {
+    var co = $("ff-company"), have = {};
+    Array.prototype.forEach.call(co.options, function (o) { have[o.value] = true; });
+    byName.forEach(function (c) { if (!have[c]) co.appendChild(new Option("Yes, registered in " + regionName(c), c)); });
+  })();
 
   function profile() {
     var age = parseInt($("ff-age").value, 10);
@@ -49,6 +90,7 @@
     $("ff-student").checked = !!p.student;
     ["cit", "res"].forEach(function (n) {
       var vals = n === "cit" ? p.citizenship : p.residence;
+      (vals || []).forEach(function (c) { if (COUNTRIES.indexOf(c) !== -1) addChip(n, c); });
       form.querySelectorAll("input[name=" + n + "]").forEach(function (i) { i.checked = (vals || []).indexOf(i.value) !== -1; });
     });
     form.querySelectorAll("input[name=sector]").forEach(function (i) {
@@ -74,7 +116,8 @@
     var c = el("article", "ff-card ff-" + v.status);
     c.dataset.id = p.id;
     var head = el("div", "ff-card-head");
-    head.appendChild(el("span", "ff-kind ff-kind-" + p.kind, KIND_LABEL[p.kind]));
+    head.appendChild(el("span", "ff-kind ff-kind-" + p.kind,
+      p.investor_type ? INVESTOR_LABEL[p.investor_type] : KIND_LABEL[p.kind]));
     head.appendChild(el("span", "ff-region", p.region === "GLOBAL" ? "Worldwide" : p.region));
     if (v.days !== null && v.days >= 0) head.appendChild(el("span", "ff-days" + (v.days <= 30 ? " ff-soon" : ""), v.days + " days left"));
     else if (p.deadline.type === "rolling") head.appendChild(el("span", "ff-days", "Open all year"));
