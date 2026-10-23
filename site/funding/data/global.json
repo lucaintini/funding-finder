@@ -1139,5 +1139,81 @@
     ],
     "url": "https://www.startupschool.org",
     "checked": "2026-10-23"
+  },
+  {
+    "id": "gl-echoing-green-fellowship",
+    "name": "Echoing Green Fellowship",
+    "provider": "Echoing Green",
+    "region": "GLOBAL",
+    "kind": "grant",
+    "summary": "18-month fellowship for early-stage social entrepreneurs; for-profits receive the money as recoverable grants. 2026 applications are closed.",
+    "amount": "US$100,000 seed stipend over 18 months",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "social impact"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "2026 round closed; the page gives no dates for future cycles"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Be 18 or over by the cycle cutoff and able to work full time on the organisation for 18 months",
+      "Sign up for updates on the Echoing Green site",
+      "Note that you need not be a US citizen or incorporated, and no US work permit is sponsored"
+    ],
+    "url": "https://echoinggreen.org/fellowship/apply/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gl-diamond-challenge",
+    "name": "Diamond Challenge",
+    "provider": "University of Delaware Horn Entrepreneurship",
+    "region": "GLOBAL",
+    "kind": "prize",
+    "summary": "Global business and social innovation competition for high school student teams.",
+    "amount": "Grand prizes US$12,000, US$8,000 and US$4,500 per track; more than US$100,000 in awards overall",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Dates not on the main page; see the competition details page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Form a team of high school students",
+      "Open the competition details page for dates and rules",
+      "Attend an online Spark Session"
+    ],
+    "url": "https://www.diamondchallenge.org/",
+    "checked": "2026-10-23"
   }
 ]

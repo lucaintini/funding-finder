@@ -481,5 +481,1775 @@
     "url": "https://www.hub71.com/",
     "checked": "2026-10-23",
     "remote": false
+  },
+  {
+    "id": "us-band-of-angels",
+    "name": "Band of Angels",
+    "provider": "Band of Angels (Silicon Valley)",
+    "region": "US",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Silicon Valley angel group for seed-stage high-technology and life science companies. Online application goes to a pre-screening committee; about 6 companies a month are invited to a Deal Screening. The Band charges presenting companies no fees.",
+    "amount": "See the official page; preferred valuations or caps are around US$10M",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "US"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "technology",
+      "life sciences"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Online application, reviewed monthly; no deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Prepare your deck and the Band's one-page company overview template",
+      "Submit the online application form linked from the official page",
+      "Email BandHQ@bandangels.com with questions; real estate, restaurants, retail and funds are not considered"
+    ],
+    "url": "https://www.bandangels.com/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-tech-coast-angels",
+    "name": "Tech Coast Angels (TCA Venture Group)",
+    "provider": "TCA Venture Group",
+    "region": "US-CA",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "California angel network funding seed, bridge and early A-round companies across US and Canada, with a California preference. Apply online to the chapter of your choice; most chapters charge no application fee.",
+    "amount": "TCA funds typically invest at least US$100,000 per company; individual members typically at least US$25,000",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "US",
+        "CA"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Online application; screening presentations are bi-monthly"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Choose a chapter (Los Angeles, Orange County, Pasadena, Inland Empire or the 1752vc Accelerator) and submit the online application with a company overview, financial summary and investor deck",
+      "Note TCA Orange County charges a nominal administrative fee, paid before the application opens; other chapters state no fee",
+      "If invited, give the 8 to 15 minute pre-screen pitch, then the screening presentation"
+    ],
+    "url": "https://tcaventuregroup.com/apply-for-funding/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-golden-seeds",
+    "name": "Golden Seeds",
+    "provider": "Golden Seeds",
+    "region": "US",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Angel network investing in US-based women-led startups across all sectors. Entrepreneurs apply online; the official How to Apply page states a non-refundable US$50 administrative fee per application, waived if you reapply after an unsuccessful attempt.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "US"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Online application; no deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the investment criteria and optionally attend an Info Session or Office Hours",
+      "Submit the online application (US$50 non-refundable administrative fee, stated plainly by Golden Seeds)",
+      "If selected, pitch to a group of investors, then due diligence"
+    ],
+    "url": "https://www.goldenseeds.com/how-to-apply",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-new-york-angels",
+    "name": "New York Angels",
+    "provider": "New York Angels",
+    "region": "US-NY",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "New York angel group; entrepreneurs apply through the Apply for Funding link on its official site (a public profile on Gust). Fee and eligibility are not stated on the home page, so confirm on the official page before applying.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "US"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Apply for Funding link on the official site",
+      "Read the Investment Process and Early-Stage Entrepreneurs pages for fees and criteria before submitting",
+      "Prepare a deck and one-page summary"
+    ],
+    "url": "https://www.newyorkangels.com/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-hustle-fund",
+    "name": "Hustle Fund",
+    "provider": "Hustle Fund",
+    "region": "US",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Pre-seed fund backing very early software startups. Applications go through its official Typeform ('What are you hustling?'); its FAQ says it reads everything and invites pitches.",
+    "amount": "First cheque is US$150,000 per the official FAQ",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "software"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Fill in the official Typeform linked from hustlefund.vc",
+      "Read the FAQ at hustlefund.vc/faq: the first cheque is US$150K and it will not fill the bulk of a round",
+      "Be ready to explain evidence of hustle and traction"
+    ],
+    "url": "https://hustlefund.vc/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-startengine",
+    "name": "StartEngine",
+    "provider": "StartEngine",
+    "region": "US",
+    "kind": "equity",
+    "investor_type": "crowdfunding",
+    "summary": "US equity crowdfunding platform. Founders start a short online form (name, work email, phone) and answer a few questions so StartEngine can judge fit for equity crowdfunding. Eligibility, fees, raise limits and countries are not stated on that page; read the official FAQ and confirm the regulator there.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "US"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Start the form at startengine.com/raise",
+      "Ask about fees, eligibility and raise limits before committing; they are not stated on the entry page",
+      "Prepare offering materials and a video pitch"
+    ],
+    "url": "https://www.startengine.com/raise",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gb-passion-capital",
+    "name": "Passion Capital",
+    "provider": "Passion Capital",
+    "region": "GB",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "London early-stage fund (pre-seed and seed, occasionally Series A) focused on AI, fintech and risk, and digital media and technology. Founders use the 'Pitch Us' Typeform. Companies should be UK or Europe based and expect a limited company with a board before investing.",
+    "amount": "See the official page; it will not put more than 15% of the fund into one company",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "GB",
+        "EU"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "AI",
+      "fintech",
+      "enterprise software",
+      "digital media"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Submit the Pitch Us Typeform on the official site",
+      "Be ready to incorporate a limited company with a board of directors",
+      "No product or customers are required at pre-seed"
+    ],
+    "url": "https://www.passioncapital.com/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gb-episode-1",
+    "name": "Episode 1",
+    "provider": "Episode 1 Ventures",
+    "region": "GB",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "London fund investing in B2B software companies raising pre-seed or seed rounds. Use the 'Submit your deck' form; it asks for company details, round size, ARR and a PDF deck up to 10 MB.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "B2B software"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open Submit your deck on the official site",
+      "Submit only if you are B2B software raising pre-seed or seed",
+      "Have a PDF deck under 10 MB and your ARR and round size ready"
+    ],
+    "url": "https://www.episode1.com/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gb-syndicateroom-angel-fund",
+    "name": "SyndicateRoom Angel Co-investment Fund",
+    "provider": "SyndicateRoom (FCA authorised and regulated, no. 613021)",
+    "region": "GB",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Fund that co-invests alongside a qualifying top-performing angel in UK companies. Criteria: UK registered and EIS eligible, straight equity round, at least GBP 300,000 from other investors within six months, pre-money GBP 2m to GBP 20m. No application fee is stated; a one-off 4.5% charge applies to capital the fund invests.",
+    "amount": "Fund ticket counts toward a GBP 400,000 minimum round; it commits within ten days of receiving materials",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "GB"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the criteria on the official page, including that a qualifying angel is investing",
+      "Submit the application form linked on the page",
+      "Or contact SyndicateRoom to ask whether a qualifying angel is in your round"
+    ],
+    "url": "https://www.syndicateroom.com/raise",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gb-cambridge-angels",
+    "name": "Cambridge Angels",
+    "provider": "Cambridge Angels",
+    "region": "GB",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Invitation-only angel group of up to 65 members. Its site links an Apply to Cambridge Angels page, states no charges to companies, no pitching or carry fees, and offers free one-on-one office hours with an investor.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the Apply to Cambridge Angels page on the official site",
+      "Request free office hours for feedback first",
+      "Confirm criteria on the apply page"
+    ],
+    "url": "https://www.cambridgeangels.com/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nz-aspire-seed-fund",
+    "name": "Aspire NZ Seed Fund",
+    "provider": "NZ Growth Capital Partners (Government of New Zealand)",
+    "region": "NZ",
+    "kind": "equity",
+    "investor_type": "government",
+    "summary": "Government seed co-investment fund for early-stage, high-growth NZ technology startups (proof of concept, seed, early expansion). Apply via the online form; funds are transferred only once matching co-investor funds are committed. No fixed cheque size; weighted toward deep tech.",
+    "amount": "No cap per company or per year stated; see the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "NZ"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "technology",
+      "deep tech",
+      "agritech",
+      "cleantech",
+      "life sciences"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Online form; no deadline stated"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Aspire FAQs to check fit",
+      "Complete the online application form (Apply for funding link)",
+      "Line up private co-investors, since funds flow only after matching funds are committed; email info@nzgcp.co.nz with questions"
+    ],
+    "url": "https://www.nzgcp.co.nz/funding/aspire-seed-fund",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "nz-pledgeme",
+    "name": "PledgeMe Equity Crowdfunding",
+    "provider": "PledgeMe (FSP359926), licensed by the NZ Financial Markets Authority",
+    "region": "NZ",
+    "kind": "equity",
+    "investor_type": "crowdfunding",
+    "summary": "New Zealand equity crowdfunding platform licensed by the Financial Markets Authority. Create an investment campaign online, or use its contact form. Fees are not stated on the entry page; see the Disclosure Statement and Issuer Agreement.",
+    "amount": "Campaigns list minimum and maximum targets; see the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "NZ"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Read the Issuer Agreement and Disclosure Statement in the footer",
+      "Start a campaign at the Create link, or use the contact form",
+      "Confirm fees before launching"
+    ],
+    "url": "https://www.pledgeme.co.nz/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "jp-coral-capital",
+    "name": "Coral Capital",
+    "provider": "Coral Capital",
+    "region": "JP",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Tokyo-based fund investing from seed through Series D, open to all entrepreneurs. Founders use the official fundraising inquiry form; first step is usually a 30 minute Zoom call, decisions take two to three weeks, no NDAs, and not every inquiry gets a reply. English and Japanese both offered.",
+    "amount": "Roughly JPY 50 million to JPY 3 billion per the Japanese site",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Submit the inquiry form at coralcap.co/contact-startups",
+      "Send a deck (bullet points fine at early stage) and an optional demo video",
+      "Expect a 30 minute Zoom, then a decision in two to three weeks"
+    ],
+    "url": "https://coralcap.co/contact-startups/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ng-ventures-platform",
+    "name": "Ventures Platform",
+    "provider": "Ventures Platform",
+    "region": "NG",
+    "kind": "equity",
+    "investor_type": "vc",
+    "summary": "Pan-African venture firm (Fund II closed at US$84M) backing companies that widen access across Africa and other emerging markets. Founders use the Apply Typeform on the official site. Stage and cheque size are not stated.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Click Apply or Tell us what you are building on the official site",
+      "Read the How we Invest page at /thesis",
+      "Use /contact-us for questions"
+    ],
+    "url": "https://www.venturesplatform.com/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "in-indian-angel-network",
+    "name": "Indian Angel Network (IAN Group)",
+    "provider": "IAN Group",
+    "region": "IN",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "One of India's angel networks; its official site has a Submit Plan page for entrepreneurs. Fee and eligibility are not stated on the pages I opened, so confirm before applying.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "IN"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "technology"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open Submit Plan on iangroup.vc",
+      "Check the Contact Us page for fees and criteria",
+      "Prepare a plan and deck"
+    ],
+    "url": "https://iangroup.vc/submit-plan/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "in-lvx-letsventure",
+    "name": "LetsVenture (LVX Ventures)",
+    "provider": "LVX Ventures / LetsVenture",
+    "region": "IN",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "India-based startup investing platform. Founders share details, get an Elvix evaluation (48 business hours, with a 30 minute review with an LVX investment team member) that unlocks the fundraising application. No founder fees stated on the page; eligibility not stated. Warning: letsventurecredit.com is a fraudulent site.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Start the Elvix for Founders flow on the official site (about 5 minutes)",
+      "Complete the evaluation and 30 minute review",
+      "Then complete the fundraising application"
+    ],
+    "url": "https://lvxventures.com/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "de-companisto",
+    "name": "Companisto",
+    "provider": "Companisto",
+    "region": "DE",
+    "kind": "equity",
+    "investor_type": "crowdfunding",
+    "summary": "German crowd investing platform. Startups apply via 'Als Startup bewerben'; the team selects which startups are presented to its investor network, typically as co-financing with other investors. No application fee is stated on the page I opened; check the startup FAQ. Regulator not stated there.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "DE"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open Als Startup bewerben on the official site",
+      "Read the FAQ for Startups at companisto.com/de/faq for fees",
+      "Expect selection by the Companisto team"
+    ],
+    "url": "https://www.companisto.com/de/for-founders",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "br-anjos-do-brasil",
+    "name": "Anjos do Brasil",
+    "provider": "Anjos do Brasil",
+    "region": "BR",
+    "kind": "equity",
+    "investor_type": "angel",
+    "summary": "Brazilian angel investing network; its official site has a For Entrepreneurs page (Quero captar investimento para minha startup) and a startup login area, plus free mentorship. Fees and criteria are not stated on the home page; confirm there.",
+    "amount": "See the official page",
+    "equity": true,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "BR"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Open application form, no fixed deadline stated on the official page"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the para-startups page",
+      "Check fees and criteria there or via /contato",
+      "Consider the free mentorship programme first"
+    ],
+    "url": "https://anjosdobrasil.net/para-startups/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-sbir-sttr",
+    "name": "SBIR and STTR (America's Seed Fund)",
+    "provider": "US federal agencies via SBIR.gov",
+    "region": "US",
+    "kind": "grant",
+    "summary": "Competitive federal R&D awards for US small businesses, run by participating agencies; non-dilutive.",
+    "amount": "Phase I up to US$335,937 and Phase II up to US$2,239,578 without SBA waiver (thresholds from 16 Oct 2026); actual size set per agency topic",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "US"
+      ],
+      "citizenship": [],
+      "residence": [
+        "US"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Each agency posts topics on its own schedule; the topics page showed 306 open solicitations, one set opening 28 Oct 2026 and closing 25 Nov 2026. Check each agency."
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the business is for-profit, located in the US, under 500 employees and owned and controlled by US citizens or permanent residents",
+      "Register a Unique Entity ID on SAM.gov",
+      "Pick an open topic on sbir.gov/topics and read the agency solicitation"
+    ],
+    "url": "https://www.sbir.gov/about",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-sba-7a-loan",
+    "name": "SBA 7(a) loan",
+    "provider": "US Small Business Administration",
+    "region": "US",
+    "kind": "loan",
+    "summary": "SBA-guaranteed loans, made through participating lenders, for working capital, equipment, real estate, refinancing and ownership changes.",
+    "amount": "Up to US$5 million",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "US"
+      ],
+      "citizenship": [],
+      "residence": [
+        "US"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the business is for-profit, operating, located in the US and meets SBA size standards",
+      "Find an SBA lender and ask for a 7(a) application",
+      "Prepare financials, since the lender must judge repayment ability"
+    ],
+    "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-sba-microloan",
+    "name": "SBA Microloan program",
+    "provider": "US Small Business Administration",
+    "region": "US",
+    "kind": "loan",
+    "summary": "Small loans from SBA-approved nonprofit intermediary lenders for US operating businesses.",
+    "amount": "Up to US$50,000 (average about US$13,000)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "US"
+      ],
+      "citizenship": [],
+      "residence": [
+        "US"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the business is for-profit, operating and in the US",
+      "Find an SBA intermediary lender near you; it makes credit decisions and sets terms",
+      "Ask the intermediary what documents and collateral it wants"
+    ],
+    "url": "https://www.sba.gov/funding-programs/loans/microloans",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-sba-504-loan",
+    "name": "SBA 504 loan",
+    "provider": "US Small Business Administration, Certified Development Companies",
+    "region": "US",
+    "kind": "loan",
+    "summary": "Long-term fixed-asset financing for buildings, land and long-life equipment, arranged through a Certified Development Company with a senior lender.",
+    "amount": "Up to US$5.5 million per the page body (page header says US$5 million; confirm with a CDC)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "US"
+      ],
+      "citizenship": [],
+      "residence": [
+        "US"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the business is for-profit, small under SBA standards and in the US",
+      "Find a Certified Development Company through SBA",
+      "Note that working capital and inventory cannot be financed"
+    ],
+    "url": "https://www.sba.gov/funding-programs/loans/504-loans",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gb-start-up-loans",
+    "name": "Start Up Loans",
+    "provider": "British Business Bank, via GOV.UK",
+    "region": "GB",
+    "kind": "loan",
+    "summary": "Unsecured personal loan for starting or growing a UK business, with free business plan support and up to 12 months of mentoring.",
+    "amount": "GBP 500 to GBP 25,000, fixed 7.5% a year, repayable over 1 to 5 years, no application fee",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "GB"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check you live in the UK, are 18 or over and the business is UK-based and fully trading for under 5 years",
+      "Register through the Start now link on the Start Up Loans site",
+      "Expect a credit check; the loan is personal, not a business loan"
+    ],
+    "url": "https://www.gov.uk/start-up-loans",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "gb-innovate-uk-funding",
+    "name": "Innovate UK funding competitions",
+    "provider": "Innovate UK, UK Research and Innovation",
+    "region": "GB",
+    "kind": "grant",
+    "summary": "Innovate UK runs open competitions for innovation projects; each competition sets its own eligibility, size and deadline.",
+    "amount": "See the official page (varies by competition)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "GB"
+      ],
+      "citizenship": [],
+      "residence": [
+        "GB"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Competition by competition; check the funding finder for open and upcoming ones"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the UKRI funding finder filtered to Innovate UK open and upcoming",
+      "Read the eligibility of one competition (for example Knowledge Transfer Partnerships are applied for by UK academic institutions, RTOs or Catapults, not by businesses directly)",
+      "Read the UKRI before you apply guidance"
+    ],
+    "url": "https://www.ukri.org/councils/innovate-uk/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ie-ei-market-research-grant",
+    "name": "Market Research Grant",
+    "provider": "Enterprise Ireland",
+    "region": "IE",
+    "kind": "grant",
+    "summary": "Enterprise Ireland grant for market research spending by startups, SMEs and large companies.",
+    "amount": "Maximum grant of EUR 35,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IE"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IE"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Contact Enterprise Ireland on +353 1 7272000 to confirm you qualify as a client company",
+      "Check the percentage covered and eligible costs, which the page does not state",
+      "Do not start spending before approval is confirmed"
+    ],
+    "url": "https://www.enterprise-ireland.com/en/supports/market-research-grant",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ie-ei-new-market-validation-grant",
+    "name": "New Market Validation Grant",
+    "provider": "Enterprise Ireland",
+    "region": "IE",
+    "kind": "grant",
+    "summary": "Grant for market research to validate a selected market, open to startups, SMEs and large companies.",
+    "amount": "Up to EUR 150,000",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IE"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IE"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Contact Enterprise Ireland to confirm client company status",
+      "Ask about the funding percentage and eligible costs, which the page does not state",
+      "Define the target market and validation plan"
+    ],
+    "url": "https://www.enterprise-ireland.com/en/supports/new-market-validation-grant",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ie-ei-digital-process-innovation",
+    "name": "Digital Process Innovation",
+    "provider": "Enterprise Ireland",
+    "region": "IE",
+    "kind": "grant",
+    "summary": "Funding for the internal implementation team and external expertise to introduce new technology and digital processes.",
+    "amount": "Up to 50% grant funding (the support list shows up to EUR 150,000)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IE"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IE"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Contact Enterprise Ireland to confirm client company status",
+      "Scope the digital process project and costs",
+      "Confirm the cap and eligible costs before committing spend"
+    ],
+    "url": "https://www.enterprise-ireland.com/en/supports/digital-process-innovation",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ie-ei-innovative-hpsu-fund",
+    "name": "Innovative High Potential Start-Up Fund",
+    "provider": "Enterprise Ireland",
+    "region": "IE",
+    "kind": "equity",
+    "summary": "Funding to develop a High Potential Start-Up idea, product or technology and to grow into overseas markets. Equity terms and eligibility are not stated on the page.",
+    "amount": "Up to EUR 1.2 million",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "IE"
+      ],
+      "citizenship": [],
+      "residence": [
+        "IE"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Contact Enterprise Ireland on +353 1 7272000 to ask about eligibility, equity terms and any Irish-base requirement",
+      "Prepare a high potential start-up business plan",
+      "Consider the HPSU Feasibility Study Grant first if the plan is not investor ready"
+    ],
+    "url": "https://www.enterprise-ireland.com/en/innovative-hpsu-fund",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "de-kfw-startgeld",
+    "name": "ERP-Gruenderkredit StartGeld (067)",
+    "provider": "KfW",
+    "region": "DE",
+    "kind": "loan",
+    "summary": "Loan for founders, part-time founders, successors and young companies, applied for through your house bank; KfW covers 80% of the credit risk.",
+    "amount": "Up to EUR 200,000 (up to EUR 80,000 for working capital); 2 to 10 year terms with up to 1 to 2 deferred years; commitment fee 0.15% a month after 6 months",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "DE"
+      ],
+      "citizenship": [],
+      "residence": [
+        "DE"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the company seat and investment are in Germany and trading began under 5 years ago (clock starts at first sales)",
+      "Prepare a business plan with the KfW template",
+      "Apply through a house bank or other financing partner before starting the project; direct application to KfW is not possible"
+    ],
+    "url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/F%C3%B6rderprodukte/ERP-Gr%C3%BCnderkredit-StartGeld-(067)/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "fi-business-finland-startup-funding",
+    "name": "Business Finland startup funding (Sprint grant, R&D funding, Deep Tech Accelerator)",
+    "provider": "Business Finland",
+    "region": "FI",
+    "kind": "grant",
+    "summary": "Discretionary competitive funding for Finnish startups; Sprint tests an internationally scalable solution, the Deep Tech Accelerator commercialises research.",
+    "amount": "See the official page (amounts not stated)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "FI"
+      ],
+      "citizenship": [],
+      "residence": [
+        "FI"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm you have a Finnish business ID and real operations in Finland; Sprint needs a Finnish limited liability company",
+      "Check size limits: fewer than 50 employees and turnover or balance sheet of EUR 10 million or less",
+      "Sprint needs at least EUR 50,000 in equity investment and at least two committed team members"
+    ],
+    "url": "https://www.businessfinland.fi/en/for-finnish-customers/services/funding/startup-funding",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "se-almi-loan",
+    "name": "Almi loans",
+    "provider": "Almi Foretagspartner",
+    "region": "SE",
+    "kind": "loan",
+    "summary": "Loans for new and established Swedish companies, often alongside bank financing. Each loan is assessed individually.",
+    "amount": "See the official page (assessed per application)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "SE"
+      ],
+      "citizenship": [],
+      "residence": [
+        "SE",
+        "EU"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the company is registered in Sweden (or will be before payout) with up to 250 employees and turnover up to EUR 50 million or balance sheet up to EUR 43 million",
+      "Check you hold a residence permit, are an EU or EEA citizen with right of residence, or are a Nordic citizen",
+      "Allow about 3 to 4 weeks for a complete application"
+    ],
+    "url": "https://www.almi.se/en/loan/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "no-innovation-norway-startup-grant-2",
+    "name": "Startup grant 2 (Oppstartstilskudd 2)",
+    "provider": "Innovation Norway",
+    "region": "NO",
+    "kind": "grant",
+    "summary": "Grant for innovative ideas that are significantly new to the market, with market acceptance shown by a partner, investor, paying customer, pilot or letter of intent.",
+    "amount": "See the official page",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "NO"
+      ],
+      "citizenship": [],
+      "residence": [
+        "NO"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Answer the Innovation Norway questionnaire for personalised recommendations",
+      "Secure evidence of market acceptance (investor, partner, pilot agreement or letter of intent)",
+      "Apply through My page; lifestyle and hobby businesses are not prioritised"
+    ],
+    "url": "https://www.innovasjonnorge.no/en/seksjon/starte",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "sg-edge-grant",
+    "name": "EDGE Grant (replaces Enterprise Development Grant)",
+    "provider": "Enterprise Singapore",
+    "region": "SG",
+    "kind": "grant",
+    "summary": "Reimbursement grant for Singapore companies upgrading capabilities, innovating or expanding overseas. EDG, MRA and PSG ceased on 29 Sep 2026; EDGE applies from 30 Sep 2026.",
+    "amount": "Up to 70% of costs for SMEs and up to 50% for non-SMEs; capped at S$100,000 per year across activities; paid on reimbursement",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "SG"
+      ],
+      "citizenship": [],
+      "residence": [
+        "SG"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the business is registered and operating in Singapore (the earlier EDG required at least 30% local equity; check the EDGE rules)",
+      "Use the BizSG recommender or speak to an Enterprise Singapore advisor",
+      "Check claim rules first, since the grant is paid after the activity is completed and fully paid"
+    ],
+    "url": "https://www.enterprisesg.gov.sg/financial-support/edge-grant",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ae-hub71-access-programme",
+    "name": "Hub71 Access Programme",
+    "provider": "Hub71, Abu Dhabi",
+    "region": "AE",
+    "kind": "accelerator",
+    "summary": "One-year programme for pre-seed to Series A startups: AED 250,000 in-kind support plus AED 250,000 cash for equity via a SAFE note, with a possible further top-up.",
+    "amount": "AED 250,000 in-kind plus AED 250,000 cash for equity (SAFE); up to a further AED 250,000 for more equity; equity percentage not stated",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Cohort 21 deadline February 2027, programme starts September 2027"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check at least one founder will relocate to Abu Dhabi long term and build a team there",
+      "Prepare a PDF pitch deck covering problem, solution, traction, team and Abu Dhabi plans",
+      "Apply on the programme page; four selection rounds follow"
+    ],
+    "url": "https://www.hub71.com/program/access-programme",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ae-hub71-initiate",
+    "name": "Hub71 Initiate",
+    "provider": "Hub71, Abu Dhabi",
+    "region": "AE",
+    "kind": "accelerator",
+    "summary": "Venture builder programme for ideation and pre-seed startups in priority sectors; first-year licence and office space are free. Hub71 provides no direct funding and takes no equity, but venture builders typically do.",
+    "amount": "No direct funding; free first-year licence and office space",
+    "equity": true,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "fintech",
+      "climate",
+      "life sciences",
+      "education",
+      "mobility",
+      "food",
+      "AI"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "See the official page for intake dates"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check your sector matches Hub71 priority sectors",
+      "Apply on the programme page; Hub71 screens first, then a venture builder interviews you",
+      "Agree equity terms directly with the venture builder"
+    ],
+    "url": "https://www.hub71.com/program/initiate",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "hk-hkstp-incubation",
+    "name": "HKSTP Incubation Programme",
+    "provider": "Hong Kong Science and Technology Parks",
+    "region": "HK",
+    "kind": "accelerator",
+    "summary": "Three-year on-site incubation with technology and business development funding for ICT, electronics, green technology and precision engineering R&D startups. Equity is not stated on the page.",
+    "amount": "Up to HK$1.29 million",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "HK"
+      ],
+      "citizenship": [],
+      "residence": [
+        "HK"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue"
+    ],
+    "sectors": [
+      "technology",
+      "electronics",
+      "green technology",
+      "engineering"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check the Mandatory Admission Criteria in the linked PDF and that you have a validated MVP or prototype",
+      "Obtain a Hong Kong business registration if overseas (HKSTP points to InvestHK)",
+      "Submit the online proposal, pass due diligence, then present to the assessment panel"
+    ],
+    "url": "https://www.hkstp.org/en/programmes/incubation/incubation-programme",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "br-sp-fapesp-pipe",
+    "name": "PIPE-FAPESP (Pesquisa Inovativa em Pequenas Empresas)",
+    "provider": "FAPESP, Sao Paulo",
+    "region": "BR-SP",
+    "kind": "grant",
+    "summary": "Funds scientific and technological research in micro, small and medium companies in the State of Sao Paulo; phases include PIPE Fase 1, Fase 2 and PIPE Invest.",
+    "amount": "A recent industrial technology call offered up to R$500 thousand per project; see the official page for current phases",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "BR"
+      ],
+      "citizenship": [],
+      "residence": [
+        "BR"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "prototype",
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "technology",
+      "research"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "Fase 1, Fase 2 Indireta and PIPE Invest proposals can be submitted at any time through SAGe"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Confirm the company is in the State of Sao Paulo",
+      "Read the Normas PIPE for eligibility",
+      "Submit the proposal through the SAGe system"
+    ],
+    "url": "https://fapesp.br/pipe/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "cl-corfo-credito-mipyme",
+    "name": "Credito Corfo MiPyme and guarantees",
+    "provider": "Corfo",
+    "region": "CL",
+    "kind": "loan",
+    "summary": "Loans for micro, small and medium Chilean firms through non-bank intermediaries, plus Corfo loan guarantees such as FOGAIN, COBEX and PRO-INVERSION.",
+    "amount": "See the official page (amounts not listed)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": true,
+      "company_in": [
+        "CL"
+      ],
+      "citizenship": [],
+      "residence": [
+        "CL"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Find a participating Corfo intermediary and apply to it directly",
+      "Ask about guarantees (FOGAIN for micro, small and medium firms; COBEX for foreign-trade firms)",
+      "Check which Corfo innovation subsidy programs (such as Crea y Valida) are open"
+    ],
+    "url": "https://www.corfo.gob.cl/sites/cpp/financiamiento-mipymes/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "ke-youth-enterprise-development-fund",
+    "name": "Youth Enterprise Development Fund loans",
+    "provider": "Youth Enterprise Development Fund, Kenya",
+    "region": "KE",
+    "kind": "loan",
+    "summary": "Ten loan products for Kenyan youth, including a Business Expansion Loan (Vuka) for youth running established enterprises who can provide security, and tender financing.",
+    "amount": "See the official page (amounts and age limits not listed)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [
+        "KE"
+      ],
+      "residence": [
+        "KE"
+      ],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "revenue",
+      "established"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Open the product page for the Vuka Business Expansion Loan or another product",
+      "Confirm the age limit and citizenship with the Fund on (020) 2211672 or info@youthfund.go.ke",
+      "Prepare security for the business expansion loan"
+    ],
+    "url": "https://www.youthfund.go.ke/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "de-exist-startup-grant",
+    "name": "EXIST Startup Grant",
+    "provider": "Federal Ministry for Economic Affairs and Energy, Project Management Juelich",
+    "region": "DE",
+    "kind": "grant",
+    "summary": "Stipend and budget for students, graduates and researchers turning an innovative idea into a business, applied for through a university or research institution; the company need not be founded yet.",
+    "amount": "Up to EUR 3,000 a month for one year for up to three founders; total budget EUR 35,000 for supplies and coaching",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "technology",
+      "science"
+    ],
+    "deadline": {
+      "type": "rolling",
+      "note": "No fixed deadlines; allow weeks to months to prepare with the institution"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Contact the startup network or transfer office of a German university or research institution",
+      "Check eligibility and level of innovation with them",
+      "The institution submits the application to Project Management Juelich"
+    ],
+    "url": "https://exist.de/en/programme/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "dk-innofounder",
+    "name": "Innofounder",
+    "provider": "Innovation Fund Denmark",
+    "region": "DK",
+    "kind": "grant",
+    "summary": "Monthly grant plus development grant for graduates founding an innovative company. No calls were open at the time of checking.",
+    "amount": "DKK 27,500 per founder per month plus up to DKK 100,000 development grant",
+    "equity": false,
+    "applicant": {
+      "sole_trader": true,
+      "company_required": true,
+      "company_in": [
+        "DK"
+      ],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "ok"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "The page said there were currently no calls; check for the next one"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check you have completed a higher education programme of at least 120 ECTS",
+      "Check you will own at least 12.5% and work 37 or more hours a week in the company",
+      "Establish the company with a Danish CVR number before the programme begins; apply via e-grant.dk when a call opens"
+    ],
+    "url": "https://danmarksinnovationsfond.dk/en/programmes/innofounder/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "us-venturewell-e-team",
+    "name": "VentureWell E-Team (Pioneer and Propel)",
+    "provider": "VentureWell",
+    "region": "US",
+    "kind": "grant",
+    "summary": "Non-dilutive grants for student teams with a science or engineering invention addressing a social, health or environmental problem.",
+    "amount": "Pioneer US$5,000 plus training; Propel a further US$20,000; up to US$25,000 in total",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [
+        "US"
+      ],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "science",
+      "engineering",
+      "health",
+      "environment"
+    ],
+    "deadline": {
+      "type": "cohort",
+      "note": "Spring 2027 round: applications open 9 Nov 2026, deadline 25 Jan 2027 (subject to change)"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Form a team of at least two students enrolled at a US school plus a faculty advisor",
+      "Sign up for updates and open the application on 9 Nov 2026",
+      "Show the invention is science or engineering based and can scale"
+    ],
+    "url": "https://www.venturewell.org/e-team-program/",
+    "checked": "2026-10-23"
+  },
+  {
+    "id": "fr-pepite-snee",
+    "name": "Student-Entrepreneur Status (SNEE) via Pepite",
+    "provider": "Pepite France, French Ministry of Higher Education and Research",
+    "region": "FR",
+    "kind": "accelerator",
+    "summary": "National status letting students and recent graduates develop a company project alongside their studies, with support inside their institution. Funding is not stated on the page.",
+    "amount": "See the official page (support, no amount stated)",
+    "equity": false,
+    "applicant": {
+      "sole_trader": false,
+      "company_required": false,
+      "company_in": [],
+      "citizenship": [],
+      "residence": [],
+      "age_max": null,
+      "student": "only"
+    },
+    "stages": [
+      "idea",
+      "prototype"
+    ],
+    "sectors": [
+      "any"
+    ],
+    "deadline": {
+      "type": "rolling"
+    },
+    "stacks_with": [],
+    "next_steps": [
+      "Check you hold the baccalaureat or equivalent and intend to create or take over a business",
+      "Apply to the Pepite hub of your French higher education institution",
+      "Ask what financial support the hub offers"
+    ],
+    "url": "https://pepite-france.fr/",
+    "checked": "2026-10-23"
   }
 ]
